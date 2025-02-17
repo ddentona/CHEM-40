@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[11pt]{report}
 \usepackage{amsmath}
 \usepackage{siunitx}
 
@@ -6,7 +6,10 @@
 Ch. 2 Problems: 5, 8, 9, 39, 41, 55, 63, 67, 71, 75, 83, 85, 91, 93, 99, 109, 111, 115, 119, 121, 123, 125
 
 7th Edition
+\setcounter{chapter}{1}
 \pagebreak
+\chapter{}
+
 \section{Problem 121}
 A car has a mileage rating of 38 mi per gallon of gasoline. How many miles can the car travel on 76.5 L of gasoline?
 
@@ -36,5 +39,61 @@ You measure the masses and volumes of two cylinders. The mass of cylinder 1 is 1
     \rho_1 = \frac{m_1}{V_1} = \frac{1.35 m_2}{0.792 V_2} = \frac{1.35}{0.792}\rho_2\\
     \rho_2 = \frac{0.792}{1.35}\rho_1 = \frac{0.792}{1.35}*3.85 \unit{\gram/\centi\meter^3} = \boxed{2.26 \unit{\gram/\centi\meter^3}}
 \end{gather}
+
+\pagebreak
+
+\chapter{}
+\section{Problem 114}
+A portable electric water heater transfers 255 watts (W) of power to 5.5L of water, where 1 W = 1 J/s. How much time (in minutes) does it take for the water heater to heat the 5.5 L of water from 25\unit{\celsius} to 42\unit{\celsius}? (Assume that water has a density of 1.0 \unit{\gram/\milli\liter}.) 
+
+\subsection{Solution}
+We should use an appropriate equation. 
+The appropriate equation for this is the equation $q = mC\Delta T$, which allows us to find the amount of energy necessary for the temperature change.
+We know that the temperature change is $\Delta T = T_f - T_i = 42\unit{\celsius} - 25\unit{\celsius} = 17\unit{\celsius}$.
+We know that the specific heat of water is $4.184\unit{\joule/\gram\celsius}$.
+We know the volume of water is $5.5\unit{\liter} = 5500\unit{\milli\liter} * 1\unit{\gram/\milli\liter} = 5500\unit{\gram}$.
+\begin{align*}
+    q   &=  mC\Delta T\\
+        &=  (5500\unit{\gram})(4.184\unit{\joule/\gram\celsius})(17\unit{\celsius})\\
+        &=  (93500\unit{\gram\celsius})(4.184\unit{\joule/\gram\celsius})\\
+        &=  391204\unit{\joule}
+\end{align*}
+
+Now that we have the energy used, we need to find how long the water heater takes to generate that amount of energy.
+\begin{equation*}
+    \frac{391204\unit{\joule}}{255\unit{\joule/\second}} = 1534.1\bar{3}\unit{\second} = 25.56\bar{8}\unit{\minute} \approx \boxed{26\unit{\minute}}
+\end{equation*}
+
+
+\section{Problem 115}
+What temperature on the Celsius scale is equal to twice its value when expressed on the Fahrenheit scale?
+
+\subsection{Solution}
+The conversion between Fahrenheit and Celsius is $T_F = \frac{9}{5} T_C + 32$. 
+\[T_F = \frac{9}{5} T_C + 32\]
+For the proposed to hold, the Fahrenheit value must be equal to the Celsius value.
+\[T_C = \frac{9}{5} T_C + 32\]
+We can subtract $\frac{9}{5} T_C$ from each side.
+\[-\frac{4}{5} T_F = 32\]
+We now can divide both sides by $-\frac{4}{5}$.
+\[T_F = -40\]
+THs means that the temperature that is the same is \boxed{-40\unit{\degreeCelsius}}.
+
+
+\section{Problem 116}
+What temperature on the Celsius scale is equal to twice its value when expressed on the Fahrenheit scale?
+
+\subsection{Solution}
+The conversion between Fahrenheit and Celsius is $T_F = \frac{9}{5} T_C + 32$.
+\[ T_F = \frac{9}{5} T_C + 32 \]
+In this instance, $2T_F = T_C$.
+\[ T_F = \frac{18}{5}T_F + 32 \]
+We can subtract $\frac{18}{5}T_C$ from both sides.
+\[ -\frac{13}{5}T_F = 32 \]
+We can lastly multiply both sides by 5.
+\[ T_F = -12.3078 \]
+Multiplying this by two, we get the temperature in Celsius.
+\[ T_C = -24.6154 \]
+Thus the answer is \boxed{-24.6154\unit{\celsius}}.
 
 \end{document}

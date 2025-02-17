@@ -2,8 +2,8 @@ PWD c:\Users\ddent\OneDrive\Documents\CCSF\CHEM-40\Chapter 2
 INPUT C:\Users\ddent\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\Users\ddent\OneDrive\Documents\CCSF\CHEM-40\Chapter 2\Optional Problems 2.tex
 OUTPUT Optional Problems 2.log
-INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
 INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
 INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
@@ -59,6 +59,9 @@ INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pd
 INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 OUTPUT Optional Problems 2.pdf
 INPUT C:\Users\ddent\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -87,3 +90,5 @@ INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\ddent\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
