@@ -1,19 +1,24 @@
 \documentclass[11pt]{report}
 \usepackage{amsmath}
+\usepackage{mhchem}
 \usepackage{siunitx}
+\usepackage{titlesec}
+
+\titleformat{\section}{\bfseries\Large}{Problem}{0.25em}{\vspace{1ex}}
 
 \begin{document}
-Ch. 2 Problems: 5, 8, 9, 39, 41, 55, 63, 67, 71, 75, 83, 85, 91, 93, 99, 109, 111, 115, 119, 121, 123, 125
+Ch. 2 Problems: 5, 8, 9, 39, 41, 55, 63, 67, 71, 75, 83, 85, 91, 93, 99, 109, 111, 115, 119, 121, 123, 125\\
+Ch. 5 Problems: 9, 10, 25, 27, 29, 33, 37, 39, 41, 43, 45, 47, 51, 53, 57, 61, 65, 69, 71, 75, 77, 81, 83, 87, 89, 93, 95, 97, 101, 105, 107
 
 7th Edition
 \setcounter{chapter}{1}
 \pagebreak
 \chapter{}
 
-\section{Problem 121}
+\section{121}
 A car has a mileage rating of 38 mi per gallon of gasoline. How many miles can the car travel on 76.5 L of gasoline?
 
-\section{Problem 123}
+\section{123}
 Consider these observations on two blocks of different unknown metals:
 
 \begin{center}
@@ -29,7 +34,7 @@ If block A has a greater mass than block B, what can be said of the relative den
 \subsection{Solution}
 Block A has a greater mass and a smaller volume. As such, since $\rho = \frac{V}{m}$, it has a greater density.
 
-\section{Problem 125}
+\section{125}
 You measure the masses and volumes of two cylinders. The mass of cylinder 1 is 1.35 times the mass of cylinder 2. The volume of cylinder 1 is 0.792 the volume of cylinder 1. If the density of cylinder 1 is 3.85 \unit{\gram/\centi\meter^3}, what is the density of cylinder 2?
 
 \subsection{Solution}
@@ -43,7 +48,7 @@ You measure the masses and volumes of two cylinders. The mass of cylinder 1 is 1
 \pagebreak
 
 \chapter{}
-\section{Problem 114}
+\section{114}
 A portable electric water heater transfers 255 watts (W) of power to 5.5L of water, where 1 W = 1 J/s. How much time (in minutes) does it take for the water heater to heat the 5.5 L of water from 25\unit{\celsius} to 42\unit{\celsius}? (Assume that water has a density of 1.0 \unit{\gram/\milli\liter}.) 
 
 \subsection{Solution}
@@ -65,7 +70,7 @@ Now that we have the energy used, we need to find how long the water heater take
 \end{equation*}
 
 
-\section{Problem 115}
+\section{115}
 What temperature on the Celsius scale is equal to twice its value when expressed on the Fahrenheit scale?
 
 \subsection{Solution}
@@ -80,7 +85,7 @@ We now can divide both sides by $-\frac{4}{5}$.
 THs means that the temperature that is the same is \boxed{-40\unit{\degreeCelsius}}.
 
 
-\section{Problem 116}
+\section{116}
 What temperature on the Celsius scale is equal to twice its value when expressed on the Fahrenheit scale?
 
 \subsection{Solution}
@@ -95,5 +100,43 @@ We can lastly multiply both sides by 5.
 Multiplying this by two, we get the temperature in Celsius.
 \[ T_C = -24.6154 \]
 Thus the answer is \boxed{-24.6154\unit{\celsius}}.
+
+\setcounter{chapter}{4}
+\pagebreak
+
+\chapter{}
+
+\section{9}
+What is the difference between a molecular element and an atomic element? List the elements that occur as diatomic molecules.
+
+\subsection{Solution}
+An atomic element contains a single copy of the element as a core building block/molecule.
+A molecular element contains multiple of the same element in each of its molecules. 
+The following are the diatomic molecules: $H_2, N_2, O_2, F_2, Cl_2, Br_2, I_2$.
+The element names are hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine, and iodine.
+They are generalized as $\mathcal{D}_2$.
+\pagebreak
+
+\section{107}
+Carbon has two naturally occurring isotopes: carbon-12 (mass = 12.00 amu) and carbon-13 (mass = 13.00 amu). Chlorine also has two naturally occurring isotopes: chlorine-35 (mass = 34.97 amu) and chlorine-37 (mass = 36.97 amu). How many \ce{CCl4} molecules of different masses can exist? Determine the mass (in amu) of each of them.
+
+\subsection{Solution}
+There are ten.
+\begin{center}
+    \begin{tabular}{ c | c | c | c | c | c }
+        Number  &C-12   &C-13   &Cl-35  &Cl-37  &Mass (amu)\\
+        \hline
+        1       &1      &0      &4      &0      &151.88\\
+        2       &0      &1      &4      &0      &152.88\\
+        3       &1      &0      &3      &1      &153.88\\
+        4       &0      &1      &3      &1      &154.88\\
+        5       &1      &0      &2      &2      &155.88\\
+        6       &0      &1      &2      &2      &156.88\\
+        7       &1      &0      &1      &3      &157.88\\
+        8       &0      &1      &1      &3      &158.88\\
+        9       &1      &0      &0      &4      &159.88\\
+        10      &0      &1      &0      &4      &160.88
+    \end{tabular}
+\end{center}
 
 \end{document}
