@@ -15,18 +15,79 @@
 \section{Introduction and Abstract}
 When doing stoichometric calculations, there is a point where you can determine the limiting reactant without completely calculating the mass of the products.
 This document is about documenting that point and resultant value (which we will call the ``Molarity Limiter'') and its applications to CHEM 40 (Chapter 8).
-Said Molarity Limiter, denoted $ML$, can be found with the following equation, for the mass $m$\footnote{$MM(J)$ denotes the molar mass of J} of a chemical $J$ with stoichiometric coefficient $c$.
+Said Molarity Limiter, denoted $ML$, can be found with the following equation, for the mass $m$\footnote{$MM(\ce{J})$ denotes the molar mass of J} of a chemical $J$ with stoichiometric coefficient $n$.
 \begin{equation}
-    ML = m * \frac{1}{MM(J)}* \frac{1}{c}
+    ML(\ce{J}) = m * \frac{1}{MM(\ce{J})} * \frac{1}{n}
 \end{equation}
+The molarity limiter largely represents how much of a product if the number of moles of each reactant and product were the number of moles in the equation would be made given the available resources. 
 
 \section{Derivation}
 Suppose a chemical reaction with the following general formula:
 \begin{equation}
-    n_1\ce{A} + n_2\ce{B} \to n_3\ce{C} + n_4\ce{D}
+    n_A\ce{A} + n_B\ce{B} \to n_3\ce{P_3} + n_4\ce{P_4} + \dots
 \end{equation}
 
-Suppose \ce{A} has a limited total mass $m_A$ and \ce{B} has a limited total mass $m_B$. 
+Suppose \ce{A} has a limited total mass $m_A$ or \ce{B} has a limited total mass $m_B$. 
+The formula exists for the maximum total mass of a specific product (suppose for $n_3\ce{P_3}$ or $n_4\ce{P_4}$) given a limited total mass of either of the reactants.
+\begin{align}
+    m_{A \to 3} &=  m_A * \frac{1}{MM(A)} * \frac{n_3}{n_A} * \frac{MM(\ce{P_3})}{1}\\
+    m_{A \to 4} &=  m_A * \frac{1}{MM(A)} * \frac{n_4}{n_A} * \frac{MM(\ce{P_4})}{1}
+\end{align}
+
+We can add these together, then generalize it.
+\begin{align}
+    m_{A \to 3\&4}  &=  m_A * \frac{1}{MM(A)} * \frac{n_3 * MM(\ce{P_3}) + n_4 * MM(\ce{P_4})}{n_A}\\
+    m_{A \to net}   &=  m_A * \frac{1}{MM(A)} * \frac{\sum_{i = 1} n_i * MM(\ce{P_i})}{n_A}
+\end{align}
+
+Replacing $A$ with $B$ along with all related values in the equation, we can get a follow-up value for $m_{B \to net}$.
+\begin{align}
+    m_{B \to net}  &=  m_B * \frac{1}{MM(B)} * \frac{\sum_{i = 1} n_i * MM(\ce{P_i})}{n_B}
+\end{align}
+
+Taking away the comminalities of (6) and (7), we end up with a formula for a constant for a specific chemical $J$ of a specific mass of a specific stoichiometric constant. 
+This, we will call the Molarity Limiter ($ML$).
+\begin{equation}
+    ML(\ce{J}) = m * \frac{1}{MM(\ce{J})} * \frac{1}{n_J}
+\end{equation}
+
+\section{Uses}
+Here are a few uses. 
+First, we can determine what reactant would be the limiting reactant.
+The limiting reactant is found by comparing the following formula for all reactants and for a specific product.
+\begin{equation}
+    m_{A \to P} =  m_A * \frac{1}{MM(A)} * \frac{n_P}{n_A} * \frac{MM(\ce{P})}{1}
+\end{equation}
+
+We can clearly draw out the molarity limiter from this.
+\begin{equation}
+    m_{A \to P} =  ML(A) * n_P * MM(\ce{P})
+\end{equation}
+
+Since $n_P$ and $MM(\ce{P})$ are both constant and not dependent on the reactant observed, we can develop a fraction between two masses.
+\begin{align}
+    \frac{m_{A \to P}}{m_{B \to P}} &=  \frac{ML(A) * n_P * MM(\ce{P})}{ML(B) * n_P * MM(\ce{P})}
+        =   \frac{ML(A)}{ML(B)}
+\end{align}
+
+Knowing this, we know we can determine the limiting reactant using only the molarity limiter.
+\textbf{The ranking of reactants (for finding the limiting reactant) is the same as that of the molarity limiter.}
+
+Second, we can find the find the remaining mass of the excess reactant from a reaction.
+By definition of the complement, the fraction of a product used plus the amount not used would be equal to 1.
+We can set up an equation to find the amount not used.
+\begin{align}
+    1   &=  \frac{m_{used}}{m_{total}} + \frac{m_{unused}}{m_{total}}\\
+    \frac{m_{unused}}{m_{total}}  &=  1 - \frac{m_{used}}{m_{total}}\\
+    m_{unused}  &=  \left(1 - \frac{m_{used}}{m_{total}}\right) * m_{total}
+\end{align}
+
+We can use equation (6) here. 
+\begin{gather}
+    m_{unused}  =   \left(1 - \frac{m_{used} * \frac{1}{MM(\ce{J_{used}})} * \frac{\sum_{i = 1} n_i * MM(\ce{P_i})}{n_{used}}}{m_{total} * \frac{1}{MM(\ce{J_{total}})} * \frac{\sum_{i = 1} n_i * MM(\ce{P_i})}{n_{total}}}\right) * m_{total}\\
+    m_{unused}  =   \left(1 - \frac{m_{used} * \frac{1}{MM(\ce{J_{used}})} * \frac{1}{n_{used}}}{m_{total} * \frac{1}{MM(\ce{J_{total}})} * \frac{1}{n_{total}}}\right) * m_{total}\\
+    \boxed{m_{unused}  =   \left(1 - \frac{ML(J_{used})}{ML(J_{total})}\right) * m_{total}}
+\end{gather}
 
 
 \end{document}
