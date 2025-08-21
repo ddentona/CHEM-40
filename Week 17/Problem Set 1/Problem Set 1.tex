@@ -296,9 +296,10 @@ mathfontname=mathsf]{mhchem}
                     &=  74.55 \unit{\gram/\mole}\\
                 m(\ce{KCl}) &=  0.04167 \unit{\mole} \ce{KCl} * 74.55 \unit{\gram/\mole}
                     =   \boxed{3.106 \unit{\gram}}
-            \end{align}'
+            \end{align}
 
-    \section{Problem 1}
+    \pagebreak
+    \section{Topic A Problem 1}
         A sample of magnesium phosphate contains $x$ moles of \ce{Mg3(PO4)2}.
         Express each of the following quantities in terms of $x$.
 
@@ -315,13 +316,18 @@ mathfontname=mathsf]{mhchem}
         \subsection{Solution (a)}
             There are two phosphate (\ce{PO4^3-}) ions in each mole of \ce{Mg3(PO4)2} (magnesium phosphate). 
             Moles have the same ratio as the individual parts themselves. 
-            As such, there would have to be \boxed{2x} phosphate ions.
+            As such, there would have to be \boxed{2x\ moles} of phosphate ions.
 
         \subsection{Solution (b)}
-            With four oxygen atoms per phosphate ion, there are \boxed{8x} oxygen atoms.
+            With four oxygen atoms per phosphate ion, there are \boxed{8x\ moles} of oxygen atoms.
 
         \subsection{Solution (c)}
-            There is one phosphorus atom per phosphate ion, so \boxed{2x} phosphorus atoms.
+            There is one phosphorus atom per phosphate ion, so 2x moles of phosphorus atoms.
+            Multiply this by Anogadro's Number ($6.022 \times 10^{23} \unit{\mol^{-1}}$) to get the total number of atoms.
+            \begin{equation}
+                2x \unit{\mole} * 6.022 \times 10^{23} \unit{\mol^{-1}}
+                    =   \boxed{1.204 \times 10^{24} * x}
+            \end{equation}
 
         \subsection{Solution (d)}
             Multiply the molar mass by the number of moles.
@@ -336,12 +342,15 @@ mathfontname=mathsf]{mhchem}
 
         \subsection{Solution (e)}
             We know there are $3x$ moles of \ce{Mg} ions, using the strategy from part (a).
-            Multiply this by the molar mass of \ce{Mg} to get the total molar mass. 
-
+            Multiply this by the molar mass of \ce{Mg} (24.31 \unit{\gram/\mole}) to get the total magnesium mass. 
+            \begin{equation}
+                MM(\ce{Mg}) * n(\ce{Mg})    =   24.31 \unit{\gram/\mole} * 3x \unit{\mole}
+                    =   \boxed{72.93x\ \unit{\gram}}
+            \end{equation}
 
 
     \pagebreak
-    \section{Problem 2}
+    \section{Topic A Problem 2}
         You have x grams of \ce{Na2Cr2O7}. 
         Express each of the following quantities in terms of x.
 
@@ -353,6 +362,15 @@ mathfontname=mathsf]{mhchem}
 
         d) The number of \ce{O} atoms
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            \begin{align}
+                MM(\ce{Na2Cr2O7})   &=  2 * MM(\ce{Na}) + 2 * MM(\ce{Cr}) + 7 * MM(\ce{O})\\
+                    &=  2 * 22.99 \unit{\gram/\mole} + 2 * 52.00 \unit{\gram/\mole} + 7 * 16.00 \unit{\gram/\mole}\\
+                    &=  45.98 \unit{\gram/\mole} + 104.0 \unit{\gram/\mole} + 112.0 \unit{\gram/\mole}\\
+                    &=  261.98 \unit{\gram/\mole} \approx 262.0 \unit{\gram/\mole}\\
+                n   &=  \frac{m}{MM}
+                    =   \frac{x}{\underbar{261.9}8 \unit{\gram/\mole}}
+                    =   \boxed{0.00382 \unit{\mole}}
+            \end{align}
 
 \end{document}
