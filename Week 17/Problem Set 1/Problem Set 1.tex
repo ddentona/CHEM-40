@@ -1,0 +1,301 @@
+\documentclass[10pt]{article}
+\usepackage{enumitem}
+%Load mhchem using some package options
+\usepackage[version=4,arrows=pgf-filled,
+textfontname=sffamily,
+mathfontname=mathsf]{mhchem}
+\usepackage{multicol}
+\usepackage{siunitx}
+
+\begin{document}
+    \section{Review Problem 1}
+        Write the chemical formulas or symbols for each of the following ions.
+        \begin{multicols}{3}
+            \begin{enumerate}[label=\alph*)]
+                \item   sodium ion 
+                \item   oxide ion 
+                \item   calcium ion 
+                \item   iodide ion
+                \item   iron(II) ion 
+                \item   copper(I) ion 
+                \item   hydroxide ion 
+                \item   nitrate ion
+                \item   sulfate ion 
+                \item   phosphate ion 
+                \item   carbonate ion 
+                \item   ammonium ion
+                \item   bicarbonate ion
+            \end{enumerate}
+        \end{multicols}
+
+        \subsection{Solution}
+            \begin{multicols}{4}
+                \begin{enumerate}[label=\alph*)]
+                    \item   \ce{Na+}
+                    \item   \ce{O^{2-}}
+                    \item   \ce{Ca^{2+}}
+                    \item   \ce{I-}
+                    \item   \ce{Fe^{2+}}
+                    \item   \ce{Cu+}
+                    \item   \ce{OH-}
+                    \item   \ce{NO3-}
+                    \item   \ce{SO4^{2-}}
+                    \item   \ce{PO4^3-}
+                    \item   \ce{CO3^2-}
+                    \item   \ce{NH4-}
+                    \item   \ce{HCO3-}
+                \end{enumerate}
+            \end{multicols}
+    
+    \pagebreak
+    \section{Review Problem 2}
+        Write chemical formulas for each of the following ionic compounds.
+        \begin{multicols}{2}
+            \begin{enumerate}[label=\alph*)]
+                \item sodium sulfide 
+                \item magnesium fluoride
+                \item aluminum oxide
+                \item iron(III) chloride 
+                \item potassium sulfate
+                \item aluminum nitrate
+                \item ammonium phosphate
+            \end{enumerate}
+        \end{multicols}
+
+        \subsection{Solution}
+            \begin{multicols}{4}
+                \begin{enumerate}[label=\alph*)]
+                    \item   \ce{Na2S}
+                    \item   \ce{MgF2}
+                    \item   \ce{Al2O3}
+                    \item   \ce{FeCl3}
+                    \item   \ce{K2SO4}
+                    \item   \ce{Al(NO3)3}
+                    \item   \ce{(NH4)3PO4}
+                \end{enumerate}
+            \end{multicols}
+
+    \pagebreak
+    \section{Review Problem 3}
+        a) What is the ion charge on each atom of \ce{V} in the compound \ce{V2S3}?
+
+        \noindent 
+        b) What is the ion charge on each \ce{P3O10} group in the compound \ce{Ca5(P3O10)2}?
+
+        \subsection{Solution (a)}
+            My general intuition is that if in a compound, one has three in quantity nad the other has two, then the former will have two in charge (regardless of positiveness/negativeness) and the other will have three in the opposite charge.
+            Let's just figure out a different way to do that.
+
+            \ce{V} is in group 5B, so it could probably have one of several charges. 
+            Looking at \ce{S} (Sulfur), it is in group 6A, so it naturally has a charge of \ce{S^2-}.
+            Multiply the -2 charge by the 3 sulfur ions to get a net charge of -6.
+            Since \ce{V} is a cation and not an anion, the net anion charge would be +6.
+            Divide that by the two \ce{V} (Vanadium) ions to get an indivdual charge of \ce{V^3+}
+            In the end, it will be a net charge of \boxed{3+}.
+
+        \subsection{Solution (b)}
+            A Cadmium ion naturally has a charge of 2+.
+            Multiply that by 5 cadmium ions to get a total cation charge of 10+.
+            Turn that negative for anions.
+            Divide that by two \ce{P3O10} ions to get a charge of \boxed{5-}.
+
+    \pagebreak
+    \section{Review Problem 4}
+        Balance the following chemical equation: \ce{Cr2O3 + HBr -> CrBr3 + H2O}.
+
+        \subsection{Solution}
+            Let's look at the water (\ce{H2O}).
+            The Chromium Oxide (\ce{Cr2O3}) requires there be three oxide (\ce{O^2-}) total.
+            The coefficient we can put on the water can as such be 3.
+            This means that there will be six Hydrogen ions (\ce{H+}) total.
+            There will as such be 6 Hydrogen Bromide (\ce{HBr}).
+            This results in six Bromide (\ce{Br-}).
+            They can be used in the six Bromide for the Chromium Bromide (\ce{CrBr3}) to give chromium bromide a coefficient of 2.
+            The resultant total Chromium ion (\ce{Cr^3+}) will have a total count of three.
+            This lines up well with the single Chromium Oxide.
+            \begin{center}
+                \boxed{\ce{Cr2O3 + 6HBr -> 2CrBr3 + 3H2O}}
+            \end{center}
+
+            These are technically minumum coefficients, but all chemical reaction formulae are and that should not be a problem.
+    
+    \pagebreak
+    \section{Review Problem 5}
+        If you have exactly one mole of \ce{Cr(NO3)3}, how many grams of this compound do you have?
+
+        \subsection{Solution}
+            First find the molar mass of \ce{Cr(NO3)3}.
+            \begin{align}
+                MM(\ce{Cr(NO3)3})   &=  MM(\ce{Cr}) + 3 * MM(\ce{N}) + 9 * MM(\ce{O})\\
+                    &=  52.00 \unit{\gram/\mol} + 3 * 14.01 \unit{\gram/\mol} + 9 * 16.00 \unit{\gram/\mol}\\
+                    &=  52.00 \unit{\gram/\mol} + 42.03 \unit{\gram/\mol} + 144.00 \unit{\gram/\mol}\\
+                    &=  238.03 \unit{\gram/\mol}
+            \end{align}
+
+            Now we multiply that by the number of moles.
+            \begin{equation}
+                238.03 \unit{\gram/\mol} * 1 \unit{\mol}    =   \boxed{238.03 \unit{\gram}}
+            \end{equation}
+    
+    \pagebreak
+    \section{Review Problem 6}
+        Convert each of the following to moles:
+        \begin{enumerate}[label=\alph*)]
+            \item 6.131 g of \ce{N} 
+            \item 6.131 g of \ce{N2} 
+            \item 6.131 g of \ce{N2O}
+        \end{enumerate}
+
+        \subsection{Solution (a)}
+            The molar mass of Nitrogen (\ce{N}) is 14.01 \unit{\gram/\mol}.
+            Divide the mass by the molar mass to get the number of moles.
+            \begin{equation}
+                \frac{6.131 \unit{\gram}}{14.01 \unit{\gram/\mol}} = 0.437615 \unit{\mol} \approx \boxed{0.4376 \unit{\gram}}
+            \end{equation}
+
+        \subsection{Solution (b)}
+            The easy answer to this would be to divide the solution from part (a) by two since there would be twice the molar mass and as such half the moles.
+            To be nice, I'll do it the traditional way instead.
+            The molar mass of Nitrogen gas (\ce{N2}) is 28.02 \unit{\gram/\mol}.
+            \begin{equation}
+                \frac{6.131 \unit{\gram}}{28.02 \unit{\gram/\mol}} = 0.218808 \unit{\mol}   \approx \boxed{0.2188 \unit{\gram}}
+            \end{equation} 
+
+        \subsection{Solution (c)}
+            Add the molar mass of oxygen (MM(\ce{O}) = 16.00 \unit{\gram/\mol}) to the molar mass of Nitrogen Gas (\ce{N2} = 28.02 \unit{\gram/\mol}) to get a total of 44.02 \unit{\gram/\mol}.
+            I think you know the next step.
+            \begin{equation}
+                \frac{6.131 \unit{\gram}}{44.02 \unit{\gram/\mol}} = 0.139277 \unit{\mol} \approx   \boxed{0.1393 \unit{\gram}}
+            \end{equation}
+    
+    \pagebreak
+    \section{Review Problem 7}
+        a) How many \ce{N2O} molecules are there in 6.131 g of \ce{N2O}? \textit{(Reminder: Avogadro's constant is $6.022 \times 10^{23}$ \unit{\mol^{-1}}.)} 
+        
+        \noindent
+        b) How many nitrogen atoms are there in 6.131 g of \ce{N2O}?
+
+        \subsection{Solution (a)}
+            Review Problem 6(c) gave us that 6.131g of \ce{N2O} contains 0.1393 \unit{\mol} of \ce{N2O}.
+            Multiply this by Avogadro's number to get the total number of atoms.
+            I like the way you wrote the units of Avogadro's number as \unit{\mol^{-1}}. 
+            \begin{equation}
+                0.1393 \unit{\mol} * 6.022 \times 10^{23} \unit{\mol^{-1}} = \boxed{8.387 \times 10^{22}}
+            \end{equation}
+
+            I'm a real purist in terms of units (probably because of a heavy Physics background), but you could say that the units there is in terms of molecules.
+        
+        \subsection{Solution (b)}
+            Since the ratio of \ce{N}:\ce{N2O} is 2:1, we multiply the number of molecules by 2 to get the number of Nitrogen molecules.
+            \begin{equation}
+                8.387 \times 10^{22} * 2 = \boxed{1.677 \times 10^{23}}
+            \end{equation}
+
+            As previously stated, I'm a units purist.
+    
+    \pagebreak
+    \section{Review Problem 8}
+        In 0.08157 moles of \ce{Al(ClO4)3}, there are…
+        
+        a) how many moles of \ce{Al^3+} ions?
+        
+        b) how many moles of \ce{ClO4-} ions?
+        
+        c) how many moles of oxygen atoms?
+
+        \subsection{Solution (a)}
+            Multiply the number of moles by the number of \ce{Al^3+} in each atom (1).
+            \begin{equation}
+                0.08157 \unit{\mol} * 1 \ce{Al^3+} = \boxed{0.08157 \unit{\mol} \ce{Al^3+}}
+            \end{equation}
+
+        \subsection{Solution (b)}
+            Multiply the number of moles by the number of \ce{ClO4-} in each atom (3).
+            \begin{equation}
+                0.08157 \unit{\mol} * 3 \ce{ClO4-} = 0.24471 \unit{\mol} \ce{ClO4-} \approx \boxed{0.2447 \unit{\mol} \ce{ClO4-}}
+            \end{equation}
+
+        \subsection{Solution (c)}
+            Multiply the number of moles of \ce{Al(ClO4)3} by the number of \ce{O} atoms ($ 3 \ce{ClO4} * 4 \ce{\frac{O}{ClO4}} = 12 \ce{O} $).
+            \begin{equation}
+                0.08157 \unit{\mol} * 12 \ce{O} = 0.97884 \unit{\mol} \ce{O} \approx \boxed{0.9788 \unit{\mol} \ce{O}}
+            \end{equation}
+    
+    \pagebreak
+    \section{Review Problem 9}
+        If you have 285 atoms of fluorine…
+        
+        a) How many moles of fluorine atoms do you have?
+        
+        b) What is the mass of the fluorine atoms, in grams?
+
+        \subsection{Solution (a)}
+            Since each mole contains $6.022 \times 10^{23}$ atoms, we divide our atoms by avogadro's number.
+            \begin{align}
+                n   &=  \frac{285}{6.022 \times 10^{23}} \unit{\mol}
+                    =   \boxed{4.73 \times 10^{-22} \unit{\mol}}
+            \end{align}
+
+        \subsection{Solution (b)}
+            Fluorine (\ce{F}) has a molar mass of $19.00 \unit{\gram/\mol}$.
+            Multiply molar mass by the number of moles to get the mass.
+            \begin{align}
+                m   &=  n * MM(\ce{F})
+                    =   4.73 \times 10^{-22} \unit{\mol} * 19.00 \unit{\gram/\mol}\\
+                    &=  \boxed{8.99 \unit{\gram}}
+            \end{align}
+
+    \pagebreak
+    \section{Review Problem 10}
+        \ce{KClO3} breaks down when it is heated. The chemical equation for this reaction is:
+        \begin{center}
+            \ce{2 KClO3 -> 2 KCl + 3 O2}
+        \end{center}
+        a) If 5.000 g of \ce{KClO3} breaks down, how many grams of \ce{O2} will be formed?
+        
+        \noindent
+        b) If 2.000 g of \ce{O2} are formed, how many grams of \ce{KCl} will also be formed?
+
+        \subsection{Solution (a)}
+            I have a simpler solution, but I'll just do the classic thing.
+            Convert grams to moles.
+            \begin{align}
+                MM(\ce{KClO3})  &=  MM(\ce{K}) + MM(\ce{Cl}) + 3 * MM(\ce{O})\\
+                    &=  39.10 \unit{\gram/\mole} + 35.45 \unit{\gram/\mole} + 3 * 16.00 \unit{\gram/\mole}\\
+                    &=  122.55 \unit{\gram/\mole}\\
+                n(\ce{KClO3})   &=  \frac{m}{MM(\ce{KClO3})}
+                    =   \frac{5.000 \unit{\gram} \ce{KClO3}}{122.55 \unit{\gram/\mole}}\\
+                    &=  0.04080 \unit{\mole}
+            \end{align}
+
+            Then multiply it by $\frac{3 \ce{O2}}{2 \ce{KClO2}}$ from the chemical equation.
+            \begin{align}
+                n(\ce{O2})  &=  n(\ce{KClO3}) * \frac{3 \ce{O2}}{2 \ce{KClO2}}
+                    =   0.04080 \unit{\mole} \ce{KClO2} * \frac{3 \ce{O2}}{2 \ce{KClO2}}\\
+                    &=  0.6120 \unit{\mole} \ce{O2}
+            \end{align}
+
+            Multiply that by the molar mass of \ce{O2} ($32.00 \unit{\gram/\mol}$).
+            \begin{align}
+                m(\ce{O2})  &=  0.6120 \unit{\mole} \ce{O2} * 32.00 \unit{\gram/\mol}
+                    =   \boxed{1.958 \unit{\gram}}
+            \end{align}
+
+        \subsection{Solution (b)}
+            Use the same strategy as the part (a).
+            \begin{align}
+                MM(\ce{O2}) &=  32.00 \unit{\gram/\mole}\\
+                n(\ce{O2})  &=  \frac{m}{MM(\ce{O2})}
+                    =   \frac{2.000 \unit{\gram}}{32.00 \unit{\gram/\mole}}
+                    =   0.0625 \unit{\mole}\\
+                n(\ce{KCl}) &=  n(\ce{O2}) * \frac{2 \ce{KCl}}{3 \ce{O2}}
+                    =   0.0625 \unit{\mole} \ce{O2} * \frac{2 \ce{KCl}}{3\ce{O2}}
+                    =   0.04167 \unit{\mole} \ce{KCl}\\
+                MM(KCl) &=  MM(\ce{K}) + MM(\ce{Cl})
+                    =   39.10 \unit{\gram/\mole} + 35.45 \unit{\gram/\mole}\\
+                    &=  74.55 \unit{\gram/\mole}\\
+                m(\ce{KCl}) &=  0.04167 \unit{\mole} \ce{KCl} * 74.55 \unit{\gram/\mole}
+                    =   \boxed{3.106 \unit{\gram}}
+            \end{align}
+
+\end{document}
