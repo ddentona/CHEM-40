@@ -363,14 +363,44 @@ mathfontname=mathsf]{mhchem}
         d) The number of \ce{O} atoms
 
         \subsection{Solution (a)}
+            Divide the mass by the molar mass to get the mole count.
             \begin{align}
                 MM(\ce{Na2Cr2O7})   &=  2 * MM(\ce{Na}) + 2 * MM(\ce{Cr}) + 7 * MM(\ce{O})\\
                     &=  2 * 22.99 \unit{\gram/\mole} + 2 * 52.00 \unit{\gram/\mole} + 7 * 16.00 \unit{\gram/\mole}\\
                     &=  45.98 \unit{\gram/\mole} + 104.0 \unit{\gram/\mole} + 112.0 \unit{\gram/\mole}\\
                     &=  261.98 \unit{\gram/\mole} \approx 262.0 \unit{\gram/\mole}\\
                 n   &=  \frac{m}{MM}
-                    =   \frac{x}{\underbar{261.9}8 \unit{\gram/\mole}}
-                    =   \boxed{0.00382 \unit{\mole}}
+                    =   \frac{x\ \unit{\gram}}{\underbar{261.9}8 \unit{\gram/\mole}}
+                    =   0.0038171x\ \unit{\mole}\\
+                    &\approx    \boxed{0.00382x\ \unit{\mole}}
+            \end{align}
+
+        \subsection{Solution (b)}
+            There are 7 \ce{O} for each \ce{Na2Cr2O7}.
+            Multiply the number of moles of \ce{Na2Cr2O7} by that ratio to get the number of moles of \ce{O}.
+            \begin{align}
+                n(\ce{O})   &=  n(\ce{Na2Cr2O7}) * \frac{7 \ce{O}}{1 \ce{Na2Cr2O7}}\\
+                    &=  0.0038171x\ \unit{\mole}\ \ce{Na2Cr2O7} * \frac{7 \ce{O}}{1 \ce{Na2Cr2O7}}\\
+                    &=  0.0267195x\ \unit{\mole}\ \ce{O}
+                    \approx \boxed{0.0268x\ \unit{\mole}\ \ce{O}}
+            \end{align}
+        
+        \subsection{Solution (c)}
+            The molar mass of Oxygen is 16.00 \unit{\gram/\mole}.
+            Multiply this by the number of moles to get the grams per mole.
+            \begin{align}
+                m(\ce{O})   &=  n(\ce{O}) * MM(\ce{O})
+                    =   0.0267195x\ \unit{\mole}\ \ce{O} * 16.00 \unit{\gram/\mole}\\
+                    &=  0.42751x\ \unit{\gram}\ \ce{O}
+                    \approx \boxed{0.428x\ \unit{\gram}\ \ce{O}}
+            \end{align}
+
+        \subsection{Solution (d)}
+            Multiply the number of moles by Avogadro's Number.
+            \begin{align}
+                n(\ce{O}) * N_A &=  0.0267195x\ \unit{\mole}\ \ce{O} * 6.022 \times 10^{23}\\
+                    &=  1.609 \times 10^{22}\ \ce{O}
+                    =   \boxed{1.61 \times 10^{22}\ \ce{O}}
             \end{align}
 
 \end{document}
