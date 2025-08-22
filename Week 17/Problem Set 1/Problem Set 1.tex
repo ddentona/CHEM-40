@@ -242,7 +242,7 @@ mathfontname=mathsf]{mhchem}
             \begin{align}
                 m   &=  n * MM(\ce{F})
                     =   4.73 \times 10^{-22} \unit{\mol} * 19.00 \unit{\gram/\mol}\\
-                    &=  \boxed{8.99 \unit{\gram}}
+                    &=  \boxed{8.99 \times 10^{-21} \unit{\gram}}
             \end{align}
 
     \pagebreak
@@ -335,9 +335,9 @@ mathfontname=mathsf]{mhchem}
                 m   &=  x * MM(\ce{Mg3(PO4)2})\\
                     &=  x \left( 3*MM(\ce{Mg}) + 2 * MM(\ce{P}) + 8 * MM(\ce{O}) \right)\\
                     &=  x \left( 3 * 24.31 \unit{\gram/\mol} + 2 * 30.97 \unit{\gram/\mol} + 8 * 16.00 \unit{\gram/\mol} \right)\\
-                    &=  x \left( 72.93 \unit{\gram/\mol} + 61.94 \unit{\gram/mol} + 128.0 \unit{\gram/\meter} \right)
-                    =   262.87x\ \unit{\gram}\\
-                    &\approx    \boxed{262.9x\ \unit{\gram}}
+                    &=  x \left( 72.93 \unit{\gram/\mol} + 61.94 \unit{\gram/mol} + 128.0 \unit{\gram/\meter} \right)\\
+                    &=  \boxed{262.87x\ \unit{\gram}
+                    \approx 262.9x\ \unit{\gram}}
             \end{align}
 
         \subsection{Solution (e)}
@@ -370,9 +370,9 @@ mathfontname=mathsf]{mhchem}
                     &=  45.98 \unit{\gram/\mole} + 104.0 \unit{\gram/\mole} + 112.0 \unit{\gram/\mole}\\
                     &=  261.98 \unit{\gram/\mole} \approx 262.0 \unit{\gram/\mole}\\
                 n   &=  \frac{m}{MM}
-                    =   \frac{x\ \unit{\gram}}{\underbar{261.9}8 \unit{\gram/\mole}}
-                    =   0.0038171x\ \unit{\mole}\\
-                    &\approx    \boxed{0.00382x\ \unit{\mole}}
+                    =   \frac{x\ \unit{\gram}}{\underbar{261.9}8 \unit{\gram/\mole}}\\
+                    &=  \boxed{0.0038171x\ \unit{\mole}
+                    \approx 0.00382x\ \unit{\mole}}
             \end{align}
 
         \subsection{Solution (b)}
@@ -382,7 +382,7 @@ mathfontname=mathsf]{mhchem}
                 n(\ce{O})   &=  n(\ce{Na2Cr2O7}) * \frac{7 \ce{O}}{1 \ce{Na2Cr2O7}}\\
                     &=  0.0038171x\ \unit{\mole}\ \ce{Na2Cr2O7} * \frac{7 \ce{O}}{1 \ce{Na2Cr2O7}}\\
                     &=  0.0267195x\ \unit{\mole}\ \ce{O}
-                    \approx \boxed{0.0268x\ \unit{\mole}\ \ce{O}}
+                    \approx \boxed{0.026720x\ \unit{\mole}\ \ce{O}}
             \end{align}
         
         \subsection{Solution (c)}
@@ -391,16 +391,16 @@ mathfontname=mathsf]{mhchem}
             \begin{align}
                 m(\ce{O})   &=  n(\ce{O}) * MM(\ce{O})
                     =   0.0267195x\ \unit{\mole}\ \ce{O} * 16.00 \unit{\gram/\mole}\\
-                    &=  0.42751x\ \unit{\gram}\ \ce{O}
-                    \approx \boxed{0.428x\ \unit{\gram}\ \ce{O}}
+                    &=  \boxed{0.42751x\ \unit{\gram}\ \ce{O}
+                    \approx 0.428x\ \unit{\gram}\ \ce{O}}
             \end{align}
 
         \subsection{Solution (d)}
             Multiply the number of moles by Avogadro's Number.
             \begin{align}
                 n(\ce{O}) * N_A &=  0.0267195x\ \unit{\mole}\ \ce{O} * 6.022 \times 10^{23}\\
-                    &=  1.609 \times 10^{22}\ \ce{O}
-                    =   \boxed{1.61 \times 10^{22}\ \ce{O}}
+                    &=  \boxed{1.6091 \times 10^{22}\ \ce{O}
+                    \approx 1.61 \times 10^{22}\ \ce{O}}
             \end{align}
 
     \pagebreak
@@ -438,9 +438,26 @@ mathfontname=mathsf]{mhchem}
             \end{equation}
 
             This leaves the number of moles (and as such the number of atoms) inversely proportional to the molar mass. 
-            
+            The molar mass of sodium (\ce{Na}) is 22.99 \unit{\gram/\mole}, while that of magnesium (\ce{Mg}) is 24.31 \unit{\gram/\mole}.
+            Since \ce{Na} has a lower molar mass, that means there are more moles per gram.
+            For an equal mass, that means there are more moles of \ce{Na} than \ce{Mg}, and as such there are more \ce{Na} atoms, located in box \boxed{1}. 
 
         \subsection{Solution (b)}
+            Mass is equal.
+            Let's make an equation.
+            Suppose that $k$ is the number of each atom in a compound.
+            \begin{gather}
+                n   =   k * \frac{m}{MM}\\
+                n_{\ce{O2}} =   2 * \frac{m}{2 * MM(\ce{O})} = \frac{m}{MM(\ce{O})}\\
+                n_{\ce{O3}} =   3 * \frac{m}{3 * MM(\ce{O})} = \frac{m}{MM(\ce{O})}
+            \end{gather}
+
+            Apply transistivity.
+            \begin{gather}
+                n_{\ce{O3}}   =   n_{\ce{O2}}
+            \end{gather}
+
+            This means that the number of atoms in each box is \boxed{equal}.
 
 
     \pagebreak
@@ -448,6 +465,15 @@ mathfontname=mathsf]{mhchem}
         In problem 4 part b, which box contains more molecules?
         
         \subsection{Solution}
+            This is a similar problem to A.5.b.
+            The only major difference is that we remove the $k$.
+            \begin{gather}
+                n   =   \frac{m}{MM}\\
+                n_{\ce{O2}} =   \frac{m}{2 * MM(\ce{O})} = \frac{1}{2} * \frac{m}{MM(\ce{O})}\\
+                n_{\ce{O3}} =   \frac{m}{3 * MM(\ce{O})} = \frac{1}{3} * \frac{m}{MM(\ce{O})}
+            \end{gather}
+
+            Since $\frac{1}{2} > \frac{1}{3}$, the one multiplied by $\frac{1}{2}$ is grater, which is the box with \ce{O2}, which is box \boxed{1}.
 
 
     \pagebreak
@@ -455,7 +481,19 @@ mathfontname=mathsf]{mhchem}
         0.03774 moles of a mystery element weighs 7.363 grams. What element is this? 
             
         \subsection{Solution}
+            We can take a known equation and solve for the molar mass.
+            \begin{gather}
+                n   =   \frac{m}{MM}\\
+                MM  =   \frac{m}{n}
+            \end{gather}
 
+            We can plug in numbers to find the molar mass.
+            \begin{align}
+                MM  &=  \frac{7.363 \unit{\gram}}{0.03774 \unit{\mole}}
+                    =   195.1 \unit{\gram/\mole}
+            \end{align}
+
+            The element that meets this molar mass requirement is \boxed{Platinum\ (\ce{Pt})}. 
 
     \pagebreak
     \section{Topic A Problem 7}
@@ -463,7 +501,29 @@ mathfontname=mathsf]{mhchem}
         What is the empirical formula of this compound?
         
         \subsection{Solution}
+            Suppose that we have 100 \unit{\gram} of the compound.
+            In that scenario, we would have 31.89\unit{\gram} of carbon (\ce{C}), 5.35\unit{\gram} of hydrogen (\ce{H}), and 62.76\unit{\gram} of carbon (\ce{Cl}). 
+            Each of them has a molar mass, which we can divide the repetive masses by to get the mole counts.
+            \begin{align}
+                n_{\ce{C}}  &=  \frac{m}{MM(\ce{C})}
+                    =   \frac{31.89\unit{\gram}}{12.01 \unit{\gram/\mole}}
+                    =   2.655 \unit{\mole}\\
+                n_{\ce{H}}  &=  \frac{m}{MM(\ce{H})}
+                    =   \frac{5.35\unit{\gram}}{1.008 \unit{\gram/\mole}}
+                    =   5.31 \unit{\mole}\\
+                n_{\ce{Cl}}  &=  \frac{m}{MM(\ce{Cl})}
+                    =   \frac{62.76\unit{\gram}}{35.45 \unit{\gram/\mole}}
+                    =   1.770 \unit{\mole}
+            \end{align}
 
+            Now, we first divide the mole count of the carbon by chlorine to get a ratio between the two.
+            We can follow that up by doing the same between hydrogen and chlorine.
+            \begin{align}
+                \frac{n_{\ce{C}}}{n_{\ce{Cl}}}  &\approx    1.5 =   \frac{3}{2}\\
+                \frac{n_{\ce{H}}}{n_{\ce{Cl}}}  &\approx    3.0 =   \frac{6}{2}
+            \end{align}
+
+            Ths gives us a fnal ratio (and as such empirical formula) of \boxed{\ce{C3H6Cl2}}.
 
     \pagebreak
     \section{Topic A Problem 8}
@@ -471,7 +531,22 @@ mathfontname=mathsf]{mhchem}
         What is the empirical formula of this compound?
             
         \subsection{Solution}
+            First convert masses to moles, calling the compound \ce{X} for the moment.
+            \begin{align}
+                n(\ce{B})   &=  \frac{m(\ce{B})}{MM(\ce{B})}
+                    =   \frac{10.000 \unit{\gram}}{10.81 \unit{\gram/\mole}}
+                    =   0.925 \unit{\mole}\\
+                n(\ce{H})   &=  \frac{m(\ce{X}) - m(\ce{B})}{MM(\ce{H})}
+                    =   \frac{1.554 \unit{\gram}}{1.008 \unit{\gram/\mole}}
+                    =   1.542 \unit{\mole}
+            \end{align}
 
+            There's a ratio of Boron to Hydrogen here, which we can use to find the emprical formula.
+            \begin{align}
+                \frac{n(\ce{B})}{n(\ce{H})} &=  \frac{0.925}{1.542} \approx 0.6 = \frac{3}{5}
+            \end{align}
+
+            This gives us our fial empirical formula of \boxed{\ce{B3H5}}
 
     \pagebreak
     \section{Topic A Problem 9}
@@ -479,7 +554,18 @@ mathfontname=mathsf]{mhchem}
         What is the molecular formula of this compound?
             
         \subsection{Solution}
+            The coefficients of the molecular formula is a certain constant times the coefficients we got in Problem 8.
+            First, we should find the molar mass of the compound in problem 8.
+            \begin{align}
+                MM(\ce{B3H5})   &=  3 * MM(\ce{B}) + 5 * MM(\ce{H})
+                    =   32.43 + 5.04
+                    =   37.47 \unit{\gram/\mole}
+            \end{align}
 
+            There is a discrete multiple of this that is between 60 and 80, the multiplier of which which would be our ``coefficients' coefficient''.
+            That multiplier in question would be 2.
+            Multiplying our earlier values, we have 6 boron and 10 hydrogen.
+            This solidifies the answer as \boxed{\ce{B6H10}}.
 
     \pagebreak
     \section{Topic A Problem 10}
@@ -487,13 +573,76 @@ mathfontname=mathsf]{mhchem}
         Which group 2A element is this? 
 
         \subsection{Solution}
+            Since group 2A elements tend to have a net charge of -2 and iodine tends to have a net charge of +1, our formula for the compund with a group 2A element \ce{J} would have a formula \ce{I2J}.
+            We can assume there to be 100\unit{\gram} of the cmpound, and as such 64.9\unit{\gram} \ce{I} and 35.1\unit{\gram} \ce{J}.
+            We can calculate the number of moles of Iodine.
+            \begin{align}
+                n(\ce{I})   &=  \frac{m}{MM(\ce{I})}
+                    =   \frac{64.9\unit{\gram}}{126.9 \unit{\gram/\mole}}
+                    =   0.5114 \unit{\mole}
+            \end{align}
+
+            We can then calculate the number of moles of \ce{J}.
+            \begin{align}
+                n(\ce{J})   &=  \frac{1}{2} * n(\ce{I})
+                    =   \frac{0.5114\unit{\mole}}{2} \ce{J}
+                    =   0.2557 \unit{\mole}\ \ce{J}
+            \end{align}
+
+            We can use this and earlier information to find the molar mass.
+            \begin{align}
+                MM(\ce{J})  &=  \frac{m(\ce{J})}{n(\ce{J})}
+                    =   \frac{35.1 \unit{\gram}}{0.2557 \unit{\mole}}
+                    =   137.3 \unit{\gram/\mole}
+            \end{align}
+
+            This in turn is the molar mass of \boxed{Barrium\ (\ce{Ba})}.
 
     \pagebreak
     \section{Topic A Problem 11}
         A chemist has just discovered a new compound, called dunlinol. 
-        A 1.9747 g sample of dunlinol is subjected to combustion analysis, producing 3.8602 g of CO2 and 0.3951 g of H2O as the only products. 
+        A 1.9747 g sample of dunlinol is subjected to combustion analysis, producing 3.8602 g of \ce{CO2} and 0.3951 g of \ce{H2O} as the only products. 
         What is the empirical formula of dunlinol?
 
         \subsection{Solution}
+            The molar mass of \ce{CO2} is 44.01\unit{\gram/\mole} and the molar mass of \ce{H2O} is 18.016\unit{\gram/\mole}.
+            This can be used to find the number of moles of both Carbon and Hydrogen.
+            \begin{align}
+                n(\ce{C})   &=  n(\ce{CO2})
+                    =   \frac{m(\ce{CO2})}{MM(\ce{CO2})}
+                    =   \frac{3.8602 \unit{\gram}}{44.01 \unit{\gram/\mole}}
+                    =   0.08771 \unit{\mole}\\
+                n(\ce{H})   &=  2 * n(\ce{H2O})
+                    =   2 * \frac{m(\ce{H2O})}{MM(\ce{H2O})}
+                    =   2 * \frac{0.3951 \unit{\gram}}{18.016 \unit{\gram/\mole}}
+                    =   0.04386 \unit{\mole}
+            \end{align}
+
+            This gives us an empirical ratio of Carbon to Hydrogen of 2:1.
+            We can then check the molar mass of this.
+            \begin{align}
+                MM(\ce{C2H})    &=  2 * MM(\ce{C}) + MM(\ce{H})
+                    =   2 * 12.01 + 1.008
+                    =   25.018 \unit{\gram/\mole}
+            \end{align}
+
+            We can multiply the molar mass of \ce{C2H} (25.018 \unit{\gram/\mole}) by the number of moles of \ce{C2H} (which is the number of moles of hydrogen) to get the mass of that amount of this compound.
+            \begin{equation}
+                m   =   25.018 * 0.04386    =   1.0973 \unit{\gram}
+            \end{equation}
+
+            This is less than the initial mass given but twice this is more than that.
+            We can calculate the difference, which would be mass made of Oxygen atoms, and then calculate the number of moles of Oxygen from there.
+            \begin{align}
+                m(\ce{O})   &=  1.9747 \unit{\gram} - 1.0973 \unit{\gram}
+                    =   0.8774 \unit{\gram}\\
+                n(\ce{O})   &=  \frac{m}{MM(\ce{O})}
+                    =   \frac{0.8774\unit{\gram}}{16.00\unit{\gram/\mole}}
+                    =   0.5484 \unit{\mole}
+            \end{align}
+
+            This gives us a ratio of Oxygen to Hydrogen of roughly 5:4.
+            We can extend this to a ratio of Carbon to Hydrogen to Oxygen of 8:4:5.
+            Our final formula would as such be \boxed{\ce{C8H4O5}}
 
 \end{document}
