@@ -110,6 +110,15 @@
                 \end{tabular}
             \end{center}
 
+            For those interested in how I went about getting these values, I can explain.
+            I started with the initial mass of \ce{F2}, which has been previously established to be the limiting reactant, and converted that to moles.
+            I did (roughly) the same thing for the known quantity of \ce{N2} initially.
+            We also start with no \ce{NF3}.
+            Assuming the percentage yield to be 100\%, every mole of \ce{F2} would be used, so the Change row for \ce{F2} would be the negative of the initial quantity of \ce{F2}.
+            Multiply that by the ratio of \ce{N2} to \ce{F2} ($\frac{1}{3}$) to get the Change row of \ce{N2}.
+            The same can be done for \ce{NF2}, just taking the negative thereof and with a ratio of $\frac{2}{3}$ instead of $\frac{1}{3}$.
+            With all of this, we only have to add the initial and the change together (respecting the positive or negative signs) to get the values for the End row.
+
     \pagebreak
     \section{Topic A Problem 15}
         a) If 58.26 g of iodine reacts with excess aluminum, what is the theoretical yield of aluminum iodide? 
@@ -117,6 +126,22 @@
         b) If 56.11 g of aluminum iodide is actually formed in the reaction in part a, what is the percent yield of aluminum iodide?
 
         \subsection{Solution (a)}
+            Watch me use the power of Stiochiometry Magic.
+            \begin{equation}
+                58.26\,\unit{\gram} \times  \frac{1\,\unit{\mole}\,\ce{I2}}{253.8\,\unit{\gram}\,\unit{I2}}
+                                    \times  \frac{2\,\ce{AlI3}}{3\,\ce{I2}}
+                                    \times  \frac{407.68\,\unit{\gram}\,\ce{AlI3}}{1\,\unit{\mole}\,\ce{AlI3}}
+                    =   \boxed{62.39\,\unit{\gram}\,\ce{AlI3}}
+            \end{equation}
+        
+        \subsection{Solution (b)}
+            Here we use the formula for the pecent yield.
+            \begin{equation}
+                \text{PY}   =   \frac{\rm AY}{\rm TY}   \times  100\%
+                    =   \frac{56.11\,\unit{\gram}}{62.39\,\unit{\gram}} \times  100\%
+                    =   0.8994 \times 100\%
+                    =   \boxed{89.94\%}
+            \end{equation}
         
 
     \pagebreak
@@ -129,99 +154,125 @@
         \end{equation}
 
         \subsection{Solution}
+            First calculate the theoretical yield of \ce{MgCl2} in the cases of \ce{HCl} and \ce{Mg} being the limiting reactants.
+            \begin{align}
+                MM(\ce{MgCl2})  &=  24.31\,\unit{\gram/\mole} + 2 * 35.45\,\unit{\gram/\mole}
+                    =   95.21\,\unit{\gram/\mole}\\
+                MM(\ce{HCl})    &=  1.008\,\unit{\gram/\mole} + 35.45\,\unit{\gram/\mole}
+                    =   36.458\,\unit{\gram/\mole}\\
+                m_{\ce{Mg}}     &=  10.00\,\unit{\gram} \times  \frac{1\,\unit{\mole}\,\ce{Mg}}{24.31\,\unit{\gram}\,\ce{Mg}}
+                                                        \times  \frac{1\,\ce{MgCl2}}{1\,\ce{Mg}}
+                                                        \times  \frac{95.21\,\unit{\gram}\,\ce{MgCl2}}{1\,\unit{\mole}\,\ce{MgCl2}}\\
+                                &=  39.16\,\unit{\gram}\,\ce{MgCl2}
+                \\
+                m_{\ce{HCl}}    &=  16.00\,\unit{\gram} \times  \frac{1\,\unit{\mole}\,\ce{HCl}}{36.458\,\unit{\gram}\,\ce{HCl}}
+                                                        \times  \frac{1\,\ce{MgCl2}}{2\,\ce{HCl}}
+                                                        \times  \frac{95.21\,\unit{\gram}\,\ce{MgCl2}}{1\,\unit{\mole}\,\ce{MgCl2}}\\
+                                &=  20.89\,\unit{\gram}\,\ce{MgCl2}
+            \end{align}
 
-    % \pagebreak
-    % \section{Topic A Problem 17}
-    %     How many milliliters of liquid \ce{Br2} (density = 3.1 g/mL) will react with 6.143 g of \ce{Cr}, if the product of this reaction is \ce{CrBr3}?
+            The latter is lower, so the \ce{HCl} would be the limiting reactant and $20.89\,\unit{\gram}$ $\,\ce{MgCl2}$ would be the theoretical yield.
+            Multiplying this by the (decimal version of) the percetage yield to get the actual yield.
+            \begin{gather}
+                20.89\,\unit{\gram}\,\ce{MgCl2} * 0.813 = \boxed{16.98\,\unit{\gram}\,\ce{MgCl2}}
+            \end{gather}
 
-    %     \subsection{Solution}
+    \pagebreak
+    \section{Topic A Problem 17}
+        How many milliliters of liquid \ce{Br2} (density = 3.1 g/mL) will react with 6.143 g of \ce{Cr}, if the product of this reaction is \ce{CrBr3}?
 
-    % \pagebreak
-    % \section{Topic A Problem 18}
-    %     Ethane (\ce{C2H6}) reacts with oxygen according to the following chemical equation:
-    %     \begin{equation}
-    %         \ce{2 C2H6 + 7 O2 -> 4 CO2 + 6 H2O}
-    %     \end{equation}
-    %     a) If you mix 5 moles of \ce{C2H6} with 13 moles of \ce{O2}, how many moles of each substance will you end up with, assuming the reaction goes to completion? 
-    %     Include an ICE table in your answer.\\
-    %     b) If you mix 81.43 g of \ce{C2H6} with 194.60 g of \ce{O2}, how many grams of each substance will you end up with, assuming the reaction goes to completion? 
-    %     Include an ICE table in your answer. 
-    %     (Note: your ICE table should be in terms of moles.)\\
-    %     c) A chemist mixes 3.414 moles of \ce{O2} with an unknown number of moles of \ce{C2H6}. 
-    %     The chemist obtains 1.657 moles of \ce{O2}. 
-    %     How many moles of \ce{C2H6} must have been present originally, assuming the reaction went to completion? 
-    %     Include an ICE table in your answer.
+        \subsection{Solution}
+            First write a chemical equation for this and balance it.
+            \begin{center}
+                \ce{3Br2 + 2Cr -> 2CrBr3}
+            \end{center}
 
-    %     \subsection{Solution}
+    \pagebreak
+    \section{Topic A Problem 18}
+        Ethane (\ce{C2H6}) reacts with oxygen according to the following chemical equation:
+        \begin{equation}
+            \ce{2 C2H6 + 7 O2 -> 4 CO2 + 6 H2O}
+        \end{equation}
+        a) If you mix 5 moles of \ce{C2H6} with 13 moles of \ce{O2}, how many moles of each substance will you end up with, assuming the reaction goes to completion? 
+        Include an ICE table in your answer.\\
+        b) If you mix 81.43 g of \ce{C2H6} with 194.60 g of \ce{O2}, how many grams of each substance will you end up with, assuming the reaction goes to completion? 
+        Include an ICE table in your answer. 
+        (Note: your ICE table should be in terms of moles.)\\
+        c) A chemist mixes 3.414 moles of \ce{O2} with an unknown number of moles of \ce{C2H6}. 
+        The chemist obtains 1.657 moles of \ce{O2}. 
+        How many moles of \ce{C2H6} must have been present originally, assuming the reaction went to completion? 
+        Include an ICE table in your answer.
 
-    % \pagebreak
-    % \section{Topic A Problem 19}
-    %     Ammonia reacts with oxygen according to the following chemical equation:
-    %     \begin{equation}
-    %         \ce{4 NH3 + 3 O2 -> 2 N2 + 6 H2O}
-    %     \end{equation}
-    %     Suppose you mix x moles of \ce{NH3} with y moles of \ce{O2}.\\
-    %     a) If \ce{NH3} is the limiting reactant, how many moles of each substance will you end up with, assuming the reaction goes to completion? 
-    %     Include an ICE table in your answer.\\
-    %     b) If \ce{O2} is the limiting reactant, how many moles of each substance will you end up with, assuming the reaction goes to completion? 
-    %     Include an ICE table in your answer.\\
-    %     c) If you end up with 0.4y moles of \ce{O2}, what must the relationship be between x and y, assuming the reaction goes to completion?
+        \subsection{Solution}
 
-    %     \subsection{Solution}
+    \pagebreak
+    \section{Topic A Problem 19}
+        Ammonia reacts with oxygen according to the following chemical equation:
+        \begin{equation}
+            \ce{4 NH3 + 3 O2 -> 2 N2 + 6 H2O}
+        \end{equation}
+        Suppose you mix x moles of \ce{NH3} with y moles of \ce{O2}.\\
+        a) If \ce{NH3} is the limiting reactant, how many moles of each substance will you end up with, assuming the reaction goes to completion? 
+        Include an ICE table in your answer.\\
+        b) If \ce{O2} is the limiting reactant, how many moles of each substance will you end up with, assuming the reaction goes to completion? 
+        Include an ICE table in your answer.\\
+        c) If you end up with 0.4y moles of \ce{O2}, what must the relationship be between x and y, assuming the reaction goes to completion?
 
-    % \pagebreak
-    % \section{Topic A Problem 20}
-    %     You have x grams of \ce{Na2Cr2O7}. 
-    %     How many grams of CrCl3 will be formed if the \ce{Na2Cr2O7} undergoes the reaction below? 
-    %     Express your answer in terms of x.
-    %     \begin{equation}
-    %         \ce{Na2Cr2O7 + 3 Zn + 14 HCl -> 2 CrCl3 + 3 ZnCl2 + 2 NaCl + 7 H2O}
-    %     \end{equation}
+        \subsection{Solution}
 
-    %     \subsection{Solution}
+    \pagebreak
+    \section{Topic A Problem 20}
+        You have x grams of \ce{Na2Cr2O7}. 
+        How many grams of CrCl3 will be formed if the \ce{Na2Cr2O7} undergoes the reaction below? 
+        Express your answer in terms of x.
+        \begin{equation}
+            \ce{Na2Cr2O7 + 3 Zn + 14 HCl -> 2 CrCl3 + 3 ZnCl2 + 2 NaCl + 7 H2O}
+        \end{equation}
 
-    % \pagebreak
-    % \section{Topic A Problem 21}
-    %     A metal sample weighing 1.410 g contains a mixture of copper and aluminum. 
-    %     When excess \ce{HCl} is added to this sample, the aluminum reacts as follows:
-    %     \begin{equation}
-    %         \ce{2 Al + 6 HCl -> 2 AlCl3 + 3 H2}
-    %     \end{equation}
-    %     849 mL of \ce{H2} (density 0.08264 g/L) is produced. 
-    %     Calculate the mass percentage of each element in the original sample. 
-    %     Note that copper does not react with \ce{HCl}.
+        \subsection{Solution}
 
-    %     \subsection{Solution}
+    \pagebreak
+    \section{Topic A Problem 21}
+        A metal sample weighing 1.410 g contains a mixture of copper and aluminum. 
+        When excess \ce{HCl} is added to this sample, the aluminum reacts as follows:
+        \begin{equation}
+            \ce{2 Al + 6 HCl -> 2 AlCl3 + 3 H2}
+        \end{equation}
+        849 mL of \ce{H2} (density 0.08264 g/L) is produced. 
+        Calculate the mass percentage of each element in the original sample. 
+        Note that copper does not react with \ce{HCl}.
 
-    % \pagebreak
-    % \section{Topic A Problem 22}
-    %     A chemist has a mixture of \ce{AgNO3} and \ce{KNO3} that weighs a total of 4.177 g. 
-    %     The chemist dissolves the mixture in water and then adds a solution of \ce{NaOH}. 
-    %     The AgNO3 reacts with the \ce{NaOH} as follows:
-    %     \begin{equation}
-    %         \ce{2 AgNO3(aq) + 2 NaOH(aq) -> Ag2O(s) + 2 NaNO3(aq) + H2O(l)}
-    %     \end{equation}
-    %     The chemist finds that 1.080 grams of \ce{Ag2O} were formed. 
-    %     Calculate the mass percentages of \ce{AgNO3} and \ce{KNO3} in the original mixture. 
-    %     (Note that \ce{KNO3} does not react with \ce{NaOH}.)
+        \subsection{Solution}
 
-    %     \subsection{Solution}
+    \pagebreak
+    \section{Topic A Problem 22}
+        A chemist has a mixture of \ce{AgNO3} and \ce{KNO3} that weighs a total of 4.177 g. 
+        The chemist dissolves the mixture in water and then adds a solution of \ce{NaOH}. 
+        The AgNO3 reacts with the \ce{NaOH} as follows:
+        \begin{equation}
+            \ce{2 AgNO3(aq) + 2 NaOH(aq) -> Ag2O(s) + 2 NaNO3(aq) + H2O(l)}
+        \end{equation}
+        The chemist finds that 1.080 grams of \ce{Ag2O} were formed. 
+        Calculate the mass percentages of \ce{AgNO3} and \ce{KNO3} in the original mixture. 
+        (Note that \ce{KNO3} does not react with \ce{NaOH}.)
 
-    % \pagebreak
-    % \section{Topic A Problem 23}
-    %     A 25.000 g sample of sulfur is burned. 
-    %     Some of the sulfur reacts to form \ce{SO2}:
-    %     \begin{equation}
-    %         \ce{S + O2 -> SO2}
-    %     \end{equation}
-    %     The rest of the sulfur reacts to form \ce{SO3}:
-    %     \begin{equation}
-    %         \ce{2 S + 3 O2 -> 2 SO3}
-    %     \end{equation}
-    %     The total mass of products (\ce{SO2} and \ce{SO3}) is 58.723 g. 
-    %     Calculate the masses of \ce{SO2} and \ce{SO3} in this mixture.
+        \subsection{Solution}
 
-    %     \subsection{Solution}
+    \pagebreak
+    \section{Topic A Problem 23}
+        A 25.000 g sample of sulfur is burned. 
+        Some of the sulfur reacts to form \ce{SO2}:
+        \begin{equation}
+            \ce{S + O2 -> SO2}
+        \end{equation}
+        The rest of the sulfur reacts to form \ce{SO3}:
+        \begin{equation}
+            \ce{2 S + 3 O2 -> 2 SO3}
+        \end{equation}
+        The total mass of products (\ce{SO2} and \ce{SO3}) is 58.723 g. 
+        Calculate the masses of \ce{SO2} and \ce{SO3} in this mixture.
+
+        \subsection{Solution}
 
     % \pagebreak
     % \section{Topic B Problem 1}
