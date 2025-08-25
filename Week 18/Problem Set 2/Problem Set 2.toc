@@ -30,6 +30,7 @@
 \contentsline {section}{\numberline {11}Topic B Problem 1}{16}{}%
 \contentsline {subsection}{\numberline {11.1}Solution (a)}{16}{}%
 \contentsline {subsection}{\numberline {11.2}Solution (b)}{16}{}%
+\contentsline {subsection}{\numberline {11.3}Solution (c)}{16}{}%
 \contentsline {section}{\numberline {12}Topic B Problem 2}{17}{}%
 \contentsline {subsection}{\numberline {12.1}Solution}{17}{}%
 \contentsline {section}{\numberline {13}Topic B Problem 3}{18}{}%

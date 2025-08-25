@@ -504,17 +504,52 @@
         What volume of solution did you make?
 
         \subsection{Solution (a)}
+            First convert grams to moles.
+            \begin{align}
+                MM(\ce{Mg(NO3)2})   &=  24.31 + 2 * 14.01 + 6 * 16.00
+                    =   148.33\,\unit{\gram/\mole}\\
+                n(\ce{Mg(NO3)2})    &=  \frac{4.18\,\unit{gram}\,\ce{Mg(NO3)2}}{148.33\,\unit{\gram/\mole}}
+                    =   0.0282\,\unit{\mole}
+            \end{align}
+
+            From here, we just find the molarity. 
             \begin{equation}
-                \left[ \ce{Mg(NO3)2} \right]   =   \frac{m}{V}
-                    =   \frac{4.18\,\unit{\gram}}{0.150\,\unit{\liter}}
-                    =   \boxed{27.9\,\unit{\molarity}\,\ce{Mg(NO3)2}}
+                \left[ \ce{Mg(NO3)2} \right]   =   \frac{n}{V}
+                    =   \frac{0.0282\,\unit{\mole}}{0.150\,\unit{\liter}}
+                    =   \boxed{0.188\,\unit{\molarity}\,\ce{Mg(NO3)2}}
             \end{equation}
 
         \subsection{Solution (b)}
+        First find the number of moles of \ce{CaCl2}.
             \begin{equation}
-                m   =   V * \left[ \ce{CaCl2} \right]
+                n   =   V * \left[ \ce{CaCl2} \right]
                     =   0.100\,\unit{\liter} * 1.08\,\unit{\molarity}\,\ce{CaCl2}
-                    =   \boxed{0.108\,\unit{\gram}\,\ce{CaCl2}}
+                    =   0.108\,\unit{\mole}\,\ce{CaCl2}
+            \end{equation}
+
+            From here, use the molar mass to find the total mass.
+            \begin{align}
+                MM(\ce{CaCl2})  &=  40.08 + 2 * 35.45
+                    =   110.98\,\unit{\gram/\mole}\\
+                m   &=  n * MM
+                    =   0.108\,\unit{\mole}\,\ce{CaCl2} * 110.98\,\unit{\gram/\mole}
+                    =   \boxed{12.0\,\unit{\molarity}\,\ce{CaCl2}}
+            \end{align}
+
+        \subsection{Solution (c)}
+            First convert grams to moles.
+            \begin{align}
+                MM(\ce{KCl})    &=  39.10 + 35.45
+                    =   74.55\,\unit{\gram/\mole}\\
+                n   &=  \frac{25.0\,\unit{\gram}\,\ce{KCl}}{74.55\,\unit{\gram/\mole}}
+                    =   0.335\,\unit{\mole}\,\ce{KCl}
+            \end{align}
+
+            From here, we can find the volume.
+            \begin{equation}
+                V   =   \frac{n}{\left[ \ce{KCl} \right]}
+                    =   \frac{0.335\,\unit{\mole}\,\ce{KCl}}{0.500\,\unit{\molarity}\,\ce{KCl}}
+                    =   \boxed{0.671\,\unit{\liter}}
             \end{equation}
 
     \pagebreak
