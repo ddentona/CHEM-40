@@ -15,6 +15,9 @@
 \date{August 29, 2025}
 
 \begin{document}
+    \DeclareSIUnit{\molarity}{M}
+    \DeclareSIUnit{\M}{M}
+
     \maketitle
 
     \pagebreak
@@ -342,18 +345,94 @@
         Include an ICE table in your answer.\\
         c) If you end up with 0.4y moles of \ce{O2}, what must the relationship be between x and y, assuming the reaction goes to completion?
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            \begin{center}
+                \begin{tabular}{| c | c |c| c |c| c |c| c |}
+                    \hline
+                    \multicolumn{1}{|c|}{\unit{\mole}}  &   \multicolumn{1}{c}{\ce{4 NH3}} &\multicolumn{1}{c}{+}& \multicolumn{1}{c}{\ce{3 O2}}   &\multicolumn{1}{c}{\ce{->}}&   \multicolumn{1}{c}{\ce{2 N2}}  &\multicolumn{1}{c}{+}& \multicolumn{1}{c|}{\ce{6 H2O}}
+                    \\  \hline
+                    I   &   x   &&  y                   &&  0               &&  0
+                    \\  \hline
+                    C   &   -x  &&  -$\frac{3}{4}$x     &&  $\frac{1}{2}$x  &&  $\frac{3}{2}$x
+                    \\  \hline
+                    E   &   0   &&  y - $\frac{3}{4}$x  &&  $\frac{1}{2}$x  &&  $\frac{3}{2}$x
+                    \\  \hline
+                \end{tabular}
+            \end{center}
+
+            My answers are found in the End (E) section of the ICE table.
+            I did everything in my head.
+
+        \subsection{Solution (b)}
+            \begin{center}
+                \begin{tabular}{| c | c |c| c |c| c |c| c |}
+                    \hline
+                    \multicolumn{1}{|c|}{\unit{\mole}}  &   \multicolumn{1}{c}{\ce{4 NH3}} &\multicolumn{1}{c}{+}& \multicolumn{1}{c}{\ce{3 O2}}   &\multicolumn{1}{c}{\ce{->}}&   \multicolumn{1}{c}{\ce{2 N2}}  &\multicolumn{1}{c}{+}& \multicolumn{1}{c|}{\ce{6 H2O}}
+                    \\  \hline
+                    I   &   x                   &&  y   &&  0               &&  0
+                    \\  \hline
+                    C   &   -$\frac{4}{3}$y     &&  -y  &&  $\frac{2}{3}$y  &&  2y
+                    \\  \hline
+                    E   &   x - $\frac{4}{3}$y  &&  0   &&  $\frac{2}{3}$y  &&  2y
+                    \\  \hline
+                \end{tabular}
+            \end{center}
+
+            My answers are found in the End (E) section of the ICE table.
+            I did everything in my head.
+        
+        \subsection{Solution (c)}
+            \begin{center}
+                \begin{tabular}{| c | c |c| c |c| c |c| c |}
+                    \hline
+                    \multicolumn{1}{|c|}{\unit{\mole}}  &   \multicolumn{1}{c}{\ce{4 NH3}} &\multicolumn{1}{c}{+}& \multicolumn{1}{c}{\ce{3 O2}}   &\multicolumn{1}{c}{\ce{->}}&   \multicolumn{1}{c}{\ce{2 N2}}  &\multicolumn{1}{c}{+}& \multicolumn{1}{c|}{\ce{6 H2O}}
+                    \\  \hline
+                    I   &   x   &&  y     &&    &&  
+                    \\  \hline
+                    C   &   -x  &&  -0.6y &&    &&  
+                    \\  \hline
+                    E   &   0   &&  0.4y  &&    &&  
+                    \\  \hline
+                \end{tabular}
+            \end{center}
+
+            Out of respect for the unknowns, I have left the boxes unnecessary to calculate for completion of this problem blank, all of which lie in the products.
+            \begin{enumerate}
+                \item   The things I did initially fill out are the final amount of \ce{O2} and the initial amounts of \ce{O2} and \ce{NH3}.
+                \item   The fact that there is \ce{O2} remaining suggests that the \ce{NH3} is the limiting reactant, so it would be 0 at the end.
+                \item   E = C + I $\to$ C = E - I gives us our change values.
+                        This in turn gives us an equation for their relationship, bearing in mind the ratio of their coefficients.
+            \end{enumerate}
+            \begin{gather}
+                x * \frac{3}{4}    =   \frac{3}{5}y\\
+                \boxed{x   =   \frac{4}{5}y    =   0.8y}
+            \end{gather}
 
     \pagebreak
     \section{Topic A Problem 20}
         You have x grams of \ce{Na2Cr2O7}. 
-        How many grams of CrCl3 will be formed if the \ce{Na2Cr2O7} undergoes the reaction below? 
+        How many grams of \ce{CrCl3} will be formed if the \ce{Na2Cr2O7} undergoes the reaction below? 
         Express your answer in terms of x.
         \begin{equation}
             \ce{Na2Cr2O7 + 3 Zn + 14 HCl -> 2 CrCl3 + 3 ZnCl2 + 2 NaCl + 7 H2O}
         \end{equation}
 
         \subsection{Solution}
+            First, we find the molar masses of each involved chemical that we need, which are only \ce{Na2Cr2O7} and \ce{CrCl3}.
+            \begin{align}
+                MM(\ce{Na2Cr2O7})   &=  2 * 22.99\,\unit{\gram/\mole} + 2 * 52.00\,\unit{\gram/\mole} + 7 * 16.00\,\unit{\gram/\mole}\\
+                    &=  261.98\,\unit{\gram/\mole}\\
+                MM(\ce{CrCl3})  &=  52.00\,\unit{\gram/\mole} + 3 * 35.45\,\unit{\gram/\mole}
+                    =   158.35\,\unit{\gram/\mole}
+            \end{align}
+
+            From here, the magic of Stoichiometry will guide us.
+            \begin{align}
+                m(\ce{CrCl3})   &=  x   \times  \frac{1\,\unit{\mole}}{261.98\,\unit{\mole}}
+                                        \times  \frac{2\,\ce{CrCl3}}{1\,\ce{Na2Cr2O7}}
+                                        \times  \frac{158.35\,\unit{\gram}}{1\,\unit{\mole}}\\
+                    &=  \boxed{1.209x\,\unit{\gram}\,\ce{CrCl3}}
+            \end{align}
 
     \pagebreak
     \section{Topic A Problem 21}
@@ -367,6 +446,24 @@
         Note that copper does not react with \ce{HCl}.
 
         \subsection{Solution}
+            The way we start this is by finding the amount (mass) of \ce{Al} that reacts.
+            This is done through the magic of stoichiometry.
+            \begin{align}
+                m(\ce{Al})  &=  0.849\,\unit{\liter}    \times  \frac{0.08264\,\unit{\gram}}{1\,\unit{\liter}}
+                                                        \times  \frac{1\,\unit{\mole}}{2.016\,\unit{\gram}}
+                                                        \times  \frac{2\,\ce{Al}}{3\,\ce{H2}}
+                                                        \times  \frac{26.98\,\unit{\gram}}{1\,\unit{\mole}}\\
+                    &=  0.626\,\unit{\gram}\,\ce{Al}
+            \end{align}
+
+            From here, we use the formula for mass percentage of $MP = \frac{m}{m_{\Sigma}}$ for each chemical's mass.
+            The value of $m_{\Sigma}$ is the total mass, in this case $m_{1.410}$.
+            \begin{align}
+                MP(\ce{Al}) &=  \frac{0.626}{1.410} \times 100\%
+                    =   \boxed{44.4\%\,\ce{Al}}\\
+                MP(\ce{Cu}) &=  \left( 1 - \frac{0.626}{1.410} \right) \times 100\%
+                    =   \boxed{55.6\%\,\ce{Cu}}
+            \end{align}
 
     % \pagebreak
     % \section{Topic A Problem 22}
@@ -398,48 +495,95 @@
 
     %     \subsection{Solution}
 
-    % \pagebreak
-    % \section{Topic B Problem 1}
-    %     Answer each of the following questions about making solutions.\\
-    %     a) If you dissolve 4.18 g of solid \ce{Mg(NO3)2} in enough water to make 150 mL of solution, what will be the molarity of the resulting solution?\\
-    %     b) If you need to make 100 mL of 1.08 M \ce{CaCl2}, what mass of solid CaCl2 will you need?\\
-    %     c) You have 25.0 g of solid \ce{KCl}, and you use all of it to make a 0.500 M \ce{KCl} solution. 
-    %     What volume of solution did you make?
+    \pagebreak
+    \section{Topic B Problem 1}
+        Answer each of the following questions about making solutions.\\
+        a) If you dissolve 4.18 g of solid \ce{Mg(NO3)2} in enough water to make 150 mL of solution, what will be the molarity of the resulting solution?\\
+        b) If you need to make 100 mL of 1.08 M \ce{CaCl2}, what mass of solid CaCl2 will you need?\\
+        c) You have 25.0 g of solid \ce{KCl}, and you use all of it to make a 0.500 M \ce{KCl} solution. 
+        What volume of solution did you make?
 
-    %     \subsection{Solution}
+        \subsection{Solution (a)}
+            First convert grams to moles.
+            \begin{align}
+                MM(\ce{Mg(NO3)2})   &=  24.31 + 2 * 14.01 + 6 * 16.00
+                    =   148.33\,\unit{\gram/\mole}\\
+                n(\ce{Mg(NO3)2})    &=  \frac{4.18\,\unit{gram}\,\ce{Mg(NO3)2}}{148.33\,\unit{\gram/\mole}}
+                    =   0.0282\,\unit{\mole}
+            \end{align}
 
-    % \pagebreak
-    % \section{Topic B Problem 2}
-    %     Answer the following questions about dilutions.\\
-    %     a) If you add 100 mL of water to 10 mL of 0.605 M \ce{HCl}, what will be the molarity of the resulting solution?\\
-    %     b) You have 200 mL of 1.50 M \ce{HNO3}. 
-    %     If you wish to dilute this solution to a final concentration of 0.300 M, what volume of water should you add?\\
-    %     c) You need to make 1.50 liters of 0.400 M \ce{NaOH} by diluting a 2.00 M \ce{NaOH} solution. 
-    %     What volume of the 2.00 M \ce{NaOH} should you use, and what volume of water should you add to it?
+            From here, we just find the molarity. 
+            \begin{equation}
+                \left[ \ce{Mg(NO3)2} \right]   =   \frac{n}{V}
+                    =   \frac{0.0282\,\unit{\mole}}{0.150\,\unit{\liter}}
+                    =   \boxed{0.188\,\unit{\molarity}\,\ce{Mg(NO3)2}}
+            \end{equation}
 
-    %     \subsection{Solution}
+        \subsection{Solution (b)}
+        First find the number of moles of \ce{CaCl2}.
+            \begin{equation}
+                n   =   V * \left[ \ce{CaCl2} \right]
+                    =   0.100\,\unit{\liter} * 1.08\,\unit{\molarity}\,\ce{CaCl2}
+                    =   0.108\,\unit{\mole}\,\ce{CaCl2}
+            \end{equation}
 
-    % \pagebreak
-    % \section{Topic B Problem 3}
-    %     All of the compounds below dissolve in water. 
-    %     Which of them are strong electrolytes, which are weak electrolytes, and which are nonelectrolytes?
-    %     \begin{multicols}{4}
-    %         \begin{enumerate}[label=\alph*)]
-    %             \item   \ce{NaCl}
-    %             \item   \ce{Mg(NO3)2}
-    %             \item   \ce{HClO2}
-    %             \item   \ce{MgCrO4}
-    %             \item   \ce{H3PO4}
-    %             \item   \ce{AgF}
-    %             \item   \ce{C2H5OH}
-    %             \item   \ce{HC3H5O3}
-    %             \item   \ce{CH3CN}
-    %             \item   \ce{H2SO4}
-    %             \item   \ce{NH4Br}
-    %             \item   \ce{(CH3)2CO}
-    %         \end{enumerate}
-    %     \end{multicols}
-    %     \subsection{Solution}
+            From here, use the molar mass to find the total mass.
+            \begin{align}
+                MM(\ce{CaCl2})  &=  40.08 + 2 * 35.45
+                    =   110.98\,\unit{\gram/\mole}\\
+                m   &=  n * MM
+                    =   0.108\,\unit{\mole}\,\ce{CaCl2} * 110.98\,\unit{\gram/\mole}
+                    =   \boxed{12.0\,\unit{\molarity}\,\ce{CaCl2}}
+            \end{align}
+
+        \subsection{Solution (c)}
+            First convert grams to moles.
+            \begin{align}
+                MM(\ce{KCl})    &=  39.10 + 35.45
+                    =   74.55\,\unit{\gram/\mole}\\
+                n   &=  \frac{25.0\,\unit{\gram}\,\ce{KCl}}{74.55\,\unit{\gram/\mole}}
+                    =   0.335\,\unit{\mole}\,\ce{KCl}
+            \end{align}
+
+            From here, we can find the volume.
+            \begin{equation}
+                V   =   \frac{n}{\left[ \ce{KCl} \right]}
+                    =   \frac{0.335\,\unit{\mole}\,\ce{KCl}}{0.500\,\unit{\molarity}\,\ce{KCl}}
+                    =   \boxed{0.671\,\unit{\liter}}
+            \end{equation}
+
+    \pagebreak
+    \section{Topic B Problem 2}
+        Answer the following questions about dilutions.\\
+        a) If you add 100 mL of water to 10 mL of 0.605 M \ce{HCl}, what will be the molarity of the resulting solution?\\
+        b) You have 200 mL of 1.50 M \ce{HNO3}. 
+        If you wish to dilute this solution to a final concentration of 0.300 M, what volume of water should you add?\\
+        c) You need to make 1.50 liters of 0.400 M \ce{NaOH} by diluting a 2.00 M \ce{NaOH} solution. 
+        What volume of the 2.00 M \ce{NaOH} should you use, and what volume of water should you add to it?
+
+        \subsection{Solution}
+
+    \pagebreak
+    \section{Topic B Problem 3}
+        All of the compounds below dissolve in water. 
+        Which of them are strong electrolytes, which are weak electrolytes, and which are nonelectrolytes?
+        \begin{multicols}{4}
+            \begin{enumerate}[label=\alph*)]
+                \item   \ce{NaCl}
+                \item   \ce{Mg(NO3)2}
+                \item   \ce{HClO2}
+                \item   \ce{MgCrO4}
+                \item   \ce{H3PO4}
+                \item   \ce{AgF}
+                \item   \ce{C2H5OH}
+                \item   \ce{HC3H5O3}
+                \item   \ce{CH3CN}
+                \item   \ce{H2SO4}
+                \item   \ce{NH4Br}
+                \item   \ce{(CH3)2CO}
+            \end{enumerate}
+        \end{multicols}
+        \subsection{Solution}
 
     % \pagebreak
     % \section{Topic B Problem 4}

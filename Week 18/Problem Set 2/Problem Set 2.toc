@@ -20,8 +20,17 @@
 \contentsline {subsection}{\numberline {7.2}Solution (b)}{9}{}%
 \contentsline {subsection}{\numberline {7.3}Solution (c)}{10}{}%
 \contentsline {section}{\numberline {8}Topic A Problem 19}{12}{}%
-\contentsline {subsection}{\numberline {8.1}Solution}{12}{}%
-\contentsline {section}{\numberline {9}Topic A Problem 20}{13}{}%
-\contentsline {subsection}{\numberline {9.1}Solution}{13}{}%
-\contentsline {section}{\numberline {10}Topic A Problem 21}{14}{}%
-\contentsline {subsection}{\numberline {10.1}Solution}{14}{}%
+\contentsline {subsection}{\numberline {8.1}Solution (a)}{12}{}%
+\contentsline {subsection}{\numberline {8.2}Solution (b)}{12}{}%
+\contentsline {subsection}{\numberline {8.3}Solution (c)}{12}{}%
+\contentsline {section}{\numberline {9}Topic A Problem 20}{14}{}%
+\contentsline {subsection}{\numberline {9.1}Solution}{14}{}%
+\contentsline {section}{\numberline {10}Topic A Problem 21}{15}{}%
+\contentsline {subsection}{\numberline {10.1}Solution}{15}{}%
+\contentsline {section}{\numberline {11}Topic B Problem 1}{16}{}%
+\contentsline {subsection}{\numberline {11.1}Solution (a)}{16}{}%
+\contentsline {subsection}{\numberline {11.2}Solution (b)}{16}{}%
+\contentsline {subsection}{\numberline {11.3}Solution (c)}{16}{}%
+\contentsline {section}{\numberline {12}Topic B Problem 2}{17}{}%
+\contentsline {section}{\numberline {13}Topic B Problem 3}{18}{}%
+\contentsline {subsection}{\numberline {13.1}Solution}{18}{}%
