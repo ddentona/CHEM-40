@@ -15,6 +15,9 @@
 \date{August 29, 2025}
 
 \begin{document}
+    \DeclareSIUnit{\molarity}{M}
+    \DeclareSIUnit{\M}{M}
+
     \maketitle
 
     \pagebreak
@@ -408,17 +411,28 @@
     \pagebreak
     \section{Topic A Problem 20}
         You have x grams of \ce{Na2Cr2O7}. 
-        How many grams of CrCl3 will be formed if the \ce{Na2Cr2O7} undergoes the reaction below? 
+        How many grams of \ce{CrCl3} will be formed if the \ce{Na2Cr2O7} undergoes the reaction below? 
         Express your answer in terms of x.
         \begin{equation}
             \ce{Na2Cr2O7 + 3 Zn + 14 HCl -> 2 CrCl3 + 3 ZnCl2 + 2 NaCl + 7 H2O}
         \end{equation}
 
         \subsection{Solution}
-            The magic of Stoichiometry will guide us.
-            \begin{gather}
-                MM(Na2Cr2O7)
-            \end{gather}
+            First, we find the molar masses of each involved chemical that we need, which are only \ce{Na2Cr2O7} and \ce{CrCl3}.
+            \begin{align}
+                MM(\ce{Na2Cr2O7})   &=  2 * 22.99\,\unit{\gram/\mole} + 2 * 52.00\,\unit{\gram/\mole} + 7 * 16.00\,\unit{\gram/\mole}\\
+                    &=  261.98\,\unit{\gram/\mole}\\
+                MM(\ce{CrCl3})  &=  52.00\,\unit{\gram/\mole} + 3 * 35.45\,\unit{\gram/\mole}
+                    =   158.35\,\unit{\gram/\mole}
+            \end{align}
+
+            From here, the magic of Stoichiometry will guide us.
+            \begin{align}
+                m(\ce{CrCl3})   &=  x   \times  \frac{1\,\unit{\mole}}{261.98\,\unit{\mole}}
+                                        \times  \frac{2\,\ce{CrCl3}}{1\,\ce{Na2Cr2O7}}
+                                        \times  \frac{158.35\,\unit{\gram}}{1\,\unit{\mole}}\\
+                    &=  \boxed{1.209x\,\unit{\gram}\,\ce{CrCl3}}
+            \end{align}
 
     \pagebreak
     \section{Topic A Problem 21}
@@ -432,79 +446,109 @@
         Note that copper does not react with \ce{HCl}.
 
         \subsection{Solution}
+            The way we start this is by finding the amount (mass) of \ce{Al} that reacts.
+            This is done through the magic of stoichiometry.
+            \begin{align}
+                m(\ce{Al})  &=  0.849\,\unit{\liter}    \times  \frac{0.08264\,\unit{\gram}}{1\,\unit{\liter}}
+                                                        \times  \frac{1\,\unit{\mole}}{2.016\,\unit{\gram}}
+                                                        \times  \frac{2\,\ce{Al}}{3\,\ce{H2}}
+                                                        \times  \frac{26.98\,\unit{\gram}}{1\,\unit{\mole}}\\
+                    &=  0.626\,\unit{\gram}\,\ce{Al}
+            \end{align}
+
+            From here, we use the formula for mass percentage of $MP = \frac{m}{m_{\Sigma}}$ for each chemical's mass.
+            The value of $m_{\Sigma}$ is the total mass, in this case $m_{1.410}$.
+            \begin{align}
+                MP(\ce{Al}) &=  \frac{0.626}{1.410} \times 100\%
+                    =   \boxed{44.4\%\,\ce{Al}}\\
+                MP(\ce{Cu}) &=  \left( 1 - \frac{0.626}{1.410} \right) \times 100\%
+                    =   \boxed{55.6\%\,\ce{Cu}}
+            \end{align}
+
+    % \pagebreak
+    % \section{Topic A Problem 22}
+    %     A chemist has a mixture of \ce{AgNO3} and \ce{KNO3} that weighs a total of 4.177 g. 
+    %     The chemist dissolves the mixture in water and then adds a solution of \ce{NaOH}. 
+    %     The AgNO3 reacts with the \ce{NaOH} as follows:
+    %     \begin{equation}
+    %         \ce{2 AgNO3(aq) + 2 NaOH(aq) -> Ag2O(s) + 2 NaNO3(aq) + H2O(l)}
+    %     \end{equation}
+    %     The chemist finds that 1.080 grams of \ce{Ag2O} were formed. 
+    %     Calculate the mass percentages of \ce{AgNO3} and \ce{KNO3} in the original mixture. 
+    %     (Note that \ce{KNO3} does not react with \ce{NaOH}.)
+
+    %     \subsection{Solution}
+
+    % \pagebreak
+    % \section{Topic A Problem 23}
+    %     A 25.000 g sample of sulfur is burned. 
+    %     Some of the sulfur reacts to form \ce{SO2}:
+    %     \begin{equation}
+    %         \ce{S + O2 -> SO2}
+    %     \end{equation}
+    %     The rest of the sulfur reacts to form \ce{SO3}:
+    %     \begin{equation}
+    %         \ce{2 S + 3 O2 -> 2 SO3}
+    %     \end{equation}
+    %     The total mass of products (\ce{SO2} and \ce{SO3}) is 58.723 g. 
+    %     Calculate the masses of \ce{SO2} and \ce{SO3} in this mixture.
+
+    %     \subsection{Solution}
 
     \pagebreak
-    \section{Topic A Problem 22}
-        A chemist has a mixture of \ce{AgNO3} and \ce{KNO3} that weighs a total of 4.177 g. 
-        The chemist dissolves the mixture in water and then adds a solution of \ce{NaOH}. 
-        The AgNO3 reacts with the \ce{NaOH} as follows:
-        \begin{equation}
-            \ce{2 AgNO3(aq) + 2 NaOH(aq) -> Ag2O(s) + 2 NaNO3(aq) + H2O(l)}
-        \end{equation}
-        The chemist finds that 1.080 grams of \ce{Ag2O} were formed. 
-        Calculate the mass percentages of \ce{AgNO3} and \ce{KNO3} in the original mixture. 
-        (Note that \ce{KNO3} does not react with \ce{NaOH}.)
+    \section{Topic B Problem 1}
+        Answer each of the following questions about making solutions.\\
+        a) If you dissolve 4.18 g of solid \ce{Mg(NO3)2} in enough water to make 150 mL of solution, what will be the molarity of the resulting solution?\\
+        b) If you need to make 100 mL of 1.08 M \ce{CaCl2}, what mass of solid CaCl2 will you need?\\
+        c) You have 25.0 g of solid \ce{KCl}, and you use all of it to make a 0.500 M \ce{KCl} solution. 
+        What volume of solution did you make?
+
+        \subsection{Solution (a)}
+            \begin{equation}
+                \left[ \ce{Mg(NO3)2} \right]   =   \frac{m}{V}
+                    =   \frac{4.18\,\unit{\gram}}{0.150\,\unit{\liter}}
+                    =   \boxed{27.9\,\unit{\molarity}\,\ce{Mg(NO3)2}}
+            \end{equation}
+
+        \subsection{Solution (b)}
+            \begin{equation}
+                m   =   V * \left[ \ce{CaCl2} \right]
+                    =   0.100\,\unit{\liter} * 1.08\,\unit{\molarity}\,\ce{CaCl2}
+                    =   \boxed{0.108\,\unit{\gram}\,\ce{CaCl2}}
+            \end{equation}
+
+    \pagebreak
+    \section{Topic B Problem 2}
+        Answer the following questions about dilutions.\\
+        a) If you add 100 mL of water to 10 mL of 0.605 M \ce{HCl}, what will be the molarity of the resulting solution?\\
+        b) You have 200 mL of 1.50 M \ce{HNO3}. 
+        If you wish to dilute this solution to a final concentration of 0.300 M, what volume of water should you add?\\
+        c) You need to make 1.50 liters of 0.400 M \ce{NaOH} by diluting a 2.00 M \ce{NaOH} solution. 
+        What volume of the 2.00 M \ce{NaOH} should you use, and what volume of water should you add to it?
 
         \subsection{Solution}
 
     \pagebreak
-    \section{Topic A Problem 23}
-        A 25.000 g sample of sulfur is burned. 
-        Some of the sulfur reacts to form \ce{SO2}:
-        \begin{equation}
-            \ce{S + O2 -> SO2}
-        \end{equation}
-        The rest of the sulfur reacts to form \ce{SO3}:
-        \begin{equation}
-            \ce{2 S + 3 O2 -> 2 SO3}
-        \end{equation}
-        The total mass of products (\ce{SO2} and \ce{SO3}) is 58.723 g. 
-        Calculate the masses of \ce{SO2} and \ce{SO3} in this mixture.
-
+    \section{Topic B Problem 3}
+        All of the compounds below dissolve in water. 
+        Which of them are strong electrolytes, which are weak electrolytes, and which are nonelectrolytes?
+        \begin{multicols}{4}
+            \begin{enumerate}[label=\alph*)]
+                \item   \ce{NaCl}
+                \item   \ce{Mg(NO3)2}
+                \item   \ce{HClO2}
+                \item   \ce{MgCrO4}
+                \item   \ce{H3PO4}
+                \item   \ce{AgF}
+                \item   \ce{C2H5OH}
+                \item   \ce{HC3H5O3}
+                \item   \ce{CH3CN}
+                \item   \ce{H2SO4}
+                \item   \ce{NH4Br}
+                \item   \ce{(CH3)2CO}
+            \end{enumerate}
+        \end{multicols}
         \subsection{Solution}
-
-    % \pagebreak
-    % \section{Topic B Problem 1}
-    %     Answer each of the following questions about making solutions.\\
-    %     a) If you dissolve 4.18 g of solid \ce{Mg(NO3)2} in enough water to make 150 mL of solution, what will be the molarity of the resulting solution?\\
-    %     b) If you need to make 100 mL of 1.08 M \ce{CaCl2}, what mass of solid CaCl2 will you need?\\
-    %     c) You have 25.0 g of solid \ce{KCl}, and you use all of it to make a 0.500 M \ce{KCl} solution. 
-    %     What volume of solution did you make?
-
-    %     \subsection{Solution}
-
-    % \pagebreak
-    % \section{Topic B Problem 2}
-    %     Answer the following questions about dilutions.\\
-    %     a) If you add 100 mL of water to 10 mL of 0.605 M \ce{HCl}, what will be the molarity of the resulting solution?\\
-    %     b) You have 200 mL of 1.50 M \ce{HNO3}. 
-    %     If you wish to dilute this solution to a final concentration of 0.300 M, what volume of water should you add?\\
-    %     c) You need to make 1.50 liters of 0.400 M \ce{NaOH} by diluting a 2.00 M \ce{NaOH} solution. 
-    %     What volume of the 2.00 M \ce{NaOH} should you use, and what volume of water should you add to it?
-
-    %     \subsection{Solution}
-
-    % \pagebreak
-    % \section{Topic B Problem 3}
-    %     All of the compounds below dissolve in water. 
-    %     Which of them are strong electrolytes, which are weak electrolytes, and which are nonelectrolytes?
-    %     \begin{multicols}{4}
-    %         \begin{enumerate}[label=\alph*)]
-    %             \item   \ce{NaCl}
-    %             \item   \ce{Mg(NO3)2}
-    %             \item   \ce{HClO2}
-    %             \item   \ce{MgCrO4}
-    %             \item   \ce{H3PO4}
-    %             \item   \ce{AgF}
-    %             \item   \ce{C2H5OH}
-    %             \item   \ce{HC3H5O3}
-    %             \item   \ce{CH3CN}
-    %             \item   \ce{H2SO4}
-    %             \item   \ce{NH4Br}
-    %             \item   \ce{(CH3)2CO}
-    %         \end{enumerate}
-    %     \end{multicols}
-    %     \subsection{Solution}
 
     % \pagebreak
     % \section{Topic B Problem 4}
