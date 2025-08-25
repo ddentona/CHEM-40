@@ -212,7 +212,122 @@
         How many moles of \ce{C2H6} must have been present originally, assuming the reaction went to completion? 
         Include an ICE table in your answer.
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            \begin{center}
+                \begin{tabular}{| c | c |c| c |c| c |c| c |}
+                    \hline
+                    \multicolumn{1}{|c|}{\unit{\mole}}  &   \multicolumn{1}{c}{\ce{2 C2H6}} &\multicolumn{1}{c}{+}& \multicolumn{1}{c}{\ce{7 O2}}   &\multicolumn{1}{c}{\ce{->}}&   \multicolumn{1}{c}{\ce{4 CO2}}  &\multicolumn{1}{c}{+}& \multicolumn{1}{c|}{\ce{6 H2O}}
+                    \\  \hline
+                    I   &   5               &&  13  &&  0               &&  0
+                    \\  \hline
+                    C   &   $-\frac{26}{7}$ &&  -13 &&  $\frac{52}{7}$  &&  $\frac{78}{7}$
+                    \\  \hline
+                    E   &   $\frac{9}{7}$   &&  0   &&  $\frac{52}{7}$  &&  $\frac{78}{7}$
+                    \\  \hline
+                \end{tabular}
+            \end{center}
+
+            You will end up with \boxed{1.286\,\unit{\mole}\,\ce{C2H6}}, \boxed{0\,\unit{\mole}\,\ce{O2}}, \boxed{7.429,\unit{\mole}\,\ce{CO2}}, and \boxed{11.143\,\unit{\mole}\,\ce{H2O}}. 
+
+        \subsection{Solution (b)}
+            \begin{center}
+                \begin{tabular}{| c | c |c| c |c| c |c| c |}
+                    \hline
+                    \multicolumn{1}{|c|}{\unit{\mole}}  &   \multicolumn{1}{c}{\ce{2 C2H6}} &\multicolumn{1}{c}{+}& \multicolumn{1}{c}{\ce{7 O2}}   &\multicolumn{1}{c}{\ce{->}}&   \multicolumn{1}{c}{\ce{4 CO2}}  &\multicolumn{1}{c}{+}& \multicolumn{1}{c|}{\ce{6 H2O}}
+                    \\  \hline
+                    I   &   2.708   &&  6.081   &&  0       &&  0
+                    \\  \hline
+                    C   &   -1.737  &&  -6.081  &&  3.475   &&  5.212
+                    \\  \hline
+                    E   &   0.971   &&  0       &&  3.475   &&  5.212
+                    \\  \hline
+                \end{tabular}
+
+                \textbf{Final table}
+            \end{center}
+
+            \textbf{Calculations}
+
+            Convert grams to moles for oxygen and ethane.
+            \begin{align}
+                n(\ce{O2})  &=  \frac{m}{MM}
+                    =   \frac{194.60\,\unit{\gram}\,\ce{O2}}{32.00\,\unit{\gram/\mole}}
+                    =   6.08125\,\unit{\mole}\,\ce{O2}\\
+                n(\ce{C2H6})    &=  \frac{m}{MM}
+                    =   \frac{81.43\,\unit{\gram}\,\ce{C2H6}}{30.068\,\unit{\gram/\mole}}
+                    =   2.708194759\,\unit{\mole}\,\ce{C2H6}
+            \end{align}
+
+            Next, we check which would result in the most product, for the coefficient $c$ of each reactant.
+            \begin{align}
+                ML  &=  \frac{n}{c}\\
+                ML(\ce{O2})     &=  \frac{6.08125\,\unit{\mole}\,\ce{O2}}{7\,\ce{O2}}
+                    =   0.86875\,\unit{\mole}\\
+                ML(\ce{C2H6})   &=  \frac{2.708194759\,\unit{\mole}\,\ce{C2H6}}{2\,\ce{C2H6}}
+                    =   1.357\,\unit{\mole}
+            \end{align}
+
+            This makes the \ce{O2} the limiting reactant.
+            We can just fill out the ICE table's `C' (change) values from here by using ratios of coefficients of reactants and products.
+            I won't go write all my calculations here, but they tend to have a simple formula.
+            \begin{equation}
+                n_2 =   n_1 * \frac{c_2}{c_1}
+            \end{equation}
+
+            This leads into the filling out of the bottom row (end), with a simple formula, E = I + C.
+            From here, all we need to do is convert moles to grams.
+            \begin{align}
+                MM(\ce{C2H6})   &=  2 * 12.01\,\unit{\gram/\mole} + 6 * 1.008\,\unit{\gram/\mole}
+                    =   30.068\,\unit{\gram/\mole}\\
+                MM(\ce{O2})     &=  2 * 16.00\,\unit{\gram/\mole}
+                    =   32.00\,\unit{\gram/\mole}\\
+                MM(\ce{CO2})    &=  12.01 + 2 * 16.00\,\unit{\gram/\mole}
+                    =   44.01\,\unit{\gram/\mole}\\
+                MM(\ce{H2O})    &=  2 * 1.008\,\unit{\gram/\mole} + 16.00\,\unit{\gram/\mole}
+                    =   18.016\,\unit{\gram/\mole}\\
+                m   &=  MM * n\\
+                m(\ce{C2H6})    &=  30.068\,\unit{\gram/\mole}\,\ce{C2H6} * 0.971\,\unit{\mole}
+                    =   \boxed{29.20\,\unit{\gram}\,\ce{C2H6}}\\
+                m(\ce{O2})      &=  32.00\,\unit{\gram/\mole}\,\ce{O2} * 0\,\unit{\mole}
+                    =   \boxed{0\,\unit{\gram}\,\ce{O2}}\\
+                m(\ce{CO2})     &=  44.01\,\unit{\gram/\mole}\,\ce{CO2} * 3.475\,\unit{\mole}
+                    =   \boxed{152.9\,\unit{\gram}\,\ce{CO2}}\\
+                m(\ce{H2O})     &=  18.016\,\unit{\gram/\mole}\,\ce{H2O} * 5.212\,\unit{\mole}
+                    =   \boxed{93.90\,\unit{\gram}\,\ce{H2O}}
+            \end{align}
+
+        \subsection{Solution (c)}
+            We'll just put together an ICE table and fill it out until we have enough information to get the answer.
+            We don't even need to fill it out completely.
+            \begin{center}
+                \begin{tabular}{| c | c |c| c |c| c |c| c |}
+                    \hline
+                    \multicolumn{1}{|c|}{\unit{\mole}}  &   \multicolumn{1}{c}{\ce{2 C2H6}} &\multicolumn{1}{c}{+}& \multicolumn{1}{c}{\ce{7 O2}}   &\multicolumn{1}{c}{\ce{->}}&   \multicolumn{1}{c}{\ce{4 CO2}}  &\multicolumn{1}{c}{+}& \multicolumn{1}{c|}{\ce{6 H2O}}
+                    \\  \hline
+                    I   &   0.502   &&  3.414   &&  0       &&  0
+                    \\  \hline
+                    C   &   -0.502  &&  -1.757  &&          &&  
+                    \\  \hline
+                    E   &   0       &&  1.657   &&          &&  
+                    \\  \hline
+                \end{tabular}
+            \end{center}
+
+            I have a few steps I made for this.
+            \begin{enumerate}
+                \item   We can start by filling out our knowns. 
+                In the interest of candor, we don't even know if the initial amount of \ce{CO2} and \ce{H2O} is 0, that's just an assumption I made.
+                \item   Since the \ce{O2} has some left over at the end, it is definitely not the limiting reactant.
+                That makes \ce{C2H6} the limiting reactant, so none of it should be left by the end and we can fill that out.
+                \item   The formula of C = E - I can be applied for Oxygen, giving us our change in \ce{O2}.
+                \begin{itemize}
+                    \item   If you ever took Physics or Calculus (maybe even Algebra), you'll recognize this as equivalent to $\Delta x = x_f - x_i$. 
+                \end{itemize}
+                \item   We can use the coefficient ratio mentioned in part (b), this time $\frac{2}{7}$, for the change in \ce{C2H6}.
+                \item   The formula C = E - I can be turned into I = E - C to get initial quantity of \ce{C2H6}.
+            \end{enumerate}
+
+            With everything filled out, we have the final answer of \boxed{0.502\,\unit{\mole}\,\ce{C2H6}}.
 
     \pagebreak
     \section{Topic A Problem 19}

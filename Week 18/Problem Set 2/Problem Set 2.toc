@@ -16,14 +16,16 @@
 \contentsline {section}{\numberline {6}Topic A Problem 17}{8}{}%
 \contentsline {subsection}{\numberline {6.1}Solution}{8}{}%
 \contentsline {section}{\numberline {7}Topic A Problem 18}{9}{}%
-\contentsline {subsection}{\numberline {7.1}Solution}{9}{}%
-\contentsline {section}{\numberline {8}Topic A Problem 19}{10}{}%
-\contentsline {subsection}{\numberline {8.1}Solution}{10}{}%
-\contentsline {section}{\numberline {9}Topic A Problem 20}{11}{}%
-\contentsline {subsection}{\numberline {9.1}Solution}{11}{}%
-\contentsline {section}{\numberline {10}Topic A Problem 21}{12}{}%
-\contentsline {subsection}{\numberline {10.1}Solution}{12}{}%
-\contentsline {section}{\numberline {11}Topic A Problem 22}{13}{}%
-\contentsline {subsection}{\numberline {11.1}Solution}{13}{}%
-\contentsline {section}{\numberline {12}Topic A Problem 23}{14}{}%
-\contentsline {subsection}{\numberline {12.1}Solution}{14}{}%
+\contentsline {subsection}{\numberline {7.1}Solution (a)}{9}{}%
+\contentsline {subsection}{\numberline {7.2}Solution (b)}{9}{}%
+\contentsline {subsection}{\numberline {7.3}Solution (c)}{10}{}%
+\contentsline {section}{\numberline {8}Topic A Problem 19}{12}{}%
+\contentsline {subsection}{\numberline {8.1}Solution}{12}{}%
+\contentsline {section}{\numberline {9}Topic A Problem 20}{13}{}%
+\contentsline {subsection}{\numberline {9.1}Solution}{13}{}%
+\contentsline {section}{\numberline {10}Topic A Problem 21}{14}{}%
+\contentsline {subsection}{\numberline {10.1}Solution}{14}{}%
+\contentsline {section}{\numberline {11}Topic A Problem 22}{15}{}%
+\contentsline {subsection}{\numberline {11.1}Solution}{15}{}%
+\contentsline {section}{\numberline {12}Topic A Problem 23}{16}{}%
+\contentsline {subsection}{\numberline {12.1}Solution}{16}{}%
