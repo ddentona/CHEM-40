@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1756172524.80094 "c:/Users/ddent/OneDrive/Documents/CCSF/CHEM-40/Week 18/Problem Set 2/Problem Set 2.tex" "Problem Set 2.pdf" "Problem Set 2" 1756172539.85987 0
+["pdflatex"] 1756178416.58288 "c:/Users/ddent/OneDrive/Documents/CCSF/CHEM-40/Week 18/Problem Set 2/Problem Set 2.tex" "Problem Set 2.pdf" "Problem Set 2" 1756178433.36991 0
   "C:/Users/ddent/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755353727 151629 65cd6e1296beda1feb8e616e59f2da55 ""
   "C:/Users/ddent/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1745290926 11548 bd2ebe0534d4572809355ccc78e5dd26 ""
   "C:/Users/ddent/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1724473854 24225046 9a86b7f1ef10f5afb0aa895fddb2583f ""
@@ -35,6 +35,7 @@
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb" 1247596653 11493 4f5ed183a47d3197cf8cd322325db6de ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1643997108 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.sty" 1575399508 8356 7bbb2c2373aa810be568c29e333da8ed ""
@@ -48,6 +49,7 @@
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty" 1686931788 2444 0d0c1ee65478277e8015d65b86983da2 ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1705273579 20144 147463a6a579f4597269ef9565205cfe ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1705273578 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/cancel/cancel.sty" 1388370247 7592 dd751af313a16a0308545d5bfd7aaaa2 ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/chemgreek/chemgreek.sty" 1579207476 47530 64600845afa9c25b782d42fa33f66772 ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty" 1738917170 52272 63d293bc0d496619edb57585740861a2 ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
@@ -70,10 +72,10 @@
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1700599895 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1644048522 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "C:/Users/ddent/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
-  "Problem Set 2.aux" 1756172539 5616 02888d74b2ccf6ac7fec6161812cd0a4 "pdflatex"
-  "Problem Set 2.tex" 1756172524 40566 e1ecdadbd8438dfc2dc97e74085dcca6 ""
-  "Problem Set 2.toc" 1756172539 3410 6162d156c033fcb12a0c4a18e8f08325 "pdflatex"
-  "c:/Users/ddent/OneDrive/Documents/CCSF/CHEM-40/Week 18/Problem Set 2/Problem Set 2.tex" 1756172524 40566 e1ecdadbd8438dfc2dc97e74085dcca6 ""
+  "Problem Set 2.aux" 1756178433 5616 02888d74b2ccf6ac7fec6161812cd0a4 "pdflatex"
+  "Problem Set 2.tex" 1756178415 44397 7e2cbaf2670ef6b6503bee50fdb30fce ""
+  "Problem Set 2.toc" 1756178433 3410 6162d156c033fcb12a0c4a18e8f08325 "pdflatex"
+  "c:/Users/ddent/OneDrive/Documents/CCSF/CHEM-40/Week 18/Problem Set 2/Problem Set 2.tex" 1756178415 44397 7e2cbaf2670ef6b6503bee50fdb30fce ""
   (generated)
   "Problem Set 2.aux"
   "Problem Set 2.log"

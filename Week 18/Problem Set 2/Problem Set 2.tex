@@ -1,5 +1,6 @@
 \documentclass[10pt]{article}
 \usepackage{amsmath}
+\usepackage[makeroom]{cancel}
 \usepackage{enumitem}
 %Load mhchem using some package options
 \usepackage[version=4]{mhchem}
@@ -712,6 +713,23 @@
         How much water did Farid add?
 
         \subsection{Solution}
+            What's in a name? 
+            The name ``Potassium Phosphate'' suggests that the chemical has the formula \ce{K3PO4}.
+            We can convert grams to moles and use that to find the concentration, then use $C_1 V_1 = C_2 V_2$ to find the final amount of water, then subtract the initial volume to find the volume added.
+            \begin{gather}
+                MM(\ce{K3PO4})  =   3 * 39.10 + 30.97 + 4 * 16.00
+                    =   212.27\,\unit{\gram/\mole}\\
+                \left[ \ce{K3PO4} \right]   =   6.50\,\unit{\gram}  \times  \frac{1\,\unit{\mole}}{212.27\,\unit{\gram}}
+                                                                    \times  \frac{1}{0.100\,\unit{\liter}}  \,\ce{K3PO4}
+                    =   0.306\,\unit{\mole/\liter}\\
+                C_1 V_1 =   C_2 V_2\\
+                V_2 =   V_1 \frac{C_1}{C_2}
+                    =   0.1 \times \frac{0.306}{0.250}
+                    =   0.12249\,\unit{\liter}\\
+                \Delta V    =   V_2 - V_1
+                    =   0.122495 - 0.100
+                    =   \xcancel{\boxed{0.022\,\unit{\liter}}}
+            \end{gather}
 
     \pagebreak
     \section{Topic B Problem 8}
@@ -720,6 +738,29 @@
         Assuming that the solution volume does not change significantly, what mass of \ce{Al(NO3)3} did Marciela add?
 
         \subsection{Solution}
+            First calculate the molarity of \ce{NO3}.
+            \begin{align}
+                MM(\ce{Mg(NO3)2})    &=  24.31 + 2 * 14.01 + 6 * 16.00\\
+                    &=  148.33\,\unit{\gram/\mole}\,\ce{Mg(NO3)2}\\
+                MM(\ce{Al(NO3)2})    &=  26.98 + 3 * 14.01 + 9 * 16.00\\
+                    &=  213.01\,\unit{\gram/\mole}\,\ce{Al(NO3)2}\\
+                \left[ \ce{Mg(NO3)2} \right]    &=  8.213   \times  \frac{1\,\unit{\mole}}{148.33\,\unit{\gram}}
+                                                            \times  \frac{1}{0.2000\,\unit{\liter}}\\
+                    &=  0.2768\,\unit{\M}\,\ce{Mg(NO3)2}\\
+                \left[ \ce{NO3} \right]_i   &=  2 * 0.2768\,\unit{\M}
+                    =   0.5537\,\unit{\M}\,\ce{NO3}
+            \end{align}
+
+            This means that the added molarity is $0.3463\,\unit{\M}\,\ce{NO3}$, which makes the molarity of \ce{Al(NO3)3} to be $0.3463\,\unit{\M}\,\ce{NO3} \times \frac{1}{3} = 0.1154\,\unit{\M}\,\ce{Al(NO3)3}$.
+            Multiply this by the volume to get the number of moles of \ce{Al(NO3)3} added.
+            This can be used with the molar mass to find the mass of \ce{Al(NO3)3} used.
+            \begin{align}
+                m(\ce{Al(NO3)3})    &=  MM(\ce{Al(NO3)3}) * \left[ \ce{Al(NO3)3} \right] * V\\
+                    &=  213.01\,\unit{\gram/\mole}\,\ce{Al(NO3)2} \times 0.1154\,\unit{\M}\,\ce{Al(NO3)3} \times 0.2000\,\unit{\liter}\\
+                    &=  4.918\,\unit{\gram}
+            \end{align}
+
+            This means that Marciela added \boxed{4.918\,\unit{\gram}}.
 
     \pagebreak
     \section{Topic B Problem 9}
@@ -727,6 +768,26 @@
         What is the molarity of chloride ions in this solution?
 
         \subsection{Solution}
+            Find the number of moles of \ce{Cl} from each chemical and sum them together.
+            \begin{align}
+                MM(\ce{NaCl})   &=  22.99 + 35.45   =   58.44\,\unit{\gram/\mole}
+                \\
+                MM(\ce{CaCl2})  &=  40.08 + 2 * 35.45   =   110.98\,\unit{\gram/\mole}
+                \\
+                MM(\ce{FeCl3})  &=  55.85 + 3 * 35.45   =   162.2\,\unit{\gram/\mole}
+                \\
+                n(\ce{Cl-}) &=  \sum \frac{c_i m_i}{MM}
+                    =   \frac{2.35}{58.44} + \frac{2 * 3.12}{110.98} + \frac{3 * 1.88}{162.2}\\
+                    &=  0.0402 + 0.0562 + 0.0348
+                    =   0.1312\,\unit{mole}\,\ce{Cl-}
+            \end{align}
+
+            This can be divided by the volume to get the molarity.
+            \begin{align}
+                \left[ \ce{Cl-} \right] &=  \frac{n}{V}
+                    =   \frac{0.1312\,\unit{mole}\,\ce{Cl-}}{0.175\,\unit{\liter}}
+                    =   \boxed{0.750\,\unit{\molarity}\,\ce{Cl-}}
+            \end{align}
 
     \pagebreak
     \section{Topic B Problem 10}
