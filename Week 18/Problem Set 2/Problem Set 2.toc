@@ -50,4 +50,11 @@
 \contentsline {section}{\numberline {19}Topic B Problem 9}{25}{}%
 \contentsline {subsection}{\numberline {19.1}Solution}{25}{}%
 \contentsline {section}{\numberline {20}Topic B Problem 10}{26}{}%
-\contentsline {subsection}{\numberline {20.1}Solution}{26}{}%
+\contentsline {subsection}{\numberline {20.1}Solution (a)}{26}{}%
+\contentsline {subsection}{\numberline {20.2}Solution (b)}{26}{}%
+\contentsline {section}{\numberline {21}Topic B Problem 11}{27}{}%
+\contentsline {subsection}{\numberline {21.1}Solution (a)}{27}{}%
+\contentsline {subsection}{\numberline {21.2}Solution (b)}{27}{}%
+\contentsline {subsection}{\numberline {21.3}Solution (c)}{27}{}%
+\contentsline {section}{\numberline {22}Topic B Problem 12}{28}{}%
+\contentsline {subsection}{\numberline {22.1}Solution}{28}{}%
