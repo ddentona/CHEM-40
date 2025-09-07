@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}Topic C Problem R-1}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Solution}{2}{}%
+\contentsline {section}{\numberline {2}Topic C Problem R-2}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Solution}{3}{}%
+\contentsline {section}{\numberline {3}Topic C Problem R-3}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Solution}{4}{}%
+\contentsline {section}{\numberline {4}Topic C Problem R-4}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Solution}{5}{}%
+\contentsline {section}{\numberline {5}Topic C Problem R-5}{6}{}%
+\contentsline {subsection}{\numberline {5.1}Solution}{6}{}%
+\contentsline {section}{\numberline {6}Topic C Problem 1}{7}{}%
+\contentsline {subsection}{\numberline {6.1}Solution}{7}{}%
+\contentsline {section}{\numberline {7}Topic C Problem 2}{8}{}%
+\contentsline {subsection}{\numberline {7.1}Solution}{8}{}%
+\contentsline {section}{\numberline {8}Topic C Problem 3}{9}{}%
+\contentsline {subsection}{\numberline {8.1}Solution}{9}{}%
+\contentsline {section}{\numberline {9}Topic C Problem 4}{10}{}%
+\contentsline {subsection}{\numberline {9.1}Solution}{10}{}%
+\contentsline {section}{\numberline {10}Topic C Problem 5}{11}{}%
+\contentsline {subsection}{\numberline {10.1}Solution}{11}{}%
+\contentsline {section}{\numberline {11}Topic C Problem 6}{12}{}%
+\contentsline {subsection}{\numberline {11.1}Solution}{12}{}%
+\contentsline {section}{\numberline {12}Topic C Problem 7}{13}{}%
+\contentsline {subsection}{\numberline {12.1}Solution}{13}{}%
+\contentsline {section}{\numberline {13}Topic C Problem 8}{14}{}%
+\contentsline {subsection}{\numberline {13.1}Solution}{14}{}%
+\contentsline {section}{\numberline {14}Topic C Problem 9}{15}{}%
+\contentsline {subsection}{\numberline {14.1}Solution}{15}{}%
