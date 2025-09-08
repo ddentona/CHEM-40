@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1757277563.50521 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 20/Problem Set 4/Problem Set 4.tex" "Problem Set 4.pdf" "Problem Set 4" 1757277565.13313 0
-  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 20/Problem Set 4/Problem Set 4.tex" 1757277563.3066 9291 7089b8e19e395ac220d63fea76ed17de ""
+["pdflatex"] 1757295175.46179 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 20/Problem Set 4/Problem Set 4.tex" "Problem Set 4.pdf" "Problem Set 4" 1757295177.13683 0
+  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 20/Problem Set 4/Problem Set 4.tex" 1757295175.19568 9152 da9ff1edf019845104a7566d7e5647bd ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -94,9 +94,9 @@
   "Answers Images/answer_C_R-3.jpg" 1757272041.55921 268986 bc1d9ae0ddd2ce99c59a13cac15550ec ""
   "Answers Images/answer_C_R-4.jpg" 1757271993.7134 293272 dfee0884c87fa5a56b1a2da02875d9ee ""
   "Answers Images/answer_C_R-5.jpg" 1757272116.73337 170616 88020b1e3ea0c075d09694eae08af459 ""
-  "Problem Set 4.aux" 1757277565.08918 2986 dd1171e7609555d332508b280a8b956e "pdflatex"
-  "Problem Set 4.tex" 1757277563.3066 9291 7089b8e19e395ac220d63fea76ed17de ""
-  "Problem Set 4.toc" 1757277565.08965 1768 b13177c270955a7d6f465b6d13abac95 "pdflatex"
+  "Problem Set 4.aux" 1757295177.08815 2986 dd1171e7609555d332508b280a8b956e "pdflatex"
+  "Problem Set 4.tex" 1757295175.19568 9152 da9ff1edf019845104a7566d7e5647bd ""
+  "Problem Set 4.toc" 1757295177.08862 1768 b13177c270955a7d6f465b6d13abac95 "pdflatex"
   "picture_C-5.png" 1757195305.38012 15767 6d98fc56f20f7de0b81ecfbeb53e44c2 ""
   "picture_C-8.png" 1757197414.2062 16019 b4588a942d93124f42bdbc3972b9aa80 ""
   "picture_C-9.png" 1757197482.43157 15625 df801590395b1bf1c2baef6f13fcac60 ""
