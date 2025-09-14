@@ -120,14 +120,23 @@
         
         Container 1: \ce{CH4} at 0\unit{\celsius}, 1 atm 
         
-        Container 2: C2H6 at 0\unit{\celsius}, 1 atm
+        Container 2: \ce{C2H6} at 0\unit{\celsius}, 1 atm
 
         \begin{enumerate} [label=\alph*)]
             \item Which gas has a larger fraction of molecules with kinetic energies greater than 5000 J/mol? Explain how you can tell.
             \item Which gas has a larger fraction of molecules with speeds less than 500 m/sec? Explain how you can tell.
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            KE is only proportional to the temperature.
+            If the temperature is identical for both, roughly an equal fraction of each would have a kinetic energy greater than 5000\,\unit{\joule/\mole}. 
+            The answer is \boxed{\rm neither}. 
+
+        \subsection{Solution (b)}
+            Velocity is inversely proportional to the molar mass.
+            \ce{C2H6} inevitably has a higher molar mass.
+            This means it will have lower general velocity and more velocity below a certain value.
+            The answer is \boxed{\ce{C2H6}}. 
 
     \pagebreak
     \section{Topic C Problem 18}
@@ -142,7 +151,38 @@
             \item Which gas has a larger fraction of molecules with speeds above 500 m/sec? Explain how you can tell.
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            When considering these differences, I tend to consider the formulas for either the average or most probable kinetic energies and/or velocities.
+            I'll stick with kinetic energy here, specifically the most probable.
+            \begin{equation}
+                \rm
+                KE_{\rm mp} = \frac{1}{2}RT
+            \end{equation}
+
+            This says that kinetic energy is directly proportional to temperature. 
+            This means that the one with lower temperature will have more data lower.
+            Since we are looking for the gas with a larger fraction of molecules \textit{lower} than the target value, the one with the lower MP value (and the lower temperature) would have more molecules less than that value.
+            That would be \boxed{\text{Ar}}. 
+
+        \subsection{Solution (b)}
+            Just find the one with the higher most probable or average velocity.
+            Both are proportional (not directly but not inversely) to the fraction of $\frac{T}{MM}$. 
+            We can calculate that for both.
+            \begin{align}
+                MM(\ce{Ar}) &=  39.95\,\unit{\gram/\mole}\\
+                MM(\ce{CO2})&=  12.01 + 2 * 16.00
+                    =   44.01\,\unit{\gram/\mole}\\
+                T_{\ce{Ar}} &=  100\unit{\celsius} + 273.15\unit{\kelvin}
+                    =   373.15\unit{\kelvin}\\
+                T_{\ce{CO2}}&=  125\unit{\celsius} + 273.15\unit{\kelvin}
+                    =   398.15\unit{\kelvin}\\
+                \frac{T_{\ce{Ar}}}{MM(\ce{Ar})} &=  \frac{373.15\unit{\kelvin}}{39.95\,\unit{\gram/\mole}}
+                    \approx 9.34\,\unit{\frac{\kelvin\cdot\mole}{\gram}}\\
+                \frac{T_{\ce{CO2}}}{MM(\ce{CO2})}   &=  \frac{398.15\unit{\kelvin}}{44.01\,\unit{\gram/\mole}}
+                    \approx 9.05\,\unit{\frac{\kelvin\cdot\mole}{\gram}}
+            \end{align}
+
+            Since the value for \ce{Ar} is greater, its velocity would be greter and the answer would be \boxed{\text{Ar}}. 
 
     \pagebreak
     \section{Topic C Problem 19}
