@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1757820952.88075 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 21/Problem Set 5/Problem Set 5.tex" "Problem Set 5.pdf" "Problem Set 5" 1757820954.80532 0
-  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 21/Problem Set 5/Problem Set 5.tex" 1757820952.64203 22305 d3db62de8f4f2a3d0d2015081c821bfd ""
+["pdflatex"] 1757881438.39332 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 21/Problem Set 5/Problem Set 5.tex" "Problem Set 5.pdf" "Problem Set 5" 1757881440.35326 0
+  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 21/Problem Set 5/Problem Set 5.tex" 1757881437.05358 23239 62224f9e3a4a66fa8b8381ca92fc7193 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -87,9 +87,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1727305248.69286 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727305230 8221424 9bdbcc07e109911bb30a75dc8990d89e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Problem Set 5.aux" 1757820954.7519 4842 b1354f6bf3be1740b00387716c62c5c3 "pdflatex"
-  "Problem Set 5.tex" 1757820952.64203 22305 d3db62de8f4f2a3d0d2015081c821bfd ""
-  "Problem Set 5.toc" 1757820954.75248 2927 b8e162883cd2224c77cba8546bc06fbb "pdflatex"
+  "Problem Set 5.aux" 1757881440.3042 5167 62f903680665dacde593fbc9dcd38cec "pdflatex"
+  "Problem Set 5.tex" 1757881437.05358 23239 62224f9e3a4a66fa8b8381ca92fc7193 ""
+  "Problem Set 5.toc" 1757881440.30495 3129 639db0f8cff5698fb0cd90255e3bcd97 "pdflatex"
   "picture_C-19.png" 1757795501.21472 92265 9be24a1adcba6fc5e0918692e093575e ""
   "picture_C-20.png" 1757795589.56486 41903 5f490d741d14f317a9bd275cc8ebb261 ""
   "picture_C-21.png" 1757795628.12319 43711 ff929498c7210e1e7476095178bd7049 ""
