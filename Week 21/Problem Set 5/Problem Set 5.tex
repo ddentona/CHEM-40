@@ -81,19 +81,32 @@
         Container 2: \ce{NO2(g)} at 0\unit{\celsius}, 700 torr
         \begin{enumerate} [label=\alph*)]
             \item Which gas has the higher rms speed? Explain how you can tell.
-            \item Which gas has the higher KEmp (most probable kinetic energy)? Explain.
+            \item Which gas has the higher KE$_{\rm mp}$ (most probable kinetic energy)? Explain.
             \item Which gas weighs more? Explain how you can tell.
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            \ce{NO2} has a higher molar mass than \ce{N2O}. 
+            rms speed is inversely proportional to molar mass.
+            This means that \ce{NO2} has a lower rms speed and \boxed{\ce{N2O}} has a higher rms speed.
+
+        \subsection{Solution (b)}
+            Most probable Kinetic Energy is directly proportional to temperature and a few constants. 
+            Since the two containers have the same temperature, they have the same most probable Kinetic Energy. 
+            The answer is \boxed{\text{neither}}. 
+
+        \subsection{Solution (c)}
+            From our Ideal Gas Law, we have identical values of P, V, R, and T. 
+            This means that the number of moles is identical. 
+            Since the number of moles is identical and the \ce{NO2} has greater molar mass, the \boxed{\ce{NO2}} in turn has more mass. 
 
     \pagebreak
     \section{Topic C Problem 15}
         Two identical containers are filled with gases as shown below:
         
-        Container 1: NO2 at 200ºC, 1 atm 
+        Container 1: \ce{NO2} at 200\unit{\celsius}, 1 atm 
         
-        Container 2: NO at 100ºC, 1 atm
+        Container 2: \ce{NO} at 100\unit{\celsius}, 1 atm
         
         \begin{enumerate} [label=\alph*)]
             \item Which gas has the higher average kinetic energy? Explain how you can tell.
@@ -101,7 +114,56 @@
             \item Which gas weighs more? Explain how you can tell.
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            Since average kinetic energy is only relative to temperature and the \ce{NO2} has the higher temperature, the \boxed{\ce{NO2}} would have the higher average kinetic energy. 
+
+        \subsection{Solution (b)}
+            The most probable speed is proportional to the fraction $\sqrt{\frac{T}{MM}}$. 
+            We can calculate the values for this for each container's contents.
+            \begin{align}
+                MM(\ce{NO2})&=  14.01 + 2 * 16.00
+                    =   46.01\,\unit{\gram/\mole}\\
+                MM(\ce{NO}) &=  14.01 + 16.00
+                    =   30.01\,\unit{\gram/\mole}\\
+                T_{\ce{NO2}}&=  200\unit{\celsius} + 273.15\unit{\kelvin}
+                    =   473.15\unit{\kelvin}\\
+                T_{\ce{NO}} &=  100\unit{\celsius} + 273.15\unit{\kelvin}
+                    =   373.15\unit{\kelvin}\\
+                \frac{T_{\ce{NO2}}}{MM(\ce{NO2})}   &=  \frac{473.15\unit{\kelvin}}{46.01\,\unit{\gram/\mole}}
+                    \approx 10.28\,\unit{\frac{\kelvin\cdot\mole}{\gram}}\\
+                \frac{T_{\ce{NO}}}{MM(\ce{NO})} &=  \frac{373.15\unit{\kelvin}}{30.01\,\unit{\gram/\mole}}
+                    \approx 12.43\,\unit{\frac{\kelvin\cdot\mole}{\gram}}
+            \end{align}
+
+            Since the fraction for \ce{NO} is greater than the fraction for \ce{NO2}, the most probable velocity would be higher for the \boxed{\ce{NO}}. 
+
+        \subsection{Solution (c)}
+            The pressure, volume, and temperature are identical. 
+            Our ideal gas law can help us. 
+            \begin{gather}
+                PV  =   nRT \to
+                nT  =   \frac{PV}{R}
+            \end{gather}
+
+            This says that the number of moles is inversely proportional to the temperature for prior constant values.
+            Since the temperature is higher for the \ce{NO2}, that means there are more are more moles of \ce{NO}. 
+            Since mass is directly proportional to moth mole count and molar mass, means we'll be working with relative values.
+            \begin{gather}
+                n_{\ce{NO2}} T_{\ce{NO2}}   =   n_{\ce{NO}} T_{\ce{NO}}\\
+                n_{\ce{NO2}} * 473.15   =   n_{\ce{NO}} * 373.15\\
+                n_{\ce{NO2}} * \frac{473.15}{373.15}    =   n_{\ce{NO}}\\
+                \begin{align}
+                    \ce{NO2}:   
+                        m   &=  MM * n
+                            =   46.01\,\unit{\gram/\mole} * n_{\ce{NO2}}\\
+                    \ce{NO}: 
+                        m   &=  MM * n
+                            =   30.01\,\unit{\gram/\mole} * \frac{473.15}{373.15} * n_{\ce{NO2}}\\
+                            &=  38.05\,\unit{\gram/\mole} * n_{\ce{NO2}}
+                \end{align}
+            \end{gather}
+
+            Given the constant factor of $n_{\ce{NO2}}$, since $46.01 > 38.05$, the \boxed{\ce{NO2}} weighs more. 
 
     \pagebreak
     \section{Topic C Problem 16}
@@ -112,7 +174,19 @@
             \item Raising the temperature of 1 mole of helium by 1\unit{\celsius} requires the same amount of energy as raising the temperature of 1 mole of argon by 1\unit{\celsius}.
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            As more heat is added to a gas, it has more kinetic energy.
+            This makes it move around more and collides more and harder with the borders of its container.
+            This results in more force at any given point per unit area, and resultantly more pressure.
+
+        \subsection{Solution (b)}
+            Gas is constantly moving. 
+            There is enough space and little enough interaction between particles that it can fill a smaller space while the particles would not affect each other more enough to make a difference in the state of the matter.
+
+        \subsection{Solution (c)}
+            Kinetic energy is a measurement of temperature.
+            Objects (including particles) absorb the same amount of kinetic energy when an identical amount of energy is inserted into them.
+            This results in an identical amount of kinetic energy being absorbed by the same number of objects. 
 
     \pagebreak
     \section{Topic C Problem 17}
