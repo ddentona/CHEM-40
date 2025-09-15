@@ -3,54 +3,58 @@
 \contentsline {section}{\numberline {11}Topic C Problem 11}{3}{}%
 \contentsline {subsection}{\numberline {11.1}Solution}{3}{}%
 \contentsline {section}{\numberline {12}Topic C Problem 12}{4}{}%
-\contentsline {subsection}{\numberline {12.1}Solution}{4}{}%
+\contentsline {subsection}{\numberline {12.1}Solution (a)}{4}{}%
+\contentsline {subsection}{\numberline {12.2}Solution (b)}{4}{}%
+\contentsline {subsection}{\numberline {12.3}Solution (c)}{4}{}%
 \contentsline {section}{\numberline {13}Topic C Problem 13}{5}{}%
-\contentsline {subsection}{\numberline {13.1}Solution}{5}{}%
-\contentsline {section}{\numberline {14}Topic C Problem 14}{6}{}%
-\contentsline {subsection}{\numberline {14.1}Solution (a)}{6}{}%
-\contentsline {subsection}{\numberline {14.2}Solution (b)}{6}{}%
-\contentsline {subsection}{\numberline {14.3}Solution (c)}{6}{}%
-\contentsline {section}{\numberline {15}Topic C Problem 15}{7}{}%
-\contentsline {subsection}{\numberline {15.1}Solution (a)}{7}{}%
-\contentsline {subsection}{\numberline {15.2}Solution (b)}{7}{}%
-\contentsline {subsection}{\numberline {15.3}Solution (c)}{7}{}%
-\contentsline {section}{\numberline {16}Topic C Problem 16}{9}{}%
-\contentsline {subsection}{\numberline {16.1}Solution (a)}{9}{}%
-\contentsline {subsection}{\numberline {16.2}Solution (b)}{9}{}%
-\contentsline {subsection}{\numberline {16.3}Solution (c)}{9}{}%
-\contentsline {section}{\numberline {17}Topic C Problem 17}{10}{}%
-\contentsline {subsection}{\numberline {17.1}Solution (a)}{10}{}%
-\contentsline {subsection}{\numberline {17.2}Solution (b)}{10}{}%
-\contentsline {section}{\numberline {18}Topic C Problem 18}{11}{}%
-\contentsline {subsection}{\numberline {18.1}Solution (a)}{11}{}%
-\contentsline {subsection}{\numberline {18.2}Solution (b)}{11}{}%
-\contentsline {section}{\numberline {19}Topic C Problem 19}{12}{}%
-\contentsline {subsection}{\numberline {19.1}Solution (a)}{12}{}%
-\contentsline {subsection}{\numberline {19.2}Solution (b)}{12}{}%
-\contentsline {subsection}{\numberline {19.3}Solution (c)}{12}{}%
-\contentsline {subsection}{\numberline {19.4}Solution (d)}{13}{}%
-\contentsline {section}{\numberline {20}Topic C Problem 20}{14}{}%
-\contentsline {subsection}{\numberline {20.1}Solution (a)}{14}{}%
-\contentsline {subsection}{\numberline {20.2}Solution (b)}{14}{}%
-\contentsline {section}{\numberline {21}Topic C Problem 21}{15}{}%
-\contentsline {subsection}{\numberline {21.1}Solution (a)}{15}{}%
-\contentsline {subsection}{\numberline {21.2}Solution (b)}{16}{}%
-\contentsline {subsection}{\numberline {21.3}Solution (c)}{16}{}%
-\contentsline {section}{\numberline {22}Topic C Problem 22}{17}{}%
-\contentsline {subsection}{\numberline {22.1}Solution (a)}{17}{}%
-\contentsline {subsection}{\numberline {22.2}Solution (b)}{18}{}%
-\contentsline {subsection}{\numberline {22.3}Solution (c)}{18}{}%
-\contentsline {subsection}{\numberline {22.4}Solution (d)}{18}{}%
-\contentsline {subsection}{\numberline {22.5}Solution (e)}{18}{}%
-\contentsline {section}{\numberline {23}Topic C Problem 23}{19}{}%
-\contentsline {subsection}{\numberline {23.1}Solution}{19}{}%
-\contentsline {section}{\numberline {24}Topic C Problem 24}{20}{}%
-\contentsline {subsection}{\numberline {24.1}Solution (a)}{20}{}%
-\contentsline {subsection}{\numberline {24.2}Solution (b)}{20}{}%
-\contentsline {section}{\numberline {25}Topic C Problem 25}{21}{}%
-\contentsline {subsection}{\numberline {25.1}Solution (a)}{21}{}%
-\contentsline {subsection}{\numberline {25.2}Solution (b)}{21}{}%
-\contentsline {subsection}{\numberline {25.3}Solution (c)}{21}{}%
-\contentsline {section}{\numberline {26}Topic C Problem 26}{22}{}%
-\contentsline {subsection}{\numberline {26.1}Solution (a)}{22}{}%
-\contentsline {subsection}{\numberline {26.2}Solution (b)}{22}{}%
+\contentsline {subsection}{\numberline {13.1}Solution (a)}{5}{}%
+\contentsline {subsection}{\numberline {13.2}Solution (b)}{5}{}%
+\contentsline {subsection}{\numberline {13.3}Solution (c)}{6}{}%
+\contentsline {section}{\numberline {14}Topic C Problem 14}{7}{}%
+\contentsline {subsection}{\numberline {14.1}Solution (a)}{7}{}%
+\contentsline {subsection}{\numberline {14.2}Solution (b)}{7}{}%
+\contentsline {subsection}{\numberline {14.3}Solution (c)}{7}{}%
+\contentsline {section}{\numberline {15}Topic C Problem 15}{8}{}%
+\contentsline {subsection}{\numberline {15.1}Solution (a)}{8}{}%
+\contentsline {subsection}{\numberline {15.2}Solution (b)}{8}{}%
+\contentsline {subsection}{\numberline {15.3}Solution (c)}{8}{}%
+\contentsline {section}{\numberline {16}Topic C Problem 16}{10}{}%
+\contentsline {subsection}{\numberline {16.1}Solution (a)}{10}{}%
+\contentsline {subsection}{\numberline {16.2}Solution (b)}{10}{}%
+\contentsline {subsection}{\numberline {16.3}Solution (c)}{10}{}%
+\contentsline {section}{\numberline {17}Topic C Problem 17}{11}{}%
+\contentsline {subsection}{\numberline {17.1}Solution (a)}{11}{}%
+\contentsline {subsection}{\numberline {17.2}Solution (b)}{11}{}%
+\contentsline {section}{\numberline {18}Topic C Problem 18}{12}{}%
+\contentsline {subsection}{\numberline {18.1}Solution (a)}{12}{}%
+\contentsline {subsection}{\numberline {18.2}Solution (b)}{12}{}%
+\contentsline {section}{\numberline {19}Topic C Problem 19}{13}{}%
+\contentsline {subsection}{\numberline {19.1}Solution (a)}{13}{}%
+\contentsline {subsection}{\numberline {19.2}Solution (b)}{13}{}%
+\contentsline {subsection}{\numberline {19.3}Solution (c)}{13}{}%
+\contentsline {subsection}{\numberline {19.4}Solution (d)}{14}{}%
+\contentsline {section}{\numberline {20}Topic C Problem 20}{15}{}%
+\contentsline {subsection}{\numberline {20.1}Solution (a)}{15}{}%
+\contentsline {subsection}{\numberline {20.2}Solution (b)}{15}{}%
+\contentsline {section}{\numberline {21}Topic C Problem 21}{16}{}%
+\contentsline {subsection}{\numberline {21.1}Solution (a)}{16}{}%
+\contentsline {subsection}{\numberline {21.2}Solution (b)}{17}{}%
+\contentsline {subsection}{\numberline {21.3}Solution (c)}{17}{}%
+\contentsline {section}{\numberline {22}Topic C Problem 22}{18}{}%
+\contentsline {subsection}{\numberline {22.1}Solution (a)}{18}{}%
+\contentsline {subsection}{\numberline {22.2}Solution (b)}{19}{}%
+\contentsline {subsection}{\numberline {22.3}Solution (c)}{19}{}%
+\contentsline {subsection}{\numberline {22.4}Solution (d)}{19}{}%
+\contentsline {subsection}{\numberline {22.5}Solution (e)}{19}{}%
+\contentsline {section}{\numberline {23}Topic C Problem 23}{20}{}%
+\contentsline {subsection}{\numberline {23.1}Solution}{20}{}%
+\contentsline {section}{\numberline {24}Topic C Problem 24}{21}{}%
+\contentsline {subsection}{\numberline {24.1}Solution (a)}{21}{}%
+\contentsline {subsection}{\numberline {24.2}Solution (b)}{21}{}%
+\contentsline {section}{\numberline {25}Topic C Problem 25}{22}{}%
+\contentsline {subsection}{\numberline {25.1}Solution (a)}{22}{}%
+\contentsline {subsection}{\numberline {25.2}Solution (b)}{22}{}%
+\contentsline {subsection}{\numberline {25.3}Solution (c)}{22}{}%
+\contentsline {section}{\numberline {26}Topic C Problem 26}{23}{}%
+\contentsline {subsection}{\numberline {26.1}Solution (a)}{23}{}%
+\contentsline {subsection}{\numberline {26.2}Solution (b)}{23}{}%

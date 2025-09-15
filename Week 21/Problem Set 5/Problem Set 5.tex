@@ -17,6 +17,8 @@
 \author{Donald Aingworth IV}
 \date{September 19, 2025}
 
+\newcommand{\E}[1]{\times 10^{#1}}
+
 \begin{document}
     \DeclareSIUnit{\atm}{atm}
     \DeclareSIUnit{\molarity}{M}
@@ -59,7 +61,40 @@
             \item Is this molecule moving faster than the average speed of nitrogen trifluoride molecules at this temperature?
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            We use the simple formula for the kinetic energy. 
+            \begin{align}
+                MM(\ce{NFl})   &=  MM(\ce{N}) + 3 * MM(\ce{F})
+                    =   14.01 + 3 * 19.00\\
+                    &=  14.01 + 57.00
+                    =   71.01\,\unit{\gram/\mole}
+                    =   0.07101\,\unit{\kilo\gram/\mole}\\
+                K   &=  \frac{1}{2}mv^2
+                    =   \frac{1}{2} * \frac{MM(\ce{NF3})}{N_A} * (426\unit{\meter/\second})^2\\
+                    &=  \frac{0.07101 * 181476}{2 * 6.022\E{23}}
+                    =   \boxed{1.07\E{-20}\,\unit{\joule}}
+            \end{align}
+
+        \subsection{Solution (b)}
+            This is similar.
+            \begin{align}
+                K   &=  \frac{1}{2}mv^2
+                    =   \frac{1}{2} * MM(\ce{NF3}) * (426\unit{\meter/\second})^2\\
+                    &=  \frac{0.07101 * 181476}{2}
+                    =   \boxed{6.44\E{6}\,\unit{\joule/\mole}}
+            \end{align}
+
+        \subsection{Solution (c)}
+            First we find the average kinetic energy. 
+            Since the kinetic energy is directly correlated to the speed, if the kinetic energy of this molecule is larger than the average, so is the speed of this molecule.
+            \begin{align}
+                K_{\rm avg} &=  \frac{3}{2}RT
+                    =   \frac{3}{2} * 8.314 * (25\unit{\celsius} + 273.15\unit{\kelvin})
+                    =   3720\,\unit{\joule/\mole}
+            \end{align}
+
+            Our found answer for the molecule's kinetic energy is \textit{much} larger than the apparent average kinetic energy. 
+            Our molecule \boxed{\text{is moving faster}}. 
 
     \pagebreak
     \section{Topic C Problem 13}
@@ -70,7 +105,49 @@
             \item What temperature would the \ce{O3} need to be in order for it to have the same root-mean-square speed as the \ce{O2}?
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            Kinetic energy is only dependant on temperature, so even though the molar mass would change, the necessary temperature would not. 
+            The answer is \boxed{100\unit{\celsius}}.
+
+        \subsection{Solution (b)}
+            There is a formula for the average molecular speed. 
+            \begin{gather}
+                v_{\rm ave} =   \sqrt{\frac{8RT}{\pi\,MM}}
+            \end{gather}
+
+            We can equate these for the individual gases and solve for the temperature of the \ce{O3}. 
+            \begin{gather}
+                T_{\ce{O2}} = 100\unit{\celsius} + 273.15\unit{\kelvin} = 373.15\unit{\kelvin}\\
+                v_{\rm ave; \ce{O2}} =   v_{\rm ave; \ce{O3}}\\
+                \sqrt{\frac{8RT_{\ce{O2}}}{\pi\,MM(\ce{O2})}}    =   \sqrt{\frac{8RT_{\ce{O3}}}{\pi\,MM(\ce{O3})}}\\
+                \frac{8RT_{\ce{O2}}}{\pi\,MM(\ce{O2})}    =   \frac{8RT_{\ce{O3}}}{\pi\,MM(\ce{O3})}\\
+                \frac{T_{\ce{O2}}}{MM(\ce{O2})}    =   \frac{T_{\ce{O3}}}{MM(\ce{O3})}\\
+                \frac{T_{\ce{O2}}}{2 * MM(\ce{O})}    =   \frac{T_{\ce{O3}}}{3 * MM(\ce{O})}\\
+                \frac{3 * \cancel{MM(\ce{O})}}{2 * \cancel{MM(\ce{O})}}T_{\ce{O2}}  =   T_{\ce{O3}}\\
+                \frac{3}{2} * 373.15\unit{\kelvin}  =   T_{\ce{O3}}
+                    =   559.725\unit{\kelvin}
+                    =   \boxed{560\unit{\kelvin}}
+            \end{gather}
+
+        \subsection{Solution (c)}
+            There is a formula for the rms speed. 
+            \begin{gather}
+                v_{\rm rms} =   \sqrt{\frac{3RT}{MM}}
+            \end{gather}
+
+            We can equate these for the individual gases and solve for the temperature of the \ce{O3}. 
+            \begin{gather}
+                T_{\ce{O2}} = 100\unit{\celsius} + 273.15\unit{\kelvin} = 373.15\unit{\kelvin}\\
+                v_{\rm ave; \ce{O2}} =   v_{\rm ave; \ce{O3}}\\
+                \sqrt{\frac{3RT_{\ce{O2}}}{MM(\ce{O2})}}    =   \sqrt{\frac{3RT_{\ce{O3}}}{MM(\ce{O3})}}\\
+                \frac{3RT_{\ce{O2}}}{MM(\ce{O2})}    =   \frac{3RT_{\ce{O3}}}{MM(\ce{O3})}\\
+                \frac{T_{\ce{O2}}}{MM(\ce{O2})}    =   \frac{T_{\ce{O3}}}{MM(\ce{O3})}\\
+                \frac{T_{\ce{O2}}}{2 * MM(\ce{O})}    =   \frac{T_{\ce{O3}}}{3 * MM(\ce{O})}\\
+                \frac{3 * \cancel{MM(\ce{O})}}{2 * \cancel{MM(\ce{O})}}T_{\ce{O2}}  =   T_{\ce{O3}}\\
+                \frac{3}{2} * 373.15\unit{\kelvin}  =   T_{\ce{O3}}
+                    =   559.725\unit{\kelvin}
+                    =   \boxed{560\unit{\kelvin}}
+            \end{gather}
 
     \pagebreak
     \section{Topic C Problem 14}
