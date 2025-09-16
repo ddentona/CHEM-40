@@ -34,7 +34,27 @@
         a) Jorge weighs 69.0 kg (152 pounds). If he is walking at a speed of 1.12 m/sec (about 2.5 miles per hour), what is his kinetic energy in joules? 
         b) If Jorge's kinetic energy is 1.00 J, how fast is he moving?
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            Use the formula for kinetic energy.
+            \begin{align}
+                K   &=  \frac{1}{2}mv^2
+                    =   \frac{1}{2}69.0\,\unit{\kilo\gram} * \left( 1.12\,\unit{\meter/\second} \right)^2\\
+                    &=  43.2768\,\unit{\joule}
+                    =   \boxed{43.3\,\unit{\joule}}
+            \end{align}
+
+        \subsection{Solution (b)}
+            Reverse the equation for kinetic energy.
+            \begin{gather}
+                K   =   \frac{1}{2}mv^2\\
+                v^2 =   \frac{2K}{m}\\
+                \begin{align}
+                    v   &=  \sqrt{\frac{2K}{m}}
+                        =   \sqrt{\frac{2}{69.0}}\\
+                        &=  \sqrt{0.02899\,\unit{\meter^2/\second^2}}
+                        =   \boxed{0.170\,\unit{\joule}}
+                \end{align}
+            \end{gather}
 
     \pagebreak
     \section{Topic C Problem 11}
@@ -51,6 +71,98 @@
         \end{enumerate}
 
         \subsection{Solution}
+            \subsubsection{Solution (a)}
+                Divide the kinetic energy per mole by Avogadro's number (in molecules per mole) to find the average kinetic energy of a single atom.
+                \begin{gather}
+                    K_{\rm avg} =   \frac{K_{\rm total}}{N_A}
+                        =   \frac{5188\,\unit{\joule/\mole}}{6.022\E{23}\,\unit{\mole^{-1}}}
+                        =   \boxed{8.615\E{-21}\,\unit{\joule}}
+                \end{gather}
+
+            \subsubsection{Solution (b)}
+                The molar mass of an Argon atom is 39.95 \unit{\gram/\mole}.
+                We have a formula for both the molar mass and the kinetc energy that we can use together.
+                \begin{gather}
+                    MM  =   \frac{m}{n} \to
+                    m   =   n * MM\\
+                    K_{\rm total}   =   \frac{1}{2}mv^2
+                        =   \frac{n * MM}{2}v^2
+                \end{gather}
+
+                We know our average kinetic energy per mole.
+                We can use this to find the total kinetic energy for some $n$ moles.
+                \begin{gather}
+                    K_{\rm total}   =   n * K_{\rm avg}
+                        =   \frac{n * MM}{2}v^2\\
+                    K_{\rm avg} =   \frac{MM}{2}v^2\\
+                    v^2 =   \frac{2K_{\rm avg}}{MM}   \to
+                    v   =   \sqrt{\frac{2K_{\rm avg}}{MM}}
+                        =   \sqrt{\frac{2 * 5188}{0.03995}}
+                        =   \sqrt{259725}
+                        =   \boxed{509.6\,\unit{\meter/\second}}
+                \end{gather}
+            
+            \subsubsection{Solution (c)}
+                We can use a similar formula as before. 
+                \begin{align}
+                    K_{\rm total}   &=  n * K_{\rm avg}
+                        =   \frac{m}{MM} * K_{\rm avg}\\
+                        &=  \frac{1.450\,\unit{\gram}}{39.95\,\unit{\gram/\mole}} * 5188\,\unit{\joule/\mole}\\
+                        &=  \boxed{188.3\,\unit{\mole}}
+                \end{align}
+
+            \subsubsection{Solution (d)}
+                The temperature can be measured from the average temperature. 
+                \begin{gather}
+                    K_{\rm avg} =   \frac{3}{2} RT\\
+                    \begin{align}
+                        T   &=  \frac{2K_{\rm avg}}{3R}
+                            =   \frac{2 * 5188}{3 * 8.314}\\
+                            &=  \frac{10376}{24.942}
+                            =   \boxed{416.0\,\unit{\kelvin}}
+                    \end{align}
+                \end{gather}
+
+            \subsubsection{Solution (e)}
+                We can use the most probable and average kinetic energy formulae. 
+                \begin{gather}
+                    K_{\rm mp}  =   \frac{1}{2} RT\\
+                    K_{\rm avg} =   \frac{3}{2} RT
+                        =   3 \left( \frac{1}{2} RT \right)
+                        =   3 K_{\rm mp}\\
+                    K_{\rm mp}  =   \frac{K_{\rm mp}}{3}
+                        =   \frac{5188}{3}
+                        =   \boxed{1729\,\unit{\joule/mole}}
+                \end{gather}
+
+            \subsubsection{Solution (f)}
+                Use the RMS formula using previously calculated values.
+                \begin{align}
+                    v_{\rm rms} &=  \sqrt{\frac{3RT}{MM}}
+                        =   \sqrt{\frac{3*8.314*416.0}{0.03995}}
+                        =   \sqrt{\frac{10375.872}{0.03995}}\\
+                        &=  \sqrt{259724}
+                        =   \boxed{509.6\,\unit{\meter/\second}}
+                \end{align}
+
+            \subsubsection{Solution (g)}
+                The average speed is calculatable in a similar way.
+                \begin{align}
+                    v_{\rm avg} &=  \sqrt{\frac{8RT}{\pi MM}}
+                        =   \sqrt{\frac{8 * 8.314 * 416.0}{\pi * 0.03995}}\\
+                        &=  \sqrt{220355\,\unit{\meter^2/\second^2}}
+                        =   \boxed{469.4\,\unit{\meter/\second}}
+                \end{align}
+
+            \subsubsection{Solution (h)}
+                We do the same similar thing. 
+                \begin{align}
+                    v_{\rm mp}  &=  \sqrt{\frac{3RT}{MM}}
+                        =   \sqrt{\frac{3*8.31*416.0}{0.03995}}
+                        =   \sqrt{\frac{6917}{0.03995}}\\
+                        &=  \sqrt{173150\,\unit{\meter^2/\second^2}}
+                        =   \boxed{416.1\,\unit{\meter/\second}}
+                \end{align}
 
     \pagebreak
     \section{Topic C Problem 12}
