@@ -176,7 +176,7 @@
         \subsection{Solution (a)}
             We use the simple formula for the kinetic energy. 
             \begin{align}
-                MM(\ce{NFl})   &=  MM(\ce{N}) + 3 * MM(\ce{F})
+                MM(\ce{NF3})   &=  MM(\ce{N}) + 3 * MM(\ce{F})
                     =   14.01 + 3 * 19.00\\
                     &=  14.01 + 57.00
                     =   71.01\,\unit{\gram/\mole}
@@ -193,7 +193,7 @@
                 K   &=  \frac{1}{2}mv^2
                     =   \frac{1}{2} * MM(\ce{NF3}) * (426\unit{\meter/\second})^2\\
                     &=  \frac{0.07101 * 181476}{2}
-                    =   \boxed{6.44\E{6}\,\unit{\joule/\mole}}
+                    =   \boxed{6.44\E{3}\,\unit{\joule/\mole}}
             \end{align}
 
         \subsection{Solution (c)}
@@ -472,7 +472,8 @@
                 T   =   \frac{2K_{\rm mp}}{R}
                     =   \frac{2 * 700}{8.314}
                     =   \frac{1400}{8.314}
-                    =   \boxed{168.4\,\unit{\kelvin}}
+                    =   168.4\,\unit{\kelvin}
+                    \approx \boxed{170\,\unit{\kelvin}}
             \end{gather}
         
         \subsection{Solution (c)}
@@ -698,16 +699,21 @@
             Use the Van der Waals equation. 
             The values to be used are $a = 1.364\,\unit{\frac{L^2\cdot\atm}{\mole^2}}$ and $b = 0.0319\,\unit{\liter/\mole}$. 
             \begin{gather}
-                P \to P + a \left( \frac{n}{V} \right)^2\\
+                PV  =   nRT \to 
+                \left[ P + a \left( \frac{n}{V} \right)^2 \right]\left( V - nb \right) = nRT\\
+                P + a \left( \frac{n}{V} \right)^2  =   \frac{nRT}{V - nb}\\
                 \begin{align}
-                    P + a \left( \frac{n}{V} \right)^2  &=  250\,\unit{\atm} + 1.364\,\unit{\frac{L^2\cdot\atm}{\mole^2}} * \left( \frac{884.004\,\unit{\mole}}{253\unit{\mole}} \right)^2\\
-                        &=  250\,\unit{atm} + 16.65\,\unit{\atm}
-                        =   \boxed{266.7\,\unit{\atm}}
+                    P   &=  \frac{nRT}{V - nb} - a \left( \frac{n}{V} \right)^2\\
+                        &=  \frac{884.004 * 0.08206 * 523.15}{253 - 884 * 0.0319} - 1.364 * \left( \frac{884.004}{253} \right)^2\\
+                        &=  \frac{37950}{224.8004} - 16.65
+                        =   168.82 - 16.65\\
+                        &=  152.17\,\unit{\atm}
+                        \approx \boxed{152\,\unit{\atm}}
                 \end{align}
             \end{gather}
 
         \subsection{Solution (c)}
-            If there was some room for error (e.g. by 17 atm), then it would be reasonable. 
+            If there was some room for error (e.g. by 3 atm), then it would be reasonable. 
             However, there appears not to be room for error for the pressure, so the pressure would have to be the 150 atm or less.
             Were the user to use the supposed suggested amount of moles, the reactor would be very unsafe.
             The answer is \boxed{no}. 

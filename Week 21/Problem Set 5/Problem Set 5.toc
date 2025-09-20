@@ -63,7 +63,7 @@
 \contentsline {section}{\numberline {25}Topic C Problem 25}{24}{}%
 \contentsline {subsection}{\numberline {25.1}Solution (a)}{24}{}%
 \contentsline {subsection}{\numberline {25.2}Solution (b)}{24}{}%
-\contentsline {subsection}{\numberline {25.3}Solution (c)}{24}{}%
-\contentsline {section}{\numberline {26}Topic C Problem 26}{25}{}%
-\contentsline {subsection}{\numberline {26.1}Solution (a)}{25}{}%
-\contentsline {subsection}{\numberline {26.2}Solution (b)}{25}{}%
+\contentsline {subsection}{\numberline {25.3}Solution (c)}{25}{}%
+\contentsline {section}{\numberline {26}Topic C Problem 26}{26}{}%
+\contentsline {subsection}{\numberline {26.1}Solution (a)}{26}{}%
+\contentsline {subsection}{\numberline {26.2}Solution (b)}{26}{}%
