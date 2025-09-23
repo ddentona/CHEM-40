@@ -161,6 +161,22 @@
         The specific heat capacity of beryllium is 1.82 \unit{\joule/\gram\cdot\celsius}, and that of water is 4.18 \unit{\joule/\gram\cdot\celsius}.
 
         \subsection{Solution}
+            Let's just brute force this.
+            \begin{gather}
+                \begin{align}
+                    0   &=  Q_{\rm Be} + Q_{\rm H_2 O}
+                        =   c_{\rm Be}m_{\rm Be}\,\Delta T_{\rm Be} + c_{\rm H_2 O}m_{\rm H_2 O}\,\Delta T_{\rm H_2 O}\\
+                        &=  1.82 * 34.82 * (T_f - 61.9) + 4.18 * 41.33 * (T_f - 16.1)
+                \end{align}\\
+                T_f (1.82 * 34.82 + 4.18 * 41.33)   =   (1.82 * 34.82 * 61.9 + 4.18 * 41.33 * 16.1)\\
+                \begin{align}
+                    T_f &=  \frac{1.82 * 34.82 * 61.9 + 4.18 * 41.33 * 16.1}{1.82 * 34.82 + 4.18 * 41.33}\\
+                        &=  \frac{\U{392}2.752 + \U{278}1.426}{\U{63.3}724 + \U{172}.759}
+                        =   \frac{\U{670}4.1779}{\U{236.1}318}\\
+                        &=  \U{28.3}9168\unit{\celsius}
+                        =   \boxed{28.4\unit{\celsius}}
+                \end{align}
+            \end{gather}
 
     \pagebreak
     \section{Topic D Problem 5}
@@ -170,6 +186,30 @@
         The relevant specific heat capacities are: aluminum = 0.902 \unit{\joule/\gram\cdot\celsius}, chromium = 0.448 \unit{\joule/\gram\cdot\celsius}, water = 4.18 \unit{\joule/\gram\cdot\celsius}.
 
         \subsection{Solution}
+            We have three substances, each of which absorb or emit heat energy.
+            For two of them, we can calculate the exact value of their heat traded.
+            For the other, we cna find its heat traded with regard to the mass.
+            \begin{align}
+                Q   &=  cm\,\Delta T
+                    =   cm(T_f - T_i)\\
+                Q_{\rm Cr}  &=  0.448 * 67.3 * (16.4 - 75.0)
+                    =   -\U{176}6.81\,\unit{\joule}\\
+                Q_{\rm H_2O}    &=  4.18 * 125.0 * (16.4 - 8.2)
+                    =   \U{42}84.5\,\unit{\joule}\\
+                Q_{\rm Al}  &=  0.902 * m * (16.4 - 68.0)
+                    =   -\U{46.5}432\,m\,\unit{\joule}
+            \end{align}
+
+            These three, added together should add up to zero, since no heat comes in from the outside.
+            This can be put together as a sum.
+            \begin{gather}
+                0   =   Q_{\rm Cr} + Q_{\rm H_2O} + Q_{\rm Al}
+                    =   -\U{176}6.81\,\unit{\joule} + \U{42}84.5\,\unit{\joule} - \U{46.5}432\,m\,\unit{\joule}\\
+                \U{46.5}432\,m  =   \U{251}7.687\\
+                m   =   \frac{\U{251}7.687}{\U{46.5}432}
+                    =   \U{54.0}94\,\unit{\gram}
+                    =   \boxed{54.1\,\unit{\gram}}
+            \end{gather}
 
     \pagebreak
     \section{Topic D Problem 6}
