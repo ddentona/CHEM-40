@@ -219,6 +219,23 @@
         Calculate the specific heat capacity of liquid ethanol.
 
         \subsection{Solution}
+            This is algebra.
+            \begin{gather}
+                \begin{align}
+                    Q   &=  cm\,\Delta T
+                        =   cm(T_f - T_i)\\
+                    Q_{\rm Cu}  &=  0.385 * 46.51 * (13.2 - 71.2)
+                        =   -\U{103}8.5683\,\unit{\joule}\\
+                    Q_{\rm ethanol} &=  c * 51.32 * (13.2 - 4.9)
+                        =   c * \U{42}5.956\\
+                    0   &=  Q_{\rm Cu} + Q_{\rm ethanol}
+                        =   -\U{103}8.5683 + c * \U{42}5.956
+                \end{align}\\
+                c * \U{42}5.956 =   \U{103}8.5683\\
+                c   =   \frac{\U{103}8.5683}{\U{42}5.956}
+                    =   \U{2.43}82\,\unit{\frac{\joule}{\gram\cdot\celsius}}
+                    =   \boxed{2.44\,\unit{\frac{\joule}{\gram\cdot\celsius}}}
+            \end{gather}
 
     \pagebreak
     \section{Topic D Problem 7}
@@ -230,6 +247,19 @@
         Give your answer in J/g and in kJ/mol.
 
         \subsection{Solution}
+            The heat absorbed by the gallium should be equal to the heat released by the water.
+            The heat absorbed by the gallium can be divided into the heat used to melt and the hest used to cool down after melting.
+            \begin{gather}
+                \begin{align}
+                    Q_{\rm H_2O}    &=  cm\,\Delta T
+                        =   cm(T_f - T_i)\\
+                        &=  4.18 * 67.09 * (21.4 - 5.2)
+                        =   \U{454}3.066\,\unit{\joule}\\
+                    Q_{\rm Ga}  &=  cm\,\Delta T + m\,\Delta H\\
+                        &=  0.371 * 54.72 * (21.4 - 29.8) + 54.72 * \Delta H\\
+                        &=  -\U{17}0.5294\,\unit{\joule} + 54.72 * \Delta H
+                \end{align}
+            \end{gather}
     
     \pagebreak
     \tableofcontents
