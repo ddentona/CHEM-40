@@ -18,6 +18,7 @@
 \date{September 26, 2025}
 
 \newcommand{\E}[1]{\times 10^{#1}}
+\newcommand{\U}[1]{\underline{#1}}
 
 \begin{document}
     \DeclareSIUnit{\atm}{atm}
@@ -83,6 +84,75 @@
         \end{enumerate}
 
         \subsection{Solution (a)}
+            This relies on a single use of heat.
+            \begin{align}
+                Q   &=  cm\,\Delta T
+                    =   0.473 * 40.0 * (11.9 - (-5.8))\\
+                    &=  18.92 * 17.7
+                    =   334.884\,\unit{\joule}
+                    \approx \boxed{335\,\unit{\joule}}
+            \end{align}
+
+        \subsection{Solution (b)}
+            Assuming we start the boiling point, it only relies on one use of heat.
+            \begin{align}
+                Q   &=  m\,\Delta H
+                    =   40.0 * 96.6
+                    =   3864\,\unit{\joule}
+                    =   \boxed{3860\,\unit{\joule}}
+            \end{align}
+
+        \subsection{Solution (c)}
+            Same katastasy (situation) as part (b).
+            \begin{align}
+                Q   &=  m\,\Delta H
+                    =   40.0 * 33.1
+                    =   1324\,\unit{\joule}
+                    =   \boxed{1320\,\unit{\joule}}
+            \end{align}
+
+        \subsection{Solution (d)}
+            We can apply the formula for change in temperature from the heat.
+            \begin{gather}
+                Q   =   cm\,\Delta T\\
+                \Delta T    =   T_f - T_i
+                    =   \frac{Q}{cm}\\
+                \begin{align}
+                    T_f &=  T_i + \frac{Q}{cm}
+                        =   10.0\unit{\celsius} + \frac{125\,\unit{\joule}}{0.473\,\unit{\joule/\gram\cdot\celsius} \times 25.0\,\unit{\gram}}\\
+                        &=  10.0\unit{\celsius} + \frac{5.00\,\unit{\joule}}{0.473\,\unit{\joule/\celsius}}
+                        =   10.0\unit{\celsius} + \underline{10.5}708\unit{\celsius}\\
+                        &=  \U{20.5}708\unit{\celsius}
+                        =   \boxed{20.7\unit{\celsius}}
+                \end{align}
+            \end{gather}
+
+        \subsection{Solution (e)}
+            We have an equation for phase change to apply.
+            \begin{gather}
+                Q   =   m\,\Delta H\\
+                \begin{align}
+                    m   &=  \frac{Q}{\Delta H}
+                        =   \frac{1500\,\unit{\joule}}{96.6\,\unit{\joule/\gram}}
+                        =   \U{15.5}2795\,\unit{\gram}
+                        =   \boxed{15.5\,\unit{\gram}}
+                \end{align}
+            \end{gather}
+
+        \subsection{Solution (f)}
+            There are three parts to this: melting, heating, and evaporating.
+            We can divide the total heat necessary into these three parts.
+            \begin{align}
+                Q   &=  Q_{\rm melt} + Q_{\rm heat} + Q_{\rm evap}\\
+                    &=  m\,\Delta H_{\rm melt} + cm\,\Delta T + m\,\Delta H_{\rm evap}\\
+                    &=  m\,\Delta H_{\rm melt} + cm\,(58.9\unit{\celsius} - (-7.2\unit{\celsius})) + m\,\Delta H_{\rm evap}\\
+                    &=  10.0\,\unit{\gram} * 33.1\,\unit{\joule/\gram}
+                        +   0.473\,\unit{\joule/\gram\cdot\celsius} * 10.0\,\unit{\gram} * 66.1\unit{\celsius}
+                        +   10.0\,\unit{\gram} * 96.6\,\unit{\joule/\gram}\\
+                    &=  331\,\unit{\joule} + \U{312}.653\,\unit{\joule} + 966\,\unit{\joule}
+                    =   \U{1609}.653\,\unit{\joule}
+                    =   \boxed{1610\,\unit{\joule}}
+            \end{align}
 
     \pagebreak
     \section{Topic D Problem 4}
