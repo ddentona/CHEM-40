@@ -123,7 +123,7 @@
                         &=  10.0\unit{\celsius} + \frac{5.00\,\unit{\joule}}{0.473\,\unit{\joule/\celsius}}
                         =   10.0\unit{\celsius} + \underline{10.5}708\unit{\celsius}\\
                         &=  \U{20.5}708\unit{\celsius}
-                        =   \boxed{20.7\unit{\celsius}}
+                        =   \boxed{20.6\unit{\celsius}}
                 \end{align}
             \end{gather}
 
@@ -256,8 +256,17 @@
                         &=  4.18 * 67.09 * (21.4 - 5.2)
                         =   \U{454}3.066\,\unit{\joule}\\
                     Q_{\rm Ga}  &=  cm\,\Delta T + m\,\Delta H\\
-                        &=  0.371 * 54.72 * (21.4 - 29.8) + 54.72 * \Delta H\\
-                        &=  -\U{17}0.5294\,\unit{\joule} + 54.72 * \Delta H
+                        &=  0.371 * 54.72 * (21.4 - 29.8) - 54.72 * \Delta H\\
+                        &=  -\U{17}0.5294\,\unit{\joule} - 54.72 * \Delta H
+                \end{align}\\
+                0   =   Q_{\rm H_2O} + Q_{\rm Ga}
+                    =   \U{454}3.066 - \U{17}0.5294 - 54.72 * \Delta H\\
+                54.72 * \Delta H    =   \U{437}2.537\\
+                \begin{align}
+                    \Delta H    &=  \frac{\U{437}2.537}{54.72}
+                        =   \boxed{79.9\,\unit{\joule/\gram}}\\
+                        &=  79.9\,\unit{\joule/\gram} * \frac{1\,\unit{\kilo\joule}}{1000\,\unit{\joule}} * \frac{69.72\,\unit{\gram}}{1\,\unit{\mole}}
+                        =   \boxed{5.57\,\unit{\kilo\joule/\mole}}
                 \end{align}
             \end{gather}
     
