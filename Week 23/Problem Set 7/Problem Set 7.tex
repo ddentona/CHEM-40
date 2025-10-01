@@ -10,12 +10,12 @@
 \usepackage{siunitx}
 
 \title{
-    Problem Set \#6
+    Problem Set \#7
     \\  \small
     CHEM101A: General College Chemistry
     }
 \author{Donald Aingworth IV}
-\date{September 26, 2025}
+\date{October 23, 2025}
 
 \newcommand{\E}[1]{\times 10^{#1}}
 \newcommand{\U}[1]{\underline{#1}}
@@ -27,44 +27,89 @@
 
     \maketitle
 
-    % \setcounter{section}{9}
+    \setcounter{section}{7}
 
     \pagebreak
     \section{Topic D Problem 8}
-        Consider the following two facts about the reaction of HCl with NaOH
-        
-        Fact \#1: $\rm \Delta E$ is a negative number for this reaction, which means that the energy of the chemicals decreases.
-        
+        Consider the following two facts about the reaction of HCl with NaOH\\
+        Fact \#1: $\rm \Delta E$ is a negative number for this reaction, which means that the energy of the chemicals decreases.\\        
         Fact \#2: When HCl and NaOH are mixed, the mixture becomes hotter, which means that the energy of the chemicals increases.
         
         Explain how both of these statements can be true at the same time.
 
         \subsection{Solution}
+            The energy in $\Delta$E referes to the potential energy, not the kinetic energy.
+            What likely happened is that the potental energy decreased, so the kinetic energy increased by the potential energy being converted to kinetic energy.
 
     \pagebreak
     \section{Topic D Problem 9}
         When aqueous HCl reacts with solid \ce{NaHCO3}, the mixture becomes colder.
-        \begin{enumerate}
+        \begin{enumerate}[label=\alph*)]
             \item   Does the kinetic energy of the chemicals increase, decrease, or remain the same during the reaction?
             \item   Does the potential energy of the chemical increase, decrease, or remain the same during the reaction?
             \item   What is the sign of $\rm \Delta E$ for this reaction?
         \end{enumerate}
         
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            The mixture becoming colder implies the temperature decreased, implying the kinetic energy \boxed{\rm decreased}. 
+        
+        \subsection{Solution (b)}
+            The total energy of the system would have to remain the same. 
+            Since the kinetic energy decreases, the potential energy must \U{increase}. 
+
+        \subsection{Solution (c)}
+            Since $\Delta$E refers to the change in potential energy, the sign of $\Delta$E is \boxed{\rm positive}. 
 
     \pagebreak
     \section{Topic D Problem 10}
-        For the reaction 2 Al(s) + 6 H+(aq) -> 2 Al3+(aq) + 3 H2(g), $\Delta E$ = -1057 kJ
-a) How much energy is given off when 2.822 g of Al reacts with hydrogen ions, assuming
-the hydrogen ions are in excess?
-b) How much energy is given off when 1.413 g of Al is added to 23.0 mL of a solution that
-contains 5.89 M H+?
-c) If you want to obtain 50.0 kJ of energy from this reaction, how many grams of aluminum
-and how many mL of 3.00 M HCl must you use?
-d) If this reaction produces 13.3 L of H2(g) at 25.0\unit{\celsius} and 1.014 atm, how much energy does
-it give off?
+        For the reaction \ce{2 Al(s) + 6 H+(aq) -> 2 Al^3+(aq) + 3 H2(g)}, $\Delta$E = -1057 kJ.
+        \begin{enumerate} [label=\alph*)]
+            \item   How much energy is given off when 2.822 g of Al reacts with hydrogen ions, assuming the hydrogen ions are in excess?
+            \item   How much energy is given off when 1.413 g of Al is added to 23.0 mL of a solution that contains 5.89 M \ce{H+}?
+            \item   If you want to obtain 50.0 kJ of energy from this reaction, how many grams of aluminum and how many mL of 3.00 M HCl must you use?
+            \item   If this reaction produces 13.3 L of \ce{H2(g)} at 25.0\unit{\celsius} and 1.014 atm, how much energy does it give off?
+        \end{enumerate}
         
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            First convert grams to moles.
+            \begin{gather}
+                MM(\rm Al)  =   26.98\,\unit{\gram/\mole}\\
+                n({\rm Al}) =   \frac{m}{MM}
+                    =   \frac{2.822\,\unit{\gram}}{26.98\,\unit{\gram/\mole}}
+                    =   0.\U{1045}95997\,\unit{\mole}
+            \end{gather}
+
+            Next, we use our favorite ratio for energy.
+            \begin{gather}
+                \rm
+                \frac{\Delta E_{sp}}{n_{sp}(Al)}    =   \frac{\Delta E}{n(Al)}\\
+                \frac{\Delta E_{sp}}{0.\U{1045}9\,\unit{\mole}} =   \frac{-1057\,\unit{\kilo\joule}}{2\,\unit{\mole}}
+                    =   -\U{528.5}\unit{\kilo\joule/\mole}\\
+                \Delta E    =   -\U{55.27}898\,\unit{\kilo\joule}
+            \end{gather}
+
+            This means that it releases \boxed{55.28\,\unit{\kilo\joule}}. 
+
+        \subsection{Solution (b)}
+            First, find the limiting reactant.
+            \begin{align}
+                n(\ce{Al})  &=  \frac{m}{MM}
+                    =   \frac{1.413\,\unit{\gram}}{26.98\,\unit{\gram/\mole}}
+                    =   0.0\U{5231}7\,\unit{\mole}\,\ce{Al}\\
+                n(\ce{H+})  &=  cV
+                    =   (5.89\,\unit{\mole/\liter}) (23.0\,\unit{\milli\mole})
+                    =   0.\U{135}47\,\unit{\mole}\,\ce{H+}
+            \end{align}
+
+            Dividing the number of moles of \ce{H+} by 6 and the number of moles of \ce{Al} by 2 makes clear that the \ce{H+} is the limiting reactant.
+            From here, just use our favorite ratio again.
+            \begin{gather}
+                \frac{\Delta E_{sp}}{0.\U{135}47\,\unit{\mole}}    =   \frac{-1057\,\unit{\kilo\joule}}{6\,\unit{\mole}}
+                    =   176.167\,\unit{\kilo\joule/\mole}\\
+                \Delta E_{sp}   =   \U{23.8}653\,\unit{\kilo\joule}
+            \end{gather}
+
+            That means it releases \boxed{23.9\,\unit{\kilo\joule}}. 
 
     \pagebreak
     \section{Topic D Problem 11}
@@ -77,7 +122,7 @@ it give off?
     \section{Topic D Problem 12}
         A chemist burns 0.5177 g of liquid hexane (C6H14) in a bomb calorimeter that has a heat
 capacity of 4287 J/\unit{\celsius}. The temperature of the calorimeter rises from 21.382\unit{\celsius} to 27.170ºC
-during the reaction. Calculate $\Delta E$ for the following reaction:
+during the reaction. Calculate $\Delta$E for the following reaction:
 2 C6H14(l) + 19 O2(g) -> 12 CO2(g) + 14 H2O(l)
         
         \subsection{Solution}
