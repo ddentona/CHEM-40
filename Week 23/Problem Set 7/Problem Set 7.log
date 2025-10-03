@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.23)  2 OCT 2025 21:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.23)  3 OCT 2025 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,31 +389,31 @@ Package pdftex.def Info: Answers Images/Problem 12.jpg  used on input line 189.
 <Answers Images/Problem 18.jpg, id=50, 1982.40625pt x 375.4025pt>
 File: Answers Images/Problem 18.jpg Graphic file (type jpg)
 <use Answers Images/Problem 18.jpg>
-Package pdftex.def Info: Answers Images/Problem 18.jpg  used on input line 269.
+Package pdftex.def Info: Answers Images/Problem 18.jpg  used on input line 289.
 (pdftex.def)             Requested size: 345.0pt x 65.32982pt.
  [13 <./Answers Images/Problem 18.jpg>]
 <Answers Images/Problem 19 1.jpg, id=55, 1800.7275pt x 2194.1975pt>
 File: Answers Images/Problem 19 1.jpg Graphic file (type jpg)
 <use Answers Images/Problem 19 1.jpg>
-Package pdftex.def Info: Answers Images/Problem 19 1.jpg  used on input line 293.
+Package pdftex.def Info: Answers Images/Problem 19 1.jpg  used on input line 313.
 (pdftex.def)             Requested size: 345.0pt x 420.38385pt.
  [14]
 <Answers Images/Problem 19 2.jpg, id=59, 1891.065pt x 2246.3925pt>
 File: Answers Images/Problem 19 2.jpg Graphic file (type jpg)
 <use Answers Images/Problem 19 2.jpg>
-Package pdftex.def Info: Answers Images/Problem 19 2.jpg  used on input line 294.
+Package pdftex.def Info: Answers Images/Problem 19 2.jpg  used on input line 314.
 (pdftex.def)             Requested size: 345.0pt x 409.81755pt.
  [15 <./Answers Images/Problem 19 1.jpg>] [16 <./Answers Images/Problem 19 2.jpg>]
 <Answers Images/Problem 20.jpg, id=66, 2002.48125pt x 1430.34375pt>
 File: Answers Images/Problem 20.jpg Graphic file (type jpg)
 <use Answers Images/Problem 20.jpg>
-Package pdftex.def Info: Answers Images/Problem 20.jpg  used on input line 308.
+Package pdftex.def Info: Answers Images/Problem 20.jpg  used on input line 328.
 (pdftex.def)             Requested size: 345.0pt x 246.429pt.
  [17 <./Answers Images/Problem 20.jpg>]
 <Answers Images/Problem 21.jpg, id=70, 1781.65625pt x 740.7675pt>
 File: Answers Images/Problem 21.jpg Graphic file (type jpg)
 <use Answers Images/Problem 21.jpg>
-Package pdftex.def Info: Answers Images/Problem 21.jpg  used on input line 320.
+Package pdftex.def Info: Answers Images/Problem 21.jpg  used on input line 340.
 (pdftex.def)             Requested size: 345.0pt x 143.43744pt.
  [18 <./Answers Images/Problem 21.jpg>] [19] (Problem Set 7.toc [20])
 \tf@toc=\write3
@@ -434,7 +434,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  86i,14n,93p,435b,662s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ddent/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Problem Set 7.pdf" (21 pages, 2776467 bytes).
+Output written on "Problem Set 7.pdf" (21 pages, 2778111 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
