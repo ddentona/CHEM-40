@@ -1,0 +1,130 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{cancel}
+\usepackage{mhchem}
+\usepackage{siunitx}
+\usepackage{titlesec}
+
+\title{Gaussian Matrix Method for Hess' Law}
+\author{Donald Aingworth IV}
+\date{}
+
+\begin{document}
+
+    \maketitle
+
+    \begin{abstract}
+        In Linear Algebra, Gauss' Matrix Method refers to a manipulation of systems of equations through one or more of three operations to find the values of specific combinations of variables.
+        In Chemistry, Hess' Law refers to how the magnitude of a path-independent process is equivalent to the sum of multiple operations that put together go from the starting conditions to the ending conditions.
+        Pairing each column of a matrix with a molecule/ion (or the enthalpy) and each row with an equation, then setting the intersection of each row and column to the number of moles of that molecule/ion produced allows us to use the Gaussian Matrix Method to solve for things like the enthalpy of a system of chemical equations.
+    \end{abstract}
+
+    \section{Introduction}
+        In Linear Algebra, Gauss' Matrix Method refers to a manipulation of systems of equations through one or more of three operations to find the values of specific combinations of variables.
+        There are a total of three operations that can be used: (1) swapping two equations, (2) multiplying an equation entirely by a non-zero scalar, and (3) replacing one equation with the sum of it and another equation.
+        These systems of equations can in turn be turned into a matrix, as shown below.
+        \begin{equation}
+            \left.
+            \begin{matrix}
+                ax + by + cz = l\\
+                dx + ey + fz = m\\
+                gx + hy + kz = n
+            \end{matrix}
+            \right\} \rightarrow
+            \left[ \begin{array}{c c c | c}
+                a & b & c & l\\
+                d & e & f & m\\
+                g & h & k & n
+            \end{array} \right]
+        \end{equation}
+
+        In Chemistry, Hess' Law refers to how the magnitude of a path independent process is equivalent to the sum of any number of its parts that added together would go from the same start to the same end.
+        This tends to refer to working with enthalpy of reactions, denoted $\rm \Delta H$. 
+        In these reactions, each molecule or ion is paired with a coefficient, which denotes the (relative) number of moles of that molecule or ion for said reaction to take place.
+        Below is an example of one such reaction.
+        \begin{equation}
+            \ce{2 C(s) + O2(g) -> 2 CO(g), \Delta H = -221 \unit{\kilo\joule}}
+        \end{equation}
+        
+    \section{Proof of Likeness}
+        If any set of equations can respect the three forms of system manipulation of matrices, it can be represented as a matrix.
+        Reaction equations are themselves equations, so we can test the three operations.
+        
+        First is swapping.
+        Suppose you have a system of two (or more) chemical reaction equations for chemicals A, B, C, D, and E.
+        \begin{align}
+            \ce{n_1A + n_2B} & \ce{-> n_3C} & \ce{\Delta H = h_1}\\
+            \ce{n_4C} & \ce{-> n_5D + n_6E} & \ce{\Delta H = h_2}
+        \end{align}
+        We can swap these two equations. The result is shown directly below.
+        \begin{align}
+            \ce{n_4C} & \ce{-> n_5D + n_6E} & \ce{\Delta H = h_2}\\
+            \ce{n_1A + n_2B} & \ce{-> n_3C} & \ce{\Delta H = h_1}
+        \end{align}
+        Neither equation is changed.
+        The order is changed, but since the equations are independent, they are not impacted at all.
+        
+        Second is multiplication by a non-zero scalar.
+        This is simple and is possible for positive numbers.
+        Take the below chemical reaction equation.
+        \begin{align}
+            \ce{n_1A + n_2B} & \ce{-> n_3C} & \ce{\Delta H = h_1}
+        \end{align}
+        Suppose we were to multiply all parts of it by a scalar $s$.
+        \begin{align}
+            \ce{s n_1A + s n_2B} & \ce{-> s n_3C} & \ce{\Delta H = s h_1}
+        \end{align}
+        Since these coefficients can be treated as ratios per equation, this works.
+        To deal with the question of negatives, we can treat these coefficients as changes in the number of molecules/ions during a reation, with the coefficients of reactants being negative due to losing them in the reaction and the coefficients of products being positive due to gaining them in the reaction.
+        We can perform said operation on the same example as before, multiplying it by the nonzero negative scalar $-s$ (the negative of $s$).
+        \begin{align}
+            \ce{n_1A + n_2B} & \ce{-> n_3C} & \ce{\Delta H = h_1}\\
+            \ce{s n_3C} & \ce{-> s n_1A + s n_2B} & \ce{\Delta H = -s h_1}
+        \end{align}
+
+        Last is the additive property.
+        This is given from Hess' Law.
+        Take the following two equations.
+        \begin{align}
+            \ce{n_1A + n_2B} & \ce{-> n_3C} & \ce{\Delta H = h_1}\\
+            \ce{n_3C} & \ce{-> n_4D + n_5E} & \ce{\Delta H = h_2}
+        \end{align}
+        We can add them together to form a third equation.
+        \begin{align}
+            \ce{n_1A + n_2B + \cancel{n_3C}} & \ce{-> \cancel{n_3C} + n_5D + n_6E} & \ce{\Delta H = h_1 + h_2}\\
+            \ce{n_1A + n_2B} & \ce{-> n_5D + n_6E} & \ce{\Delta H = h_1 + h_2}
+        \end{align}
+    
+    \section{Conversion}
+        We can turn these equations into matrices.
+        Suppose a system of chemical equations. 
+        \begin{align}
+            \ce{n_1A + n_2B} & \ce{-> n_3C} & \ce{\Delta H = h_1}\\
+            \ce{n_3C} & \ce{-> n_4D + n_5E} & \ce{\Delta H = h_2}
+        \end{align}
+        Suppose a matrix where every single column corresponds to a chemical within the equation and every equation to a row.
+        The last column can correspond to $\Delta H$.
+        Reactants have negative coefficients to the coefficients in the equation while products will have the their coefficients as in the equation.
+        Please excuse poor spacing.
+        \begin{gather*}
+            \begin{array}{c c c c c c c c c c c c}
+                A && B && C && D && E && \Delta H
+            \end{array}\\
+            \left[ 
+                \begin{array}{c c c c c | c}
+                    -n_1 & -n_2 & n_3 & 0 & 0   & h_1\\
+                    0 & 0 & -n_3 & n_4 & n_5    & h_2
+                \end{array}
+            \right]
+        \end{gather*}
+
+        This results in a matrix we can use to get specific combinations that we want.
+        \begin{equation}
+            \left[ 
+                \begin{array}{c c c c c | c}
+                    -n_1 & -n_2 & n_3 & 0 & 0   & h_1\\
+                    0 & 0 & -n_3 & n_4 & n_5    & h_2
+                \end{array}
+            \right]
+        \end{equation}
+\end{document}
