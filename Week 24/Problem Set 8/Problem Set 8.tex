@@ -1,0 +1,300 @@
+\documentclass[10pt]{article}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage[makeroom]{cancel}
+\usepackage{enumitem}
+\usepackage{graphicx}
+%Load mhchem using some package options
+\usepackage[version=4]{mhchem}
+\usepackage{multicol}
+\usepackage{siunitx}
+
+\title{
+    Problem Set \#8
+    \\  \small
+    CHEM101A: General College Chemistry
+    }
+\author{Donald Aingworth IV}
+\date{October 10, 2025}
+
+\newcommand{\E}[1]{\times 10^{#1}}
+\newcommand{\U}[1]{\underline{#1}}
+
+\begin{document}
+    \DeclareSIUnit{\atm}{atm}
+    \DeclareSIUnit{\molarity}{M}
+    \DeclareSIUnit{\M}{M}
+
+    \maketitle
+
+    \setcounter{section}{22}
+
+    \pagebreak
+    \section{Topic D Problem 23}
+        Using the enthalpies of formation in \textbf{T1: Standard Thermodynamic Quantities} of your online textbook, calculate the amount of heat that will be released when 5.00 g of solid \ce{NaNO3} reacts with excess graphite in an open container. 
+        The chemical equation for this reaction is:
+        \begin{center}
+            \ce{4 NaNO3(s) + 5 C(s, graphite) -> 2 Na2O(s) + 2 N2(g) + 5 CO2(g)}
+        \end{center}
+
+        \subsection{Solution}
+            We can divide this reaction into two separate parts: the decomposition of the \ce{NaNO3} and the recomposition of \ce{Na2O} and \ce{CO2}.
+            \begin{gather}
+                \ce{NaNO3(s) -> Na(s) + \frac{1}{2}N2(g) + \frac{3}{2}O2(g), \Delta H = 467.9\,\unit{\kilo\joule/\mole}}\\
+                \ce{2Na(s) + \frac{1}{2}O2(g) -> Na2O(s), \Delta H = -414.2\,\unit{\kilo\joule/\mole}}\\
+                \ce{C(s, graphite) + O2(g) -> CO2(g), \Delta H = -393.5\,\unit{\kilo\joule/\mole}}
+            \end{gather}
+
+            Multiply the first by four, the second by two, and the third by five. 
+            \begin{gather}
+                \ce{4NaNO3(s) -> 4Na(s) + 2N2(g) + 6O2(g), \Delta H = 1871.6\,\unit{\kilo\joule/\mole}}\\
+                \ce{4Na(s) + O2(g) -> 2Na2O(s), \Delta H = -828.4\,\unit{\kilo\joule/\mole}}\\
+                \ce{5C(s, graphite) + 5O2(g) -> 5CO2(g), \Delta H = -1967.5\,\unit{\kilo\joule/\mole}}
+            \end{gather}
+
+            Add all of these together. for the sake of simplification, I will denote the cancelations out early.
+            \begin{gather}
+                \ce{4NaNO3(s) -> \cancel{4Na(s)} + 2N2(g) + \cancel{6O_2(g)}, \Delta H = 1871.6\,\unit{\kilo\joule/\mole}}\\
+                \ce{\cancel{4Na(s)} + \cancel{O_2(g)} -> 2Na2O(s), \Delta H = -828.4\,\unit{\kilo\joule/\mole}}\\
+                \ce{5C(s, graphite) + \cancel{5O_2(g)} -> 5CO2(g), \Delta H = -1967.5\,\unit{\kilo\joule/\mole}}\\
+                \ce{4 NaNO3(s) + 5 C(s, graphite) -> 2 Na2O(s) + 2 N2(g) + 5 CO2(g)}
+            \end{gather}
+
+            The total enthalpy would be the sum of all enthalpies.
+            \begin{equation}
+                \Delta H = \Delta H_1 + \Delta H_2 + \Delta H_3 = -924.3\,\unit{\kilo\joule/\mole}
+            \end{equation}
+
+            Now convert the 5 grams of solid \ce{NaNO3} to moles. 
+            \begin{gather}
+                MM(\ce{NaNO3})  =   22.99 + 14.01 + 48.00
+                    =   85.00\,\unit{\gram/\mole}\\
+                n(\ce{NaNO3})   =   \frac{m}{MM}
+                    =   \frac{5.00\,\unit{gram}}{85.00\,\unit{\gram/\mole}}
+                    =   0.0588\,\unit{\mole}
+            \end{gather}
+
+            Multiply this by the enthalpy to find the heat.
+            \begin{align}
+                Q   =   \frac{n * \Delta H}{n_{\ce{NaNO3}}}
+                    =   \frac{0.0588\,\unit{\mole} * (-924.3\,\unit{\kilo\joule/\mole})}{4}
+                    =   -13.6\,\unit{\kilo\joule}
+            \end{align}
+
+            Since it's negative, that means it releases \boxed{13.6\,\unit{\kilo\joule}}. 
+
+    \pagebreak
+    \section{Topic D Problem 24}
+        Pyrrole (\ce{C4H5N}) is a liquid that reacts with oxygen as follows:
+        \begin{center}
+            \ce{4 C4H5N(l) + 21 O2(g) -> 16 CO2(g) + 10 H2O(l) + 2 N2(g), \Delta H = -9407 kJ}
+        \end{center} 
+        Using this information and the enthalpies of formation in \textbf{T1: Standard Thermodynamic Quantities} of your online textbook, calculate the enthalpy of formation ($\rm \Delta H_f^{\circ}$) of \ce{C4H5N(l)}.
+
+        \subsection{Solution}
+
+
+
+    \pagebreak
+    \section{Topic D Problem 25}
+        For the reaction \ce{4 K(s) + O2(g) -> 2 K2O(s), \Delta H = -722 kJ}. 
+        Using this information, calculate $\Delta$H for each of the following three reactions.
+        \begin{enumerate}[label=\alph*)]
+            \item   \ce{12 K(s) + 3 O2(g) -> 6 K2O(s)}
+            \item   \ce{K(s) + 1/4 O2(g) -> 1/2 K2O(s)}
+            \item   \ce{12 K2O(s) -> 24 K(s) + 6 O2(g)}
+        \end{enumerate}
+
+        \subsection{Solution}
+
+
+
+    \pagebreak
+    \section{Topic D Problem 26}
+        Given the following chemical reactions and $\Delta$H values:
+        \begin{align*}
+            &\ce{3 Ag+(aq) + PO4^3-(aq) -> Ag3PO4(s)}   &\rm \Delta H = -32.7\,\unit{\kilo\joule}\\
+            &\ce{Ag+(aq) + Cl-(aq) -> AgCl (s)}         &\rm \Delta H = -65.5\,\unit{\kilo\joule}
+        \end{align*}
+        Calculate $\Delta$H for the chemical reaction below:
+        \begin{center}
+            \ce{Ag3PO4(s) + 3 Cl- -> 3 AgCl(s) + PO4^3-(aq)}
+        \end{center}
+
+        \subsection{Solution}
+
+
+
+    \pagebreak
+    \section{Topic D Problem 27}
+        Given the following chemical reactions and $\Delta$H values:
+        \begin{align*}
+            &\ce{As2O5(s) + 3 H2O(l) -> 2 H3AsO4(s)}            &\rm \Delta H = -30.2\,\unit{\kilo\joule}\\
+            &\ce{H3AsO4(s) + 3 KOH(s) -> K3AsO4(s) + 3 H2O(l)}  &\rm \Delta H = -31.6\,\unit{\kilo\joule}\\
+            &\ce{2 KOH(s) -> K2O(s) + H2O(l)}                   &\rm \Delta H = 202.0\,\unit{\kilo\joule}
+        \end{align*}
+        Calculate $\Delta$H for the chemical reaction below:
+        \begin{center}
+            \ce{As2O5(s) + 3 K2O(s) -> 2 K3AsO4(s)}
+        \end{center}
+
+        \subsection{Solution}
+
+
+
+    \pagebreak
+    \section{Topic D Problem 28}
+        The enthalpy of fusion ($\rm \Delta H_f^{\circ}$) of solid \ce{AgNO3} is -124 kJ/mol.
+        \begin{enumerate}[label=\alph*)]
+            \item   Based on this information, write a balanced chemical equation for which $\Delta$H = -124 kJ. Include the state of each substance in your equation.
+            \item   Write a balanced chemical equation for which $\Delta$H = 124 kJ.
+            \item   Write a balanced chemical equation for which $\Delta$H = -62 kJ. Hint: 124 = 2 \texttimes 62.
+        \end{enumerate}
+
+        \subsection{Solution}
+
+
+
+    \pagebreak
+    \section{Topic D Problem 29}
+        The enthalpy of formation of solid \ce{AgBr} is -100.4 kJ. 
+        Based on this information, can you calculate $\Delta$H for the reaction \ce{Ag+(aq) + Br-(aq) -> AgBr(s)}? 
+        Explain why or why not.
+
+        \subsection{Solution}
+
+
+
+    \pagebreak
+    \section{Topic D Problem 30}
+        Calculate the volume of gaseous \ce{C4H10} (butane) at 25.00\unit{\celsius} 
+        and 785.0 torr that must be burned in a closed, rigid container if you want to obtain enough heat to convert 15.50 g of ice at 0.00\unit{\celsius} into steam at 100.00\unit{\celsius}. 
+        Use the following information:\\
+        $\rm \Delta H_f^{\circ}$ of \ce{C4H10(g)} = -149.1 kJ/mol\\
+        $\rm \Delta H_f^{\circ}$ of \ce{H2O(l)} = -285.8 kJ/mol\\
+        $\rm \Delta H_f^{\circ}$ of \ce{CO2(g)} = -393.5 kJ/mol\\
+        $\rm \Delta H_{fusion}$ of ice = 6.009 kJ/mol\\
+        $\rm \Delta H_{vaporization}$ of water = 40.67 kJ/mol at 100\unit{\celsius}\\
+        Average specific heat capacity of liquid water in the range 0\unit{\celsius} to 100\unit{\celsius} = 4.174 \unit{\frac{\joule}{\gram\cdot\celsius}}.
+        Do not look up any other thermochemical information. 
+
+        \subsection{Solution}
+
+
+    \setcounter{section}{0}
+    \pagebreak
+    \section{Topic E Problem 1}
+        Calculate the following properties of light that has a wavelength of 490 nm.
+        \begin{enumerate}[label=\alph*)]
+            \item   The frequency
+            \item   The energy of one photon, in joules
+            \item   The photon energy in kJ/mol
+            \item   The number of moles of photons required to supply 10.0 kJ of energy
+            \item   The total energy of 0.0125 moles of photons
+            \item   The number of individual photons required to supply 25.0 J of energy.
+        \end{enumerate}
+
+        \subsection{Solution}
+
+
+    \pagebreak
+    \section{Topic E Problem 2}
+        Frequencies of FM radio stations are usually given in megahertz (MHz), where 1 MHz equals 106 sec$^{-1}$. 
+        For a radio station that broadcasts at 94.3 MHz, calculate the following:
+        \begin{enumerate}[label=\alph*)]
+            \item   The frequency in sec$^{-1}$
+            \item   The wavelength of the radiation, in meters
+            \item   The wavelength of the radiation, in nanometers
+            \item   The photon energy, in joules
+            \item   The photon energy, in kJ/mol
+        \end{enumerate}
+        
+        \subsection{Solution}
+
+
+    \pagebreak
+    \section{Topic E Problem 3}
+        Molecular bromine (\ce{Br2}) breaks apart into bromine atoms if it is exposed to light whose energy is 190 kJ/mol.
+        \begin{enumerate}[label=\alph*)]
+            \item   Calculate the wavelength of this light, in nanometers.
+            \item   Does this light fall in the visible spectrum? 
+                If not, does it fall in the infrared region, or in the ultraviolet region?
+        \end{enumerate}
+
+        \subsection{Solution}
+
+
+    \pagebreak
+    \section{Topic E Problem 4}
+        When an atom absorbs light, does an electron in the atom move from a lower energy level to a higher energy level, or does it move from a higher level to a lower level?
+
+        \subsection{Solution}
+
+
+    \pagebreak
+    \section{Topic E Problem 5}
+        Here are two of the allowed energy levels for a lithium atom:
+        \begin{center}
+            Level 2: $-8.638\E{-19}$ J; Level 3: $-5.678\E{-19}$ J
+        \end{center}
+        \begin{enumerate}
+            \item   What is $\Delta$E for a lithium atom when an electron moves from level 3 to level 2? 
+                Give your answer in joules.
+            \item   What is $\Delta$E for a lithium atom when an electron moves from level 2 to level 3? 
+                Give your answer in joules.
+            \item   Convert your answer to part a into kJ/mol.
+            \item   When the electron drops from level 3 to level 2, the atom emits a photon. 
+                Calculate the wavelength of this photon, in nanometers.
+            \item   Can visible light move an electron from level 2 to level 3? 
+                Explain your answer.
+        \end{enumerate}
+
+        \subsection{Solution}
+
+
+    \pagebreak
+    \section{Topic E Problem 6}
+        An atom can only undergo one electron transition at a time. 
+        However, when we observe the emission spectrum of an element, we see many lines. 
+        Explain.
+
+        \subsection{Solution}
+
+
+    \pagebreak
+    \section{Topic E Problem 7}
+        Here are three of the allowed energy levels for a calcium atom:
+        \begin{center}
+            Level A: -710.3 kJ/mol; Level B: -648.4 kJ/mol; Level C: -514.2 kJ/mol
+        \end{center}
+        Calculate the wavelengths of the three emission lines that can be produced by electron transitions involving these levels, and list the initial and final level for each emission line.
+
+        \subsection{Solution}
+
+
+    \pagebreak
+    \section{Topic E Problem 8}
+        A line in the emission spectrum of neon has a wavelength of 471.5 nm. 
+        The final energy level for the corresponding electron transition is -266.7 kJ/mol. 
+        What is the initial energy level for this transition?
+
+        \subsection{Solution}
+
+
+    \pagebreak
+    \section{Topic E Problem 9}
+        The following electronic transitions and the corresponding wavelengths can be seen in the emission spectrum of potassium:
+        \begin{center}
+            \begin{tabular}{l l}
+                level 7 $\rightarrow$ level 6   &wavelength = 770.1 nm\\
+                level 8 $\rightarrow$ level 7   &wavelength = 1243.6 nm\\
+                level 10 $\rightarrow$ level 8  &wavelength = 14,818.5 nm
+            \end{tabular}
+        \end{center}
+        Using this information, calculate the wavelength that corresponds to the level 10 $\rightarrow$ level 6 transition in a potassium atom.
+
+        \subsection{Solution}
+
+    \pagebreak
+    \tableofcontents
+\end{document}
