@@ -221,14 +221,33 @@
                 If not, does it fall in the infrared region, or in the ultraviolet region?
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            Here, $ME$ refers to the molar energy, meaning the amount of energy per mole.
+            \begin{align}
+                E   &=  \frac{ME}{N_A}
+                    =   \frac{190\E{3}\,\unit{\kilo\joule/\mole}}{6.022\E{23}\,\unit{\mole^{-1}}}
+                    =   \U{3.15}5\E{-19}\,\unit{\joule}\\
+                E   &=  h\nu\\
+                \nu &=  \frac{E}{h}
+                    =   \frac{\U{3.15}5\E{-19}\,\unit{\joule}}{6.626\E{-34}\,\unit{\joule\cdot\second}}
+                    =   \U{4.76}169\E{14}\,\unit{\hertz}\\
+                \lambda &=  \frac{\rm c}{\nu}
+                    =   \frac{2.998\E{8}\,\unit{\meter/\second}}{\U{4.76}169\E{14}\,\unit{\hertz}}
+                    =   \U{6.29}60796\E{-7}\,\unit{\meter}\\
+                    &=  \U{629}.60796\,\unit{\nano\meter}
+                    =   \boxed{630\,\unit{\nano\meter}}
+            \end{align}
+        
+        \subsection{Solution (b)}
+            This \U{does} fall in the visible spectrum.
+            The visible spectrum runs from about 400\,\unit{\nano\meter} to 700\,\unit{\nano\meter}.
 
-
-    \pagebreak
+    % \pagebreak
     \section{Topic E Problem 4}
         When an atom absorbs light, does an electron in the atom move from a lower energy level to a higher energy level, or does it move from a higher level to a lower level?
 
         \subsection{Solution}
+        Absorbing causes it to move from a lower level to a higher level. 
 
 
     \pagebreak
@@ -237,7 +256,7 @@
         \begin{center}
             Level 2: $-8.638\E{-19}$ J; Level 3: $-5.678\E{-19}$ J
         \end{center}
-        \begin{enumerate}
+        \begin{enumerate}[label=\alph*)]
             \item   What is $\Delta$E for a lithium atom when an electron moves from level 3 to level 2? 
                 Give your answer in joules.
             \item   What is $\Delta$E for a lithium atom when an electron moves from level 2 to level 3? 
@@ -249,17 +268,56 @@
                 Explain your answer.
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            \begin{align*}
+                \Delta E    &=  E_2 - E_3
+                    =   -8.638\E{-19}\,\unit{\joule} + 5.678\E{-19}\,\unit{\joule}
+                    =   \boxed{-2.960\E{-19}\,\unit{\joule}}
+            \end{align*}
+        
+        \subsection{Solution (b)}
+            \begin{align*}
+                \Delta E    &=  E_3 - E_2
+                    =   -5.678\E{-19}\,\unit{\joule} + 8.638\E{-19}\,\unit{\joule}
+                    =   \boxed{2.960\E{-19}\,\unit{\joule}}
+            \end{align*}
 
+        \subsection{Solution (c)}
+            \begin{align}
+                ME  &=  E \times N_A
+                    =   -2.960\E{-19}\,\unit{\joule} \times 6.022\E{23}\,\unit{\mole^{-1}}\\
+                    &=  -\U{17.82}512\E{4}\,\unit{\joule/\mole}
+                    =   \boxed{-178.3\,\unit{\kilo\joule/\mole}}
+            \end{align}
 
-    \pagebreak
+        \subsection{Solution (d)}
+            The energy of the photon would be the negative of the energy lost when jumping from level 3 to level 2.
+            \begin{gather}
+                E   =   h\nu
+                    =   \frac{hc}{\lambda}\\
+                \begin{align}
+                    \lambda &=  \frac{hc}{E}
+                        =   \frac{(6.626\E{-34}\,\unit{\joule\cdot\second})(2.998\E{8}\,\unit{\meter/\second})}{2.960\E{-19}\,\unit{\joule}}\\
+                        &=  6.711\E{-7}\,\unit{\meter}
+                        =   \boxed{671.1\,\unit{\nano\meter}}
+                \end{align}
+            \end{gather}
+        
+        \subsection{Solution (e)}
+            Visible light ranging from 400nm to 700nm, it could, so the answer is yes.
+            It would be on the edge of the spectrum, though, so some people might not be able to see it.
+
+    % \pagebreak
     \section{Topic E Problem 6}
         An atom can only undergo one electron transition at a time. 
         However, when we observe the emission spectrum of an element, we see many lines. 
         Explain.
 
         \subsection{Solution}
-
+            When we observe the emission spectrum of an element, we are often observing the emission spectrum of many different atoms of that element and not just one.
+            One atom may absorb the wavelength for one color, while another atom may absorb the wavelength for another color.
+            The emission spectrum we see (such as on a spectrometer) is merely the total of all of these emitted colors.
+            We can think of it less as a spectrum and more as a statistical graph of the total number of data points at specific values being represented by the presence and boldness of a spectrum line at that wavelength.
 
     \pagebreak
     \section{Topic E Problem 7}
@@ -269,7 +327,22 @@
         \end{center}
         Calculate the wavelengths of the three emission lines that can be produced by electron transitions involving these levels, and list the initial and final level for each emission line.
 
-        \subsection{Solution}
+        \subsection{Solution B $\to$ A}
+            Wavelength is calculatable from energy, whch is itself calculatable from molar energy.
+            \begin{gather}
+                E   =   \frac{hc}{\lambda}; ME  =   E * N_A\\
+                \begin{align}
+                    \Delta ME   &=  ME_B - ME_A
+                        =   -648.4\,\unit{\kilo\joule/\mole} + 710.3\,\unit{\kilo\joule/\mole}\\
+                        &=  61.9\E{3}\,\unit{\joule/\mole}\\
+                    \lambda &=  \frac{hc}{E}
+                        =   \frac{hcN_A}{ME}\\
+                        &=  \frac{(6.626\E{-34}\,\unit{\joule\cdot\second})(2.998\E{8}\,\unit{\meter/\second})(6.022\E{23}\,\unit{\mol^{-1}})}{61.9\E{3}\,\unit{\joule/\mole}}\\
+                        &=  \frac{0.\U{1196}255\,\unit{\meter}}{61.9\E{3}}
+                        =   \U{1.932}56\E{-6}\,\unit{\meter}
+                        =   \boxed{1.933\E{-6}\,\unit{\meter}}
+                \end{align}
+            \end{gather}
 
 
     \pagebreak
