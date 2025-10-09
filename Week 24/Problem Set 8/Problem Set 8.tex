@@ -24,6 +24,7 @@
     \DeclareSIUnit{\atm}{atm}
     \DeclareSIUnit{\molarity}{M}
     \DeclareSIUnit{\M}{M}
+    \DeclareSIUnit{\torr}{torr}
 
     \maketitle
 
@@ -92,6 +93,9 @@
         Using this information and the enthalpies of formation in \textbf{T1: Standard Thermodynamic Quantities} of your online textbook, calculate the enthalpy of formation ($\rm \Delta H_f^{\circ}$) of \ce{C4H5N(l)}.
 
         \subsection{Solution}
+            \begin{center}
+                \includegraphics[width=\textwidth]{Answers Images/D24.jpg}
+            \end{center}
 
 
 
@@ -106,6 +110,9 @@
         \end{enumerate}
 
         \subsection{Solution}
+            \begin{center}
+                \includegraphics[width=\textwidth]{Answers Images/D25.jpg}
+            \end{center}
 
 
 
@@ -122,6 +129,9 @@
         \end{center}
 
         \subsection{Solution}
+            \begin{center}
+                \includegraphics[width=\textwidth]{Answers Images/D26.jpg}
+            \end{center}
 
 
 
@@ -139,7 +149,9 @@
         \end{center}
 
         \subsection{Solution}
-
+            \begin{center}
+                \includegraphics[width=\textwidth]{Answers Images/D27.jpg}
+            \end{center}
 
 
     \pagebreak
@@ -152,6 +164,9 @@
         \end{enumerate}
 
         \subsection{Solution}
+            \begin{center}
+                \includegraphics[width=\textwidth]{Answers Images/D28.jpg}
+            \end{center}
 
 
 
@@ -162,6 +177,9 @@
         Explain why or why not.
 
         \subsection{Solution}
+            \begin{center}
+                \includegraphics[width=\textwidth]{Answers Images/D29.jpg}
+            \end{center}
 
 
 
@@ -179,7 +197,35 @@
         Do not look up any other thermochemical information. 
 
         \subsection{Solution}
+            \begin{center}
+                \includegraphics[width=\textwidth]{Answers Images/D30-1.jpg}
+            \end{center}
+            At this point, since the container is of constant volume, we use $\Delta$E, not $\rm\Delta H$, the former of which we should find now. 
+            In our equation, we can see that $\rm \Delta n_{gas} = -7\,\unit{\mole}$. 
+            \begin{align}
+                \rm
+                \Delta H    &=  \rm \Delta E + RT\,\Delta n_{gas}\\
+                \Delta E    &=  \rm \Delta H - RT\,\Delta n_{gas}\\
+                    &=  -5707.8\,\unit{\kilo\joule} - (8.314\,\unit{\frac{\joule}{\mole\,\kelvin}}) (298.15\unit{\kelvin}) (-7\,\unit{\mole})\\
+                    &=  -5707.8\,\unit{\kilo\joule} + 17.4\,\unit{\kilo\joule}
+                    =   -5690.4\,\unit{\kilo\joule}
+            \end{align}
 
+            From here, we use our favorite ratio.
+            \begin{align}
+                n_{\rm sp}  &=  \frac{n\,\Delta E_{\rm sp}}{\Delta E}
+                    =   \frac{(2\,\unit{\mole}) \times (-\U{46.62}98\,\unit{\kilo\joule})}{-5690.4\,\unit{\kilo\joule}}
+                    =   0.0\U{16388}8\,\unit{\mole}
+            \end{align}
+
+            Lastly, we use the Ideal Gas Law.
+            \begin{align}
+                PV  &=  nRT\\
+                V   &=  \frac{n_{\rm sp} RT}{P}
+                    =   \frac{(0.0\U{16388}8\,\unit{\mole})(62.36\,\unit{\frac{\torr\,\liter}{\mole\,\kelvin}})(298.15\unit{\kelvin})}{785.0\,\unit{\torr}}\\
+                    &=  0.\U{3881}6675\,\unit{\liter}
+                    =   \boxed{388.2\,\unit{\milli\liter}}
+            \end{align}
 
     \setcounter{section}{0}
     \pagebreak
@@ -195,6 +241,9 @@
         \end{enumerate}
 
         \subsection{Solution}
+            \begin{center}
+                \includegraphics[width=\textwidth]{Answers Images/E1.jpg}
+            \end{center}
 
 
     \pagebreak
@@ -210,6 +259,10 @@
         \end{enumerate}
         
         \subsection{Solution}
+            \begin{center}
+                \includegraphics[width=\textwidth]{Answers Images/E2.jpg}
+            \end{center}
+            The answer to part (e) is 0.376\,\unit{\joule/\mole} if you have trouble reading it.
 
 
     \pagebreak
@@ -327,7 +380,8 @@
         \end{center}
         Calculate the wavelengths of the three emission lines that can be produced by electron transitions involving these levels, and list the initial and final level for each emission line.
 
-        \subsection{Solution B $\to$ A}
+        \subsection{Solution A and B}
+            Going from B to A would be the direction in which the electron lowers in energy and releases a photon.
             Wavelength is calculatable from energy, whch is itself calculatable from molar energy.
             \begin{gather}
                 E   =   \frac{hc}{\lambda}; ME  =   E * N_A\\
@@ -343,6 +397,34 @@
                         =   \boxed{1.933\E{-6}\,\unit{\meter}}
                 \end{align}
             \end{gather}
+        
+        \subsection{Solution B and C}
+            It would go from C to B to release a photon.
+            \begin{align}
+                \Delta ME   &=  ME_C - ME_B
+                    =   -514.2\,\unit{\kilo\joule/\mole} + 648.4\,\unit{\kilo\joule/\mole}\\
+                    &=  134.2\E{3}\,\unit{\joule/\mole}\\
+                \lambda &=  \frac{hc}{E}
+                    =   \frac{hcN_A}{ME}\\
+                    &=  \frac{(6.626\E{-34}\,\unit{\joule\cdot\second})(2.998\E{8}\,\unit{\meter/\second})(6.022\E{23}\,\unit{\mol^{-1}})}{134.2\E{3}\,\unit{\joule/\mole}}\\
+                    &=  \frac{0.\U{1196}255\,\unit{\meter}}{134.2\E{3}}
+                    =   \U{8.913}97\E{-7}\,\unit{\meter}
+                    =   \boxed{8.914\E{-7}\,\unit{\meter}}
+            \end{align}
+        
+        \subsection{Solution A and C}
+            It would go from C to A to release a photon.
+            \begin{align}
+                \Delta ME   &=  ME_C - ME_A
+                    =   -514.2\,\unit{\kilo\joule/\mole} + 710.3\,\unit{\kilo\joule/\mole}\\
+                    &=  196.1\E{3}\,\unit{\joule/\mole}\\
+                \lambda &=  \frac{hc}{E}
+                    =   \frac{hcN_A}{ME}\\
+                    &=  \frac{(6.626\E{-34}\,\unit{\joule\cdot\second})(2.998\E{8}\,\unit{\meter/\second})(6.022\E{23}\,\unit{\mol^{-1}})}{196.1\E{3}\,\unit{\joule/\mole}}\\
+                    &=  \frac{0.\U{1196}255\,\unit{\meter}}{196.1\E{3}}
+                    =   \U{6.100}23\E{-7}\,\unit{\meter}
+                    =   \boxed{6.100\E{-7}\,\unit{\meter}}
+            \end{align}
 
 
     \pagebreak
@@ -352,6 +434,18 @@
         What is the initial energy level for this transition?
 
         \subsection{Solution}
+            The wavelength of the line correspond to the change in the energy from the initial to the final wavelength.
+            Since this is an emission of light rather than an absorption, the change in energy will be have to be negative.
+            \begin{align}
+                \Delta ME   &=  -N_A * \frac{hc}{\lambda}\\
+                    &=  -\frac{(6.626\E{-34}\,\unit{\joule\cdot\second})(2.998\E{8}\,\unit{\meter/\second})(6.022\E{23}\,\unit{\mol^{-1}})}{471.5\E{-9}\,\unit{\meter}}\\
+                    &=  -\frac{0.\U{1196}255}{471.5\E{-9}}\,\unit{\joule/\mole}
+                    =   -\U{253.7}126\,\unit{\kilo\joule/\mole}\\
+                ME_i    &=  ME_f - \Delta ME
+                    =   -266.7\,\unit{\kilo\joule/\mole} + \U{253.7}126\,\unit{\kilo\joule/\mole}\\
+                    &=  -\U{13.0}126\,\unit{\kilo\joule/\mole}
+                    =   \boxed{-13.0\,\unit{\kilo\joule/\mole}}
+            \end{align}
 
 
     \pagebreak
@@ -367,7 +461,39 @@
         Using this information, calculate the wavelength that corresponds to the level 10 $\rightarrow$ level 6 transition in a potassium atom.
 
         \subsection{Solution}
+            This is a four-step process. 
+            Step one: convert wavelength to energy.
+            I will keep Planck's constant and the speed of light as constants for the time being.
+            \begin{gather}
+                E_{7,6} =   \frac{hc}{770.1\,\unit{\nano\meter}}\\
+                E_{8,7} =   \frac{hc}{1243.6\,\unit{\nano\meter}}\\
+                E_{10,8}=   \frac{hc}{14818.5\,\unit{\nano\meter}}
+            \end{gather}
 
+            Step two: add the three energies together to get the energy required to go from level 10 to level 6.
+            We can also pull out the $hc$ since it's a constant in all three.
+            \begin{align}
+                E_{10,6}    &=  E_{10,8} + E_{8,7} + E_{7,6}\\
+                    &=  \frac{hc}{14818.5\,\unit{\nano\meter}} + \frac{hc}{1243.6\,\unit{\nano\meter}} + \frac{hc}{770.1\,\unit{\nano\meter}}\\
+                    &=  hc\left( \frac{1}{14818.5\,\unit{\nano\meter}} + \frac{1}{1243.6\,\unit{\nano\meter}} + \frac{1}{770.1\,\unit{\nano\meter}} \right)
+            \end{align}
+
+            Step three: since $E = \frac{hc}{\lambda}$, we can divide both sides by $hc$ to find the reciprocal of the wavelength.
+            \begin{equation}
+                \frac{E_{10,6}}{hc} =   \frac{1}{\lambda_{10,6}}
+                    =   \frac{1}{14818.5\,\unit{\nano\meter}} + \frac{1}{1243.6\,\unit{\nano\meter}} + \frac{1}{770.1\,\unit{\nano\meter}}
+            \end{equation}
+
+            Step four: Take the reciprocal to get the final answer.
+            \begin{align}
+                \lambda_{10,6}  &=  \left( \frac{1}{14818.5\,\unit{\nano\meter}} + \frac{1}{1243.6\,\unit{\nano\meter}} + \frac{1}{770.1\,\unit{\nano\meter}} \right)^{-1}
+                    =   \boxed{460.8\,\unit{\nano\meter}}
+            \end{align}
+
+            For anyone interested in the more math-physics behind this, this does set up an equation for the equivalent wavelength for multiple emitted or absorbed wavelengths.
+            \begin{equation}
+                \lambda_{\rm eq}    =   \left( \sum \lambda_i^{-1} \right)^{-1}
+            \end{equation}
     \pagebreak
     \tableofcontents
 \end{document}

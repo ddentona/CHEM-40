@@ -14,26 +14,28 @@
 \contentsline {subsection}{\numberline {29.1}Solution}{8}{}%
 \contentsline {section}{\numberline {30}Topic D Problem 30}{9}{}%
 \contentsline {subsection}{\numberline {30.1}Solution}{9}{}%
-\contentsline {section}{\numberline {1}Topic E Problem 1}{10}{}%
-\contentsline {subsection}{\numberline {1.1}Solution}{10}{}%
-\contentsline {section}{\numberline {2}Topic E Problem 2}{11}{}%
-\contentsline {subsection}{\numberline {2.1}Solution}{11}{}%
-\contentsline {section}{\numberline {3}Topic E Problem 3}{12}{}%
-\contentsline {subsection}{\numberline {3.1}Solution (a)}{12}{}%
-\contentsline {subsection}{\numberline {3.2}Solution (b)}{12}{}%
-\contentsline {section}{\numberline {4}Topic E Problem 4}{12}{}%
-\contentsline {subsection}{\numberline {4.1}Solution}{12}{}%
-\contentsline {section}{\numberline {5}Topic E Problem 5}{13}{}%
-\contentsline {subsection}{\numberline {5.1}Solution (a)}{13}{}%
-\contentsline {subsection}{\numberline {5.2}Solution (b)}{13}{}%
-\contentsline {subsection}{\numberline {5.3}Solution (c)}{13}{}%
-\contentsline {subsection}{\numberline {5.4}Solution (d)}{13}{}%
-\contentsline {subsection}{\numberline {5.5}Solution (e)}{14}{}%
-\contentsline {section}{\numberline {6}Topic E Problem 6}{14}{}%
-\contentsline {subsection}{\numberline {6.1}Solution}{14}{}%
-\contentsline {section}{\numberline {7}Topic E Problem 7}{15}{}%
-\contentsline {subsection}{\numberline {7.1}Solution B $\to $ A}{15}{}%
-\contentsline {section}{\numberline {8}Topic E Problem 8}{16}{}%
-\contentsline {subsection}{\numberline {8.1}Solution}{16}{}%
-\contentsline {section}{\numberline {9}Topic E Problem 9}{17}{}%
-\contentsline {subsection}{\numberline {9.1}Solution}{17}{}%
+\contentsline {section}{\numberline {1}Topic E Problem 1}{11}{}%
+\contentsline {subsection}{\numberline {1.1}Solution}{11}{}%
+\contentsline {section}{\numberline {2}Topic E Problem 2}{12}{}%
+\contentsline {subsection}{\numberline {2.1}Solution}{12}{}%
+\contentsline {section}{\numberline {3}Topic E Problem 3}{13}{}%
+\contentsline {subsection}{\numberline {3.1}Solution (a)}{13}{}%
+\contentsline {subsection}{\numberline {3.2}Solution (b)}{13}{}%
+\contentsline {section}{\numberline {4}Topic E Problem 4}{13}{}%
+\contentsline {subsection}{\numberline {4.1}Solution}{13}{}%
+\contentsline {section}{\numberline {5}Topic E Problem 5}{14}{}%
+\contentsline {subsection}{\numberline {5.1}Solution (a)}{14}{}%
+\contentsline {subsection}{\numberline {5.2}Solution (b)}{14}{}%
+\contentsline {subsection}{\numberline {5.3}Solution (c)}{14}{}%
+\contentsline {subsection}{\numberline {5.4}Solution (d)}{14}{}%
+\contentsline {subsection}{\numberline {5.5}Solution (e)}{15}{}%
+\contentsline {section}{\numberline {6}Topic E Problem 6}{15}{}%
+\contentsline {subsection}{\numberline {6.1}Solution}{15}{}%
+\contentsline {section}{\numberline {7}Topic E Problem 7}{16}{}%
+\contentsline {subsection}{\numberline {7.1}Solution A and B}{16}{}%
+\contentsline {subsection}{\numberline {7.2}Solution B and C}{16}{}%
+\contentsline {subsection}{\numberline {7.3}Solution A and C}{17}{}%
+\contentsline {section}{\numberline {8}Topic E Problem 8}{18}{}%
+\contentsline {subsection}{\numberline {8.1}Solution}{18}{}%
+\contentsline {section}{\numberline {9}Topic E Problem 9}{19}{}%
+\contentsline {subsection}{\numberline {9.1}Solution}{19}{}%
