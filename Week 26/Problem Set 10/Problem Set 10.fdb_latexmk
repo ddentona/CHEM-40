@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1760815023.53302 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 26/Problem Set 10/Problem Set 10.tex" "Problem Set 10.pdf" "Problem Set 10" 1760815024.24605 0
-  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 26/Problem Set 10/Problem Set 10.tex" 1760815023.33387 11158 19815718b83ef2240a2907497a8a27cb ""
+["pdflatex"] 1760832073.13495 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 26/Problem Set 10/Problem Set 10.tex" "Problem Set 10.pdf" "Problem Set 10" 1760832073.77696 0
+  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 26/Problem Set 10/Problem Set 10.tex" 1760832072.92717 11829 e7146d6a80502db2ef33a09b41ec8909 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -82,9 +82,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1727305248.69286 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727305230 8221424 9bdbcc07e109911bb30a75dc8990d89e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Problem Set 10.aux" 1760815024.20124 2222 8a11c9a77565089764aa3f4a513f8983 "pdflatex"
-  "Problem Set 10.tex" 1760815023.33387 11158 19815718b83ef2240a2907497a8a27cb ""
-  "Problem Set 10.toc" 1760815024.20166 1332 1b5abc67a82fc051d1db88cd96e3033b "pdflatex"
+  "Problem Set 10.aux" 1760832073.73498 2425 7b32bc69ff99964154b2b0ec3a0ecc9b "pdflatex"
+  "Problem Set 10.tex" 1760832072.92717 11829 e7146d6a80502db2ef33a09b41ec8909 ""
+  "Problem Set 10.toc" 1760832073.73555 1453 0026d9f9ef897876746d4a0c8dc5e141 "pdflatex"
   "img-E25.png" 1760812608.48493 47373 d19f521f2296a71a766599cf04668ccf ""
   "img-E26.png" 1760812943.04549 32521 47242fe782ec8bc671ae9ce7f821e276 ""
   "img-E27.png" 1760813126.94104 58610 11bb7a3cadfbbef723b830ed9420f5f1 ""
