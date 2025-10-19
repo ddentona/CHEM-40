@@ -1,7 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1760832073.13495 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 26/Problem Set 10/Problem Set 10.tex" "Problem Set 10.pdf" "Problem Set 10" 1760832073.77696 0
-  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 26/Problem Set 10/Problem Set 10.tex" 1760832072.92717 11829 e7146d6a80502db2ef33a09b41ec8909 ""
+["pdflatex"] 1760912754.08126 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 26/Problem Set 10/Problem Set 10.tex" "Problem Set 10.pdf" "Problem Set 10" 1760912754.79356 0
+  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 26/Problem Set 10/Problem Set 10.tex" 1760912753.17283 20265 d2a502c63c173113659e6bd557f56241 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -29,6 +31,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1215737283 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1575499628 8356 7bbb2c2373aa810be568c29e333da8ed ""
@@ -82,12 +85,14 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1727305248.69286 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727305230 8221424 9bdbcc07e109911bb30a75dc8990d89e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Problem Set 10.aux" 1760832073.73498 2425 7b32bc69ff99964154b2b0ec3a0ecc9b "pdflatex"
-  "Problem Set 10.tex" 1760832072.92717 11829 e7146d6a80502db2ef33a09b41ec8909 ""
-  "Problem Set 10.toc" 1760832073.73555 1453 0026d9f9ef897876746d4a0c8dc5e141 "pdflatex"
+  "Problem Set 10.aux" 1760912754.74593 4181 0cd336c47038e2d3070fbbf7c1a56e05 "pdflatex"
+  "Problem Set 10.tex" 1760912753.17283 20265 d2a502c63c173113659e6bd557f56241 ""
+  "Problem Set 10.toc" 1760912754.74663 2512 080af66a553ef3e4bfdafa19b3ec051e "pdflatex"
   "img-E25.png" 1760812608.48493 47373 d19f521f2296a71a766599cf04668ccf ""
   "img-E26.png" 1760812943.04549 32521 47242fe782ec8bc671ae9ce7f821e276 ""
   "img-E27.png" 1760813126.94104 58610 11bb7a3cadfbbef723b830ed9420f5f1 ""
+  "img-E28.png" 1760813196.167 25510 0d4c0250a867d8a55a6917c531b63e39 ""
+  "img-E32.png" 1760814035.05138 18748 c28a76a81aaa217883b98f5d1864a189 ""
   (generated)
   "Problem Set 10.aux"
   "Problem Set 10.log"

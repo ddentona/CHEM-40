@@ -30,7 +30,7 @@
 
     \maketitle
 
-    \setcounter{section}{9}
+    \setcounter{section}{22}
 
     \pagebreak
     \section{Topic E Problem 23}
@@ -70,6 +70,15 @@
             \item   If n = 4 for this orbital, what orbital is it?
         \end{enumerate}
 
+        \subsection{Solution}
+            \begin{enumerate}[label=\alph*/]
+                \item   The electron density plot is the one on the left ($\Psi^2$).
+                \item   The most probably distance from the center would be about $1250\,\unit{\pico\meter}$.
+                \item   The electron density plot goes to zero at two points, so there would be two radial nodes.
+                \item   Since the graph of the electron density is zero at the origin, this means that there are radial nodes.
+                \item   4p
+            \end{enumerate}
+
     \pagebreak
     \section{Topic E Problem 26}
         The radial probability plot below is for a p orbital. 
@@ -78,6 +87,13 @@
         \begin{center}
             \includegraphics[width=\textwidth]{img-E26.png}
         \end{center}
+
+        \subsection{Solution}
+            It's a p orbital, so $\ell = 1$ and there is one angular node.
+            There are four points at which the radial probability goes to zero, meaning four (4) radial nodes.
+            Adding the number of radial and angular nodes together, we get $4 + 1 = 5$.
+            Add one to the number of total nodes to get the value of n to get $\rm n = 1 + 5 = 6$.
+            The answer is \boxed{\rm 6p}.
 
     \pagebreak
     \section{Topic E Problem 27}
@@ -92,27 +108,75 @@
             \includegraphics[width=\textwidth]{img-E27.png}
         \end{center}
 
+        \subsection{Solution}
+            \begin{enumerate}[label=\alph*/]
+                \item   The graph on the left is the 3d orbital graph. The 2p graph would be generally further in due to having a smaller orbital radius.
+                \item   Both the 2p and 3d orbitals have their highest possible number of angular orbitals. 
+                    For the 2p, $\ell = 1$ and n = 2 allows for only 1 total nodes, meaning no radial orbitals.
+                    For the 3d, $\ell = 2$ and n = 3 allows for only 2 total nodes, meaning no radial orbitals.
+                \item   Both have angular nodes as previously stated, so both start at zero at the origin.
+                \item   1s and 5s
+            \end{enumerate}
+
     \pagebreak
     \section{Topic E Problem 28}
         A partial energy diagram for lithium (Li) is shown below. 
         Answer questions a through d, using the information on this diagram and your understanding of emission spectra. 
         This is a review problem.
         \begin{center}
-            \includegraphics[width=0.5\textwidth]{img-E26.png}
+            \includegraphics[width=0.75\textwidth]{img-E28.png}
         \end{center}
 
-        \begin{enumerate}
+        \begin{enumerate}[label=\alph*)]
             \item   Calculate $\Delta$E for the 2p $\rightarrow$ 2s transition in lithium, in kJ/mol.
             \item   Calculate the wavelength of light emitted during the 2p $\rightarrow$ 2s transition, in nm.
             \item   When the outer electron undergoes a 5p $\rightarrow$ 2s transition, the atom emits 256nm light. Calculate the energy of the 5p orbital, in kJ/mol.
         \end{enumerate}
+
+        \subsection{Solution (a)}
+            Calculate the difference.
+            \begin{gather}
+                \Delta E    =   E_f - E_i
+                    =   -520\,\unit{\kilo\joule/\mole} - (-342\,\unit{\kilo\joule/\mole})
+                    =   \boxed{-178\,\unit{\kilo\joule/\mole}}
+            \end{gather}
+
+        \subsection{Solution (b)}
+            Take the absolute value and divide by Avogadro's number to get the energy of the emitted photon.
+            \begin{align}
+                E   &=  \frac{\left| \Delta E \right|}{N_A}
+                    =   \frac{178\,\unit{\kilo\joule/\mole}}{6.022\E{23}\,\unit{\mole^{-1}}}
+                    =   2.956\E{-19}\,\unit{\joule}
+            \end{align} 
+
+            Convert this to the wavelength.
+            \begin{align}
+                \lambda &=  \frac{hc}{E}
+                    =   \frac{\hc}{2.956\E{-19}\,\unit{\joule}}
+                    =   \boxed{672\,\unit{\nano\meter}}
+            \end{align}
+
+        \subsection{Solution (c)}
+            First convert wavelength to energy.
+            \begin{align}
+                \Delta E    &=  \frac{hc}{\lambda} * N_A
+                    =   \frac{\hc}{256\E{-9}\,\unit{\meter}} * 6.022\E{23}\,\unit{\mole^{-1}}\\
+                    &=  476.3\,\unit{\kilo\joule/\mole}
+            \end{align}
+
+            Add this to the 2s energy to get the 5p energy.
+            \begin{equation}
+                E_i =   E_f + \Delta E
+                    =   -520 + 476.3
+                    =   \boxed{-53\,\unit{\kilo\joule/\mole}}
+            \end{equation}
 
     \pagebreak
     \section{Topic E Problem 29}
         Write ground-state electron configurations for the following atoms and ions. 
         You may use inert gas abbreviations (for example, [Ne]3s$^1$ instead of $\rm 1s^2 2s^2 2p^6 3s^1$).
         \begin{multicols}{3}
-            \begin{enumerate}
+            \begin{enumerate}[label=\alph*)]
                 \item   Rb
                 \item   Rb$^+$
                 \item   S
@@ -125,21 +189,47 @@
             \end{enumerate}
         \end{multicols}
 
+        \subsection{Solution}
+            \begin{multicols}{2}
+                \begin{enumerate}[label=\alph*/]
+                    \item   Rb $\to$    [Kr] $\rm 5s^1$
+                    \item   Rb$^+ \to$  [Kr]
+                    \item   S $\to$     [Ne] $\rm 3s^2 3p^4$
+                    \item   S$^{2-}\to$ [Ar]
+                    \item   Cd $\to$    [Kr] $\rm 5s^2 4d^{10}$
+                    \item   Cd$^{2+}$ $\to$ [Kr] $\rm 4d^{10}$
+                    \item   Co $\to$    [Ar] $\rm 4s^2 3d^7$
+                    \item   Co$^{2+}$ $\to$ [Ar] $\rm 3d^7$
+                    \item   Co$^{3+}$ $\to$ [Ar] $\rm 3d^6$
+                \end{enumerate}
+            \end{multicols}
+
     \pagebreak
     \section{Topic E Problem 30}
         \begin{enumerate}[label=\alph*)]
             \item   Which has the higher energy in a hydrogen atom, the 3s orbital or the 3p$_x$ orbital?
-            \item   Which has the higher energy in a phosphorus atom, the 3s orbital or the 3px orbital?
-            \item   Which has the higher energy in a hydrogen atom, the 4s or the 3dxy orbital?
-            \item   Which has the higher energy in a Mn atom, the 4s or the 3dxy orbital?
-            \item   Which has the higher energy in a Mn2+ ion, the 4s or the 3dxy orbital?
+            \item   Which has the higher energy in a phosphorus atom, the 3s orbital or the 3p$_x$ orbital?
+            \item   Which has the higher energy in a hydrogen atom, the 4s or the 3d$_{xy}$ orbital?
+            \item   Which has the higher energy in a Mn atom, the 4s or the 3d$_{xy}$ orbital?
+            \item   Which has the higher energy in a \ce{Mn^2+} ion, the 4s or the 3d$_{xy}$ orbital?
         \end{enumerate}
+
+        \subsection{Solution}
+            \begin{multicols}{3}
+                \begin{enumerate}[label=\alph*/]
+                    \item   Identical energy
+                    \item   3p$_x$
+                    \item   4s
+                    \item   3d$_{xy}$
+                    \item   4s
+                \end{enumerate}
+            \end{multicols}
 
     \pagebreak
     \section{Topic E Problem 31}
         Which of the following configurations are ground states, which are excited states, and which are impossible configurations for an uncharged lithium atom?
         \begin{multicols}{3}
-            \begin{enumerate}
+            \begin{enumerate}[label=\alph*)]
                 \item   1s$^3$
                 \item   $\rm 1s^2 1p^1$
                 \item   $\rm 1s^2 2s^1$
@@ -148,14 +238,37 @@
             \end{enumerate}
         \end{multicols}
 
+        \subsection{Solution}
+            \begin{multicols}{3}
+                \begin{enumerate}[label=\alph*/]
+                    \item   Impossible
+                    \item   Impossible
+                    \item   Ground
+                    \item   Excited
+                    \item   Excited
+                \end{enumerate}
+            \end{multicols}
+
 
     \pagebreak
     \section{Topic E Problem 32}
         One possible electron configuration for an oxygen atom is [He]$\rm 2s^2 2p^4$. 
         Which of the following orbital energy diagrams represent the ground state, which represent excited states, and which represent impossible arrangements for the 2p electrons in an uncharged oxygen atom?
         \begin{center}
-            \includegraphics[width=0.75\textwidth]{img-E26.png}
+            \includegraphics[width=0.75\textwidth]{img-E32.png}
         \end{center}    
+        
+        \subsection{Solution}
+            \begin{multicols}{2}
+                \begin{enumerate}[label=\alph*/]
+                    \item   Excited
+                    \item   Excited
+                    \item   Ground
+                    \item   Impossible
+                    \item   Ground
+                    \item   Impossible
+                \end{enumerate}
+            \end{multicols}
 
 
     \pagebreak
@@ -178,6 +291,12 @@
             \item   two unpaired electrons?
         \end{enumerate}
 
+        \subsection{Solution}
+            \begin{enumerate}[label=\alph*/]
+                \item   Ca, Zn, Kr
+                \item   Ti, Ni, Ge, Se
+            \end{enumerate}
+
 
     \pagebreak
     \section{Topic E Problem 35}
@@ -190,15 +309,27 @@
     \pagebreak
     \section{Topic E Problem 36}
         Which of the following configurations must be paramagnetic, which could be paramagnetic, and which cannot possibly be paramagnetic (i.e. they must be diamagnetic)?
-        \begin{enumerate}[label=\alph*)]
-            \item   [Ne]3s
-            \item   [Ne]$\rm 3s^2$
-            \item   [Ne]$\rm 3s^2 3p$
-            \item   [Ne]$\rm 3s^2 3p^2$
-        \end{enumerate}
+        \begin{multicols}{2}
+            \begin{enumerate}[label=\alph*)]
+                \item   \ [Ne]3s
+                \item   \ [Ne]$\rm 3s^2$
+                \item   \ [Ne]$\rm 3s^2 3p$
+                \item   \ [Ne]$\rm 3s^2 3p^2$
+            \end{enumerate}
+        \end{multicols}
+
+        \subsection{Solution}
+            \begin{multicols}{2}
+                \begin{enumerate}[label=\alph*)]
+                    \item   Paramagnetic
+                    \item   Diamagnetic
+                    \item   Paramagnetic
+                    \item   Could be paramagnetic
+                \end{enumerate}
+            \end{multicols}
 
 
-    \pagebreak
+    % \pagebreak
     \section{Topic E Problem 37}
         \begin{enumerate}[label=\alph*)]
             \item   How many electrons have n = 4 in a ground-state atom of technetium (Tc)?
@@ -208,6 +339,18 @@
             \item   What is the maximum number of electrons that could have m$_\ell$ = 2 in a ground-state atom of iron?
             \item   What is the minimum number of electrons that could have m$_s$ = $\frac{1}{2}$ in a ground-state atom of oxygen?
         \end{enumerate}
+
+        \subsection{Solution}
+            \begin{multicols}{3}
+                \begin{enumerate}[label=\alph*)]
+                    \item   13
+                    \item   15
+                    \item   8
+                    \item   44
+                    \item   2
+                    \item   3
+                \end{enumerate}
+            \end{multicols}
 
 
     \pagebreak
@@ -227,8 +370,15 @@
         Arrange the elements Al, Ga, Ne, and S in order of increasing ionization energy (i.e. from lowest to highest). 
         You should not need to look up the ionization energies to answer this question.
 
+        \subsection{Solution}
+            Atoms with a larger radius (i.e. closer to the metals) have lower ionization energies.
+            The same applies for atoms with a larger number of core electrons.
+            \begin{equation}
+                \boxed{\rm Ga < Al < S < Ne}
+            \end{equation}
 
-    \pagebreak
+
+    % \pagebreak
     \section{Topic E Problem 40}
         The list below shows the ionization energies for elements 36 through 40, in kJ/mol:
         \begin{multicols}{3}
@@ -243,6 +393,19 @@
             \item   Explain why the ionization energy drops dramatically as you go from element 36 to element 37.
             \item   Would you expect the ionization energy of element 35 to be lower than 1351 kJ/mol, or higher than 1351 kJ/mol?
         \end{enumerate}
+
+        \subsection{Solution}
+            For the hell of it, I'm going to answer this in the voice of Heisenberg, the well-known chemist.
+            \begin{enumerate}[label=\alph*)]
+                \item   A higher element number without a cmpleted shell means the charge in and attraction from the nucleaus is higher.
+                    This results in a higher first ionization energy because the valence electron is pulled on harder by the nucleus of the atom.
+                \item   Element 36 happens to be a noble gas. 
+                    Noble gases have full shells. 
+                    This means that the electrons have maximum pull by the nucleus and the outermost shell has minimum push by core electrons.
+                    This results in overall lower energy required for first ionization of the noble gas.
+                \item   I expect it to have lower first ionization energy due to a lower charge from the nucleus and an equal number of core electrons.
+                    This would mean that the nucleus pulls less on the electrons.
+            \end{enumerate}
 
 
     \pagebreak
@@ -259,16 +422,32 @@
             IE 6 = 19,805 kJ/mol
         \end{multicols}
 
+        \subsection{Solution}
+            Note that there is a giant jump between IE 4 and IE 5.
+            We can assume that that would be the point where it starts breaking into a lower shell.
+            There is only one possible column break that would take place in this range, being from Sodium to Neon.
+            Assuming neon's electron configuration to be the appearance after IE 4, we can count the previous shifts.
+            \begin{itemize}
+                \item   IE 4 initial appearence: Na
+                \item   IE 3 initial appearance: Mg
+                \item   IE 2 initial appearance: Al
+                \item   IE 1 initial appearance: Si
+            \end{itemize}
 
-    \pagebreak
+            This solidifies out final answer to be \boxed{\rm Si}.
+
+    % \pagebreak
     \section{Topic E Problem 42}
         The ionization energy of chlorine is 1251 kJ/mol. 
         Based on this value, which of the following conclusions is reasonable? 
         Select the correct statement, and fill in the blank with the correct orbital name.
         \begin{enumerate}[label=\alph*)]
             \item   The energy of the \_\_\_\_ orbital(s) in chlorine is 1251 kJ/mol.
-            \item   The energy of the \_\_\_\_ orbital(s) in chlorine is –1251 kJ/mol.
+            \item   The energy of the \_\_\_\_ orbital(s) in chlorine is -1251 kJ/mol.
         \end{enumerate}
+
+        \subsection{Solution}
+            The energy of the \boxed{\rm 3p} orbital(s) in chlorine is -1251 kJ/mol.
 
     \pagebreak
 
