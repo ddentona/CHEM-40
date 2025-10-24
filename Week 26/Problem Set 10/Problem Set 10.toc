@@ -21,9 +21,11 @@
 \contentsline {section}{\numberline {32}Topic E Problem 32}{11}{}%
 \contentsline {subsection}{\numberline {32.1}Solution}{11}{}%
 \contentsline {section}{\numberline {33}Topic E Problem 33}{12}{}%
+\contentsline {subsection}{\numberline {33.1}Solution}{12}{}%
 \contentsline {section}{\numberline {34}Topic E Problem 34}{13}{}%
 \contentsline {subsection}{\numberline {34.1}Solution}{13}{}%
 \contentsline {section}{\numberline {35}Topic E Problem 35}{14}{}%
+\contentsline {subsection}{\numberline {35.1}Solution}{14}{}%
 \contentsline {section}{\numberline {36}Topic E Problem 36}{15}{}%
 \contentsline {subsection}{\numberline {36.1}Solution}{15}{}%
 \contentsline {section}{\numberline {37}Topic E Problem 37}{15}{}%
