@@ -29,6 +29,7 @@
 \contentsline {section}{\numberline {37}Topic E Problem 37}{15}{}%
 \contentsline {subsection}{\numberline {37.1}Solution}{15}{}%
 \contentsline {section}{\numberline {38}Topic E Problem 38}{16}{}%
+\contentsline {subsection}{\numberline {38.1}Solution}{16}{}%
 \contentsline {section}{\numberline {39}Topic E Problem 39}{17}{}%
 \contentsline {subsection}{\numberline {39.1}Solution}{17}{}%
 \contentsline {section}{\numberline {40}Topic E Problem 40}{17}{}%
