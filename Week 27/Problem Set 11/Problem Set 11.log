@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  25 OCT 2025 20:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  26 OCT 2025 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -611,29 +611,41 @@ File: img-F8.png Graphic file (type png)
 <use img-F8.png>
 Package pdftex.def Info: img-F8.png  used on input line 143.
 (pdftex.def)             Requested size: 345.0pt x 64.14297pt.
- [9 <./img-F8.png>] [10] [11] (./Problem Set 11.toc)
+ [9 <./img-F8.png>] [10] [11]
+<img-F15.png, id=53, 277.035pt x 93.34875pt>
+File: img-F15.png Graphic file (type png)
+<use img-F15.png>
+Package pdftex.def Info: img-F15.png  used on input line 202.
+(pdftex.def)             Requested size: 241.49895pt x 81.37512pt.
+ [12 <./img-F15.png>]
+<img-F21.png, id=59, 153.57375pt x 119.44624pt>
+File: img-F21.png Graphic file (type png)
+<use img-F21.png>
+Package pdftex.def Info: img-F21.png  used on input line 219.
+(pdftex.def)             Requested size: 103.50105pt x 80.50061pt.
+ [13 <./img-F21.png>] (./Problem Set 11.toc)
 \tf@toc=\write4
 \openout4 = `"Problem Set 11.toc"'.
 
- [12] (./Problem Set 11.aux)
+ [14] (./Problem Set 11.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20998 strings out of 474116
- 465000 string characters out of 5743682
+ 21012 strings out of 474116
+ 465250 string characters out of 5743682
  1959187 words of memory out of 5000000
- 43039 multiletter control sequences out of 15000+600000
+ 43053 multiletter control sequences out of 15000+600000
  564086 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,107p,504b,1785s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "Problem Set 11.pdf" (12 pages, 157040 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on "Problem Set 11.pdf" (14 pages, 202311 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
