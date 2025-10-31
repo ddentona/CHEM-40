@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  26 OCT 2025 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  30 OCT 2025 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -599,53 +599,103 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 27.
  [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
-<img-F4.png, id=24, 359.3425pt x 80.3pt>
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<Answers Images/F1.jpg, id=13, 1258.7025pt x 524.96124pt>
+File: Answers Images/F1.jpg Graphic file (type jpg)
+<use Answers Images/F1.jpg>
+Package pdftex.def Info: Answers Images/F1.jpg  used on input line 43.
+(pdftex.def)             Requested size: 345.0pt x 143.88817pt.
+ [2 <./Answers Images/F1.jpg>]
+<Answers Images/F2a.jpg, id=19, 1452.42625pt x 771.88374pt>
+File: Answers Images/F2a.jpg Graphic file (type jpg)
+<use Answers Images/F2a.jpg>
+Package pdftex.def Info: Answers Images/F2a.jpg  used on input line 63.
+(pdftex.def)             Requested size: 345.0pt x 183.34784pt.
+<Answers Images/F2b.jpg, id=20, 1626.075pt x 444.66125pt>
+File: Answers Images/F2b.jpg Graphic file (type jpg)
+<use Answers Images/F2b.jpg>
+Package pdftex.def Info: Answers Images/F2b.jpg  used on input line 64.
+(pdftex.def)             Requested size: 345.0pt x 94.33829pt.
+ [3 <./Answers Images/F2a.jpg> <./Answers Images/F2b.jpg>]
+<Answers Images/F3a.jpg, id=24, 1855.93375pt x 1374.13374pt>
+File: Answers Images/F3a.jpg Graphic file (type jpg)
+<use Answers Images/F3a.jpg>
+Package pdftex.def Info: Answers Images/F3a.jpg  used on input line 88.
+(pdftex.def)             Requested size: 345.0pt x 255.42688pt.
+<Answers Images/F3b.jpg, id=25, 1799.72375pt x 994.71625pt>
+File: Answers Images/F3b.jpg Graphic file (type jpg)
+<use Answers Images/F3b.jpg>
+Package pdftex.def Info: Answers Images/F3b.jpg  used on input line 90.
+(pdftex.def)             Requested size: 345.0pt x 190.68282pt.
+ [4 <./Answers Images/F3a.jpg>] [5 <./Answers Images/F3b.jpg>]
+<img-F4.png, id=32, 359.3425pt x 80.3pt>
 File: img-F4.png Graphic file (type png)
 <use img-F4.png>
-Package pdftex.def Info: img-F4.png  used on input line 86.
+Package pdftex.def Info: img-F4.png  used on input line 98.
 (pdftex.def)             Requested size: 258.75pt x 57.82574pt.
- [5 <./img-F4.png>] [6{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [7] [8]
-<img-F8.png, id=42, 556.0775pt x 103.38625pt>
+<Answers Images/F4.jpg, id=34, 1943.26pt x 498.86375pt>
+File: Answers Images/F4.jpg Graphic file (type jpg)
+<use Answers Images/F4.jpg>
+Package pdftex.def Info: Answers Images/F4.jpg  used on input line 110.
+(pdftex.def)             Requested size: 345.0pt x 88.56606pt.
+ [6 <./img-F4.png> <./Answers Images/F4.jpg>]
+<Answers Images/F5.jpg, id=39, 1440.38126pt x 461.725pt>
+File: Answers Images/F5.jpg Graphic file (type jpg)
+<use Answers Images/F5.jpg>
+Package pdftex.def Info: Answers Images/F5.jpg  used on input line 133.
+(pdftex.def)             Requested size: 345.0pt x 110.5908pt.
+ [7{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Answers Images/F5.jpg>]
+<Answers Images/F6.jpg, id=45, 1300.86pt x 419.5675pt>
+File: Answers Images/F6.jpg Graphic file (type jpg)
+<use Answers Images/F6.jpg>
+Package pdftex.def Info: Answers Images/F6.jpg  used on input line 143.
+(pdftex.def)             Requested size: 345.0pt x 111.26808pt.
+ [8 <./Answers Images/F6.jpg>]
+<Answers Images/F7.jpg, id=50, 1314.9125pt x 406.51875pt>
+File: Answers Images/F7.jpg Graphic file (type jpg)
+<use Answers Images/F7.jpg>
+Package pdftex.def Info: Answers Images/F7.jpg  used on input line 158.
+(pdftex.def)             Requested size: 345.0pt x 106.66003pt.
+ [9 <./Answers Images/F7.jpg>]
+<img-F8.png, id=54, 556.0775pt x 103.38625pt>
 File: img-F8.png Graphic file (type png)
 <use img-F8.png>
-Package pdftex.def Info: img-F8.png  used on input line 143.
+Package pdftex.def Info: img-F8.png  used on input line 167.
 (pdftex.def)             Requested size: 345.0pt x 64.14297pt.
- [9 <./img-F8.png>] [10] [11]
-<img-F15.png, id=53, 277.035pt x 93.34875pt>
-File: img-F15.png Graphic file (type png)
-<use img-F15.png>
-Package pdftex.def Info: img-F15.png  used on input line 202.
-(pdftex.def)             Requested size: 241.49895pt x 81.37512pt.
- [12 <./img-F15.png>]
-<img-F21.png, id=59, 153.57375pt x 119.44624pt>
-File: img-F21.png Graphic file (type png)
-<use img-F21.png>
-Package pdftex.def Info: img-F21.png  used on input line 219.
-(pdftex.def)             Requested size: 103.50105pt x 80.50061pt.
- [13 <./img-F21.png>] (./Problem Set 11.toc)
+<Answers Images/F8.jpg, id=55, 1283.79625pt x 782.925pt>
+File: Answers Images/F8.jpg Graphic file (type jpg)
+<use Answers Images/F8.jpg>
+Package pdftex.def Info: Answers Images/F8.jpg  used on input line 172.
+(pdftex.def)             Requested size: 345.0pt x 210.38907pt.
+ [10 <./img-F8.png> <./Answers Images/F8.jpg>] [11]
+<Answers Images/F10.jpg, id=63, 1778.645pt x 1486.55376pt>
+File: Answers Images/F10.jpg Graphic file (type jpg)
+<use Answers Images/F10.jpg>
+Package pdftex.def Info: Answers Images/F10.jpg  used on input line 224.
+(pdftex.def)             Requested size: 345.0pt x 288.34572pt.
+ [12 <./Answers Images/F10.jpg>] (./Problem Set 11.toc)
 \tf@toc=\write4
 \openout4 = `"Problem Set 11.toc"'.
 
- [14] (./Problem Set 11.aux)
+ [13] (./Problem Set 11.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 21012 strings out of 474116
- 465250 string characters out of 5743682
- 1959187 words of memory out of 5000000
- 43053 multiletter control sequences out of 15000+600000
+ 21075 strings out of 474116
+ 467180 string characters out of 5743682
+ 1958187 words of memory out of 5000000
+ 43116 multiletter control sequences out of 15000+600000
  564086 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,107p,504b,1785s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "Problem Set 11.pdf" (14 pages, 202311 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on "Problem Set 11.pdf" (13 pages, 3060371 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
