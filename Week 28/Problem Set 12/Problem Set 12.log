@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  1 NOV 2025 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  7 NOV 2025 10:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -604,55 +604,104 @@ Package chemgreek Info: Activating mapping `default' on line 28.
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 28.
+<Answers Images/F11.jpg, id=4, 1877.0125pt x 2166.0925pt>
+File: Answers Images/F11.jpg Graphic file (type jpg)
+<use Answers Images/F11.jpg>
+Package pdftex.def Info: Answers Images/F11.jpg  used on input line 50.
+(pdftex.def)             Requested size: 345.0pt x 398.10974pt.
  [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<img-F14.png, id=21, 502.87875pt x 64.24pt>
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./Answers Images/F11.jpg>]
+<Answers Images/F12.jpg, id=19, 1728.4575pt x 1504.62125pt>
+File: Answers Images/F12.jpg Graphic file (type jpg)
+<use Answers Images/F12.jpg>
+Package pdftex.def Info: Answers Images/F12.jpg  used on input line 64.
+(pdftex.def)             Requested size: 345.0pt x 300.32199pt.
+ [3 <./Answers Images/F12.jpg>]
+<img-F14.png, id=23, 502.87875pt x 64.24pt>
 File: img-F14.png Graphic file (type png)
 <use img-F14.png>
-Package pdftex.def Info: img-F14.png  used on input line 80.
+Package pdftex.def Info: img-F14.png  used on input line 86.
 (pdftex.def)             Requested size: 345.0pt x 44.07176pt.
  [4 <./img-F14.png>]
-<img-F15.png, id=27, 277.035pt x 93.34875pt>
+<img-F15.png, id=30, 277.035pt x 93.34875pt>
 File: img-F15.png Graphic file (type png)
 <use img-F15.png>
-Package pdftex.def Info: img-F15.png  used on input line 90.
+Package pdftex.def Info: img-F15.png  used on input line 99.
 (pdftex.def)             Requested size: 241.49895pt x 81.37512pt.
- [5 <./img-F15.png>] [6] [7]
-<img-F19.png, id=40, 121.45375pt x 72.27pt>
+ [5 <./img-F15.png>]
+<Answers Images/F16a.jpg, id=36, 1700.3525pt x 612.2875pt>
+File: Answers Images/F16a.jpg Graphic file (type jpg)
+<use Answers Images/F16a.jpg>
+Package pdftex.def Info: Answers Images/F16a.jpg  used on input line 127.
+(pdftex.def)             Requested size: 345.0pt x 124.23045pt.
+<Answers Images/F16b.jpg, id=37, 1700.3525pt x 2070.73625pt>
+File: Answers Images/F16b.jpg Graphic file (type jpg)
+<use Answers Images/F16b.jpg>
+Package pdftex.def Info: Answers Images/F16b.jpg  used on input line 129.
+(pdftex.def)             Requested size: 345.0pt x 420.14331pt.
+ [6 <./Answers Images/F16a.jpg>] [7 <./Answers Images/F16b.jpg>]
+<Answers Images/F17a.jpg, id=45, 1617.04124pt x 929.4725pt>
+File: Answers Images/F17a.jpg Graphic file (type jpg)
+<use Answers Images/F17a.jpg>
+Package pdftex.def Info: Answers Images/F17a.jpg  used on input line 147.
+(pdftex.def)             Requested size: 345.0pt x 198.30096pt.
+<Answers Images/F17b.jpg, id=46, 1604.99625pt x 455.7025pt>
+File: Answers Images/F17b.jpg Graphic file (type jpg)
+<use Answers Images/F17b.jpg>
+Package pdftex.def Info: Answers Images/F17b.jpg  used on input line 149.
+(pdftex.def)             Requested size: 345.0pt x 97.95326pt.
+ [8 <./Answers Images/F17a.jpg> <./Answers Images/F17b.jpg>]
+<Answers Images/F18.jpg, id=50, 1630.09pt x 689.57625pt>
+File: Answers Images/F18.jpg Graphic file (type jpg)
+<use Answers Images/F18.jpg>
+Package pdftex.def Info: Answers Images/F18.jpg  used on input line 160.
+(pdftex.def)             Requested size: 345.0pt x 145.94115pt.
+ [9 <./Answers Images/F18.jpg>]
+<img-F19.png, id=54, 121.45375pt x 72.27pt>
 File: img-F19.png Graphic file (type png)
 <use img-F19.png>
-Package pdftex.def Info: img-F19.png  used on input line 146.
-(pdftex.def)             Requested size: 51.7479pt x 30.79207pt.
- [8 <./img-F19.png>] [9]
-<img-F21.png, id=48, 153.57375pt x 119.44624pt>
+Package pdftex.def Info: img-F19.png  used on input line 168.
+(pdftex.def)             Requested size: 86.25pt x 51.32196pt.
+<Answers Images/F19.jpg, id=55, 1658.195pt x 877.2775pt>
+File: Answers Images/F19.jpg Graphic file (type jpg)
+<use Answers Images/F19.jpg>
+Package pdftex.def Info: Answers Images/F19.jpg  used on input line 184.
+(pdftex.def)             Requested size: 345.0pt x 182.52028pt.
+ [10 <./img-F19.png> <./Answers Images/F19.jpg>]
+<Answers Images/F20.jpg, id=60, 1602.98875pt x 182.6825pt>
+File: Answers Images/F20.jpg Graphic file (type jpg)
+<use Answers Images/F20.jpg>
+Package pdftex.def Info: Answers Images/F20.jpg  used on input line 193.
+(pdftex.def)             Requested size: 345.0pt x 39.31778pt.
+<img-F21.png, id=61, 153.57375pt x 119.44624pt>
 File: img-F21.png Graphic file (type png)
 <use img-F21.png>
-Package pdftex.def Info: img-F21.png  used on input line 172.
+Package pdftex.def Info: img-F21.png  used on input line 200.
 (pdftex.def)             Requested size: 103.50105pt x 80.50061pt.
- [10 <./img-F21.png>] (./Problem Set 12.toc)
+ [11 <./Answers Images/F20.jpg> <./img-F21.png>] (./Problem Set 12.toc)
 \tf@toc=\write4
 \openout4 = `"Problem Set 12.toc"'.
 
- [11] (./Problem Set 12.aux)
+ [12] (./Problem Set 12.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20752 strings out of 474116
- 459843 string characters out of 5743682
+ 20817 strings out of 474116
+ 461749 string characters out of 5743682
  1933187 words of memory out of 5000000
- 42791 multiletter control sequences out of 15000+600000
+ 42856 multiletter control sequences out of 15000+600000
  563751 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,107p,504b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Problem Set 12.pdf" (11 pages, 166961 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Problem Set 12.pdf" (12 pages, 4850854 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

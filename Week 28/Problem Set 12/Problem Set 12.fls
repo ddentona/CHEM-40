@@ -236,13 +236,23 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-OUTPUT Problem Set 12.pdf
-INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./Answers Images/F11.jpg
+INPUT ./Answers Images/F11.jpg
+INPUT ./Answers Images/F11.jpg
+INPUT ./Answers Images/F11.jpg
+OUTPUT Problem Set 12.pdf
+INPUT ./Answers Images/F11.jpg
+INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Answers Images/F12.jpg
+INPUT ./Answers Images/F12.jpg
+INPUT ./Answers Images/F12.jpg
+INPUT ./Answers Images/F12.jpg
+INPUT ./Answers Images/F12.jpg
 INPUT ./img-F14.png
 INPUT ./img-F14.png
 INPUT ./img-F14.png
@@ -253,11 +263,46 @@ INPUT ./img-F15.png
 INPUT ./img-F15.png
 INPUT ./img-F15.png
 INPUT ./img-F15.png
+INPUT ./Answers Images/F16a.jpg
+INPUT ./Answers Images/F16a.jpg
+INPUT ./Answers Images/F16a.jpg
+INPUT ./Answers Images/F16a.jpg
+INPUT ./Answers Images/F16a.jpg
+INPUT ./Answers Images/F16b.jpg
+INPUT ./Answers Images/F16b.jpg
+INPUT ./Answers Images/F16b.jpg
+INPUT ./Answers Images/F16b.jpg
+INPUT ./Answers Images/F16b.jpg
+INPUT ./Answers Images/F17a.jpg
+INPUT ./Answers Images/F17a.jpg
+INPUT ./Answers Images/F17a.jpg
+INPUT ./Answers Images/F17a.jpg
+INPUT ./Answers Images/F17a.jpg
+INPUT ./Answers Images/F17b.jpg
+INPUT ./Answers Images/F17b.jpg
+INPUT ./Answers Images/F17b.jpg
+INPUT ./Answers Images/F17b.jpg
+INPUT ./Answers Images/F17b.jpg
+INPUT ./Answers Images/F18.jpg
+INPUT ./Answers Images/F18.jpg
+INPUT ./Answers Images/F18.jpg
+INPUT ./Answers Images/F18.jpg
+INPUT ./Answers Images/F18.jpg
 INPUT ./img-F19.png
 INPUT ./img-F19.png
 INPUT ./img-F19.png
 INPUT ./img-F19.png
 INPUT ./img-F19.png
+INPUT ./Answers Images/F19.jpg
+INPUT ./Answers Images/F19.jpg
+INPUT ./Answers Images/F19.jpg
+INPUT ./Answers Images/F19.jpg
+INPUT ./Answers Images/F19.jpg
+INPUT ./Answers Images/F20.jpg
+INPUT ./Answers Images/F20.jpg
+INPUT ./Answers Images/F20.jpg
+INPUT ./Answers Images/F20.jpg
+INPUT ./Answers Images/F20.jpg
 INPUT ./img-F21.png
 INPUT ./img-F21.png
 INPUT ./img-F21.png
@@ -271,6 +316,7 @@ OUTPUT Problem Set 12.toc
 INPUT Problem Set 12.aux
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
