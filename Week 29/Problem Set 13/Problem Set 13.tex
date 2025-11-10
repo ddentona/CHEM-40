@@ -19,7 +19,7 @@
     CHEM101A: General College Chemistry
     }
 \author{Donald Aingworth}
-\date{November 7, 2025}
+\date{November 14, 2025}
 
 \newcommand{\E}[1]{\times 10^{#1}}
 \newcommand{\hc}{1.9864748\E{-25}\,\unit{\joule\,\meter}}
@@ -78,7 +78,23 @@
             \item   Which has the larger bond distance, \ce{NO-} or NO? Assume that this energy diagram also applies to NO.
         \end{enumerate}
         
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            Add up the bonding electrons and subtract the antibonding electrons.
+            Then divide the result by two.
+            The bond order is the quotient.
+            \begin{equation}
+                \frac{8 - 4}{2} = \frac{4}{2} = \boxed{2}
+            \end{equation}
+
+        \subsection{Solution (b)}
+            There are empty bond orbitals (both $\pi_{\rm 2p}^*$). 
+            This means that the \ce{NO-} as a molecule is \underline{paramagnetic}.
+
+        \subsection{Solution (c)}
+            If we look at the diagram for NO, the only difference is one fewer electron in $\pi_{\rm 2p}^*$. 
+            This raises the bond order to 2.5.
+            That in turn corresponds to a smaller bond distance.
+            This means that \boxed{\ce{NO-}} has the larger bond distance.
 
     \pagebreak
     \section{Topic F Problem 25}
@@ -99,6 +115,13 @@
         \end{enumerate}
         
         \subsection{Solution}
+            \begin{enumerate}[label=\alph*/]
+                \item   One ($\frac{2 - 0}{2}$). We ignore the 2s and 2p orbitals' electrons because they are nonbonding. 
+                \item   Diamagnetic. There are no unpaired electrons.
+                \item   Six, all those contained in the 2s and 2p orbitals.
+                \item   See below. Bonds not drawn to scale.
+                \item   The electron would come out of the 2p orbital from the Fluorine. As such, it would have no effect. 
+            \end{enumerate}
 
     \pagebreak
     \setcounter{section}{0}
@@ -106,6 +129,9 @@
         List the defining characteristics of a dynamic equilibrium as described in the video.
         
         \subsection{Solution}
+            Reactions are performed in both directions. 
+            There remains (roughly) a constant amount (or concentration) of each chemical at every point.
+            The rate of reaction is equal to the rate of reverse reaction.
 
     \pagebreak
     \section{Topic G Problem 2}
@@ -141,7 +167,7 @@
     \section{Topic G Problem 6}
         For the reaction below, the equilibrium constant K is greater than 1.
         \begin{center}
-            fructose  glucose  K >> 1
+            fructose $\rightleftharpoons$ glucose  K $>>$ 1
         \end{center}
         If a solution initially contains equal concentrations of fructose and glucose, which of the following statements must be true at that initial moment? 
         Explain your answer.
@@ -152,6 +178,10 @@
         \end{enumerate}
         
         \subsection{Solution}
+            (a) would be the only one true. 
+            Since K $>$ 1, that means that by equilibrium, there will be more glucose than frucose.
+            If we start with an equal amount of each, there would be more glucose being produced than fructose so as to approach the equilibrium.
+            That means that the reaction to create glucose (the forward reaction) will occur more (or be faster) than the reverse reaction.
 
     \pagebreak
     \section{Topic G Problem 7}
@@ -163,16 +193,50 @@
             \item   \ce{CaCO3(s) + CO2(aq) + H2O(l) <-> Ca2+(aq) + 2 HCO3-(aq)}
         \end{enumerate}
         
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            \begin{equation}
+                \rm K_c = \frac{\left[ \ce{NO2} \right]^2}{[\ce{NO}]^2 [\ce{O2}]}
+            \end{equation}
+
+        \subsection{Solution (b)}
+            \[ \rm K_c = \frac{[\ce{Ag2O}]^2}{[\ce{Ag}]^4 [\ce{O2}]} = \frac{1}{[\ce{O2}]} \]
+
+        \subsection{Solution (c)}
+            \[ \rm K_c = \frac{[\ce{Ca2+}][\ce{HCO3-}]^2}{[\ce{CaCO3}] [\ce{CO2}] [\ce{H2O}]} = \frac{[\ce{Ca2+}][\ce{HCO3-}]^2}{[\ce{CO2}]} \]
 
     \pagebreak
     \section{Topic G Problem 8}
         \begin{enumerate}[label=\alph*)]
-            \item   Write the $K_p$ expressions for reactions a and b in the previous problem. Note: the subscript “p” tells you that this is the equilibrium constant in terms of partial pressures(atm).
+            \item   Write the $K_p$ expressions for reactions a and b in the previous problem. Note: the subscript “p” tells you that this is the equilibrium constant in terms of partial pressures (atm).
             \item   If the value of $K_c$ for reaction (a) in the previous is $2.8\E{11}$ at 200\unit{\celsius}, what is the value of $K_p$ at this temperature?
         \end{enumerate}
         
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            This is similar to the last problem, but you use pressures rather than only consider gases.\\
+            a/ 
+            \begin{equation}
+                \rm K_p = \frac{ P_{\ce{NO2}}^2}{ P_{\ce{NO}}^2 P_{\ce{O2}}}
+            \end{equation}
+            b/ 
+            \begin{equation}
+                \rm K_p = \frac{1}{P_{\ce{O2}}}
+            \end{equation}
+
+        \subsection{Solution (b)}
+            This is solvable using an equation for $\rm K_p$ from $\rm K_c$. 
+            \begin{equation}
+                \rm K_p =   K_c (RT)^{\Delta n}
+            \end{equation}
+
+            We have values for $\rm K_c$, R (the value involving atmospheres), and T.
+            Our value for $\Delta n$ (change in number of gaseous moles) will be -1 since the only gas is \ce{O2}, which we lose a mole of.
+            \begin{align}
+                \rm
+                K_p &=  K_c (RT)^{\Delta n}
+                    =   2.8\E{11}\,\unit{\frac{\liter}{\mole}} \left( 0.08206\,\unit{\frac{\atm\cdot\liter}{\mole\cdot\kelvin}} \times 473.15\unit{\kelvin} \right)^{-1}\\
+                    &=  7.212\E{9}\,\unit{\frac{1}{\atm}}
+                    =   \boxed{7.2\E{9}\,\unit{\frac{1}{\atm}}}
+            \end{align}
 
     \pagebreak
     \section{Topic G Problem 9}
@@ -190,9 +254,41 @@
             \item   A mixture that contains 0.21 mol of \ce{PCl3}, 0.48 mol of \ce{Cl2}, and 0.39 mol of \ce{PCl5} in an 8.00 L container.
         \end{enumerate}
         
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            All of these will involve calculating Q, which depends on concentrations, each of which would be calculatable by dividing moles by volume when applicable.
+            \begin{align}
+                Q   &=  \frac{[\ce{PCl5}]}{[\ce{PCl3}][\ce{Cl2}]}
+                    =   \frac{0.0139}{0.0593 \times 0.0381}
+                    =   6.15
+            \end{align}
 
-    \pagebreak
+            This is likely at equilibrium. 
+            Measurements may be a little off.
+            If this is indeed the value of Q at this point, the reaction would be going forward.
+
+        \subsection{Solution (b)}
+            \begin{equation}
+                Q = \frac{0.0455}{0.0482 \times 0.289} = 3.27
+            \end{equation}
+
+            This reaction will definitely be going forwards.
+        
+        \subsection{Solution (c)}
+            Well, here [\ce{Cl2}] will be zero, so Q will be $\infty$.
+            What a way to involve calculus in Chemistry.
+            In any case, $\infty$ is greater than 6.17, so the reaction will occur in reverse.
+
+        \subsection{Solution (d)}
+            \begin{align}
+                Q   &=  \frac{\frac{n_{\ce{PCl5}}}{V}}{\frac{n_{\ce{PCl3}}}{V} \times \frac{n_{\ce{Cl2}}}{V}}
+                    =   V \times \frac{n_{\ce{PCl5}}}{n_{\ce{PCl3}} \times n_{\ce{Cl2}}}\\
+                    &=  8.00 \times \frac{0.39}{0.21 \times 0.48}
+                    =   31.0
+            \end{align}
+
+            The reaction will be going in reverse.
+
+    % \pagebreak
     \section{Topic G Problem 10}
         If Q, the reaction quotient, is greater than K for a reaction mixture, which of the following will happen?
         \begin{enumerate}[label=\alph*)]
@@ -203,6 +299,9 @@
         \end{enumerate}
         
         \subsection{Solution}
+            Statement (b) is correct. 
+            K does not change during a reaction (although chemical quantities and temperature changes may change it).
+            Q will always try to approach K, so if Q is greater than K, Q will attempt to decrease.
 
     \pagebreak
     \section{Topic G Problem 11}
@@ -215,8 +314,72 @@
             \item   A fourth equilibrium mixture contains equal concentrations of all three chemicals. What is the pressure of each substance in this mixture?
         \end{enumerate}
         
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            For all of this, we will be using an equation for $\rm K_p$. 
+            \begin{equation}
+                \rm K_p = \frac{P_{\ce{NH3}}^2}{P_{\ce{N2}} P_{\ce{H2}}^3}
+            \end{equation}
 
+            Solve for $P_{\ce{NH3}}$ and find the answer.
+            \begin{equation}
+                \rm 
+                P_{\ce{NH3}} = \sqrt{K_p P_{\ce{N2}} P_{\ce{H2}}^3}
+                    =   \sqrt{(0.0489) (0.100) (0.200)^3}
+                    =   \boxed{0.00625\,\unit{\atm}}
+            \end{equation}
+
+        \subsection{Solution (b)}
+            First convert from torr to atm.
+            \begin{gather}
+                P_{\ce{H2}} = 830\,\unit{\torr} \times \frac{1\,\unit{\atm}}{760\,\unit{\torr}} = 1.092\,\unit{\atm}\\
+                P_{\ce{NH3}} = 42\,\unit{\torr} \times \frac{1\,\unit{\atm}}{760\,\unit{\torr}} = 0.05526\,\unit{\atm}
+            \end{gather}
+
+            Now we solve for \ce{N2}.
+            \begin{equation}
+                P_{\ce{N2}} =   \frac{P_{\ce{NH3}}^2}{K_p P_{\ce{H2}}^3}
+                    =   \frac{0.05526^2}{0.0489 \times 1.092^3}
+                    =   \boxed{0.048\,\unit{\torr}}
+            \end{equation}
+
+        \subsection{Solution (c)}
+            First calculate $K_c$.
+            Our value for $\Delta n$ is $-2$.
+            The temperature is Kelvin is $529.15\,\unit{\kelvin}$.
+            \begin{align}
+                \rm
+                K_c =   \frac{K_p}{(0.08206 * 529.15)^{-2}}
+                    =   \frac{0.0489}{(0.08206 * 529.15)^{-2}}
+                    =   \U{92.1}997
+            \end{align}
+
+            From here, find the concentration of \ce{H2}.
+            \begin{equation}
+                [\ce{H2}] = \sqrt[3]{\frac{[\ce{NH3}]^2}{K_c \times [\ce{N2}]}}
+                    =   \sqrt[3]{\frac{0.0300^2}{\U{92.1}997 \times 0.0100}}
+                    =   \boxed{0.0992\,\unit{\molarity}}
+            \end{equation}
+
+        \subsection{Solution (d)}
+            Suppose that we had a concentration of $c$ of each substance.
+            We can form an equation for $\rm K_c$ of each and use that to find what $K_p$ would be in this instance, then solve for $c$.
+            \begin{gather}
+                \rm
+                K_c = \frac{c^2}{c \times c^3} = c^{-2}\\
+                K_c = \frac{K_p}{(RT)^{\Delta n}} = c^{-2}\\
+                c   =   \sqrt{\frac{(RT)^{\Delta n}}{K_p}}
+                    =   \sqrt{\frac{(0.08206 * 529.15)^{-2}}{0.0489}}
+                    =   0.\U{104}144\,\unit{\molarity}
+            \end{gather}
+
+            This can be used alongside the ideal gas law to find the pressure of all of them, which would be identical.
+            Bear in mind that $\rm c = \frac{n}{V}$.
+            \begin{align}
+                P   &=  \frac{n}{V}RT
+                    =   cRT\\
+                    &=  0.\U{104}144\,\unit{\molarity} \times 0.08206 \times 529.15
+                    =   \boxed{4.52\,\unit{\atm}}
+            \end{align}
     \pagebreak
     \tableofcontents
 \end{document}

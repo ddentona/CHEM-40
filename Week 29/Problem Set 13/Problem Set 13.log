@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  8 NOV 2025 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.25)  9 NOV 2025 17:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,34 +613,34 @@ File: img-F24.png Graphic file (type png)
 Package pdftex.def Info: img-F24.png  used on input line 70.
 (pdftex.def)             Requested size: 86.25pt x 96.62556pt.
  [4 <./img-F24.png>]
-<img-F25.png, id=27, 142.5325pt x 129.48375pt>
+<img-F25.png, id=30, 142.5325pt x 129.48375pt>
 File: img-F25.png Graphic file (type png)
 <use img-F25.png>
-Package pdftex.def Info: img-F25.png  used on input line 87.
+Package pdftex.def Info: img-F25.png  used on input line 103.
 (pdftex.def)             Requested size: 86.25pt x 78.3527pt.
- [5 <./img-F25.png>] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] (./Problem Set 13.toc)
+ [5 <./img-F25.png>] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] (./Problem Set 13.toc [18])
 \tf@toc=\write4
 \openout4 = `"Problem Set 13.toc"'.
 
- [17] (./Problem Set 13.aux)
+ [19] (./Problem Set 13.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20739 strings out of 474116
- 459624 string characters out of 5743682
- 1936187 words of memory out of 5000000
- 42778 multiletter control sequences out of 15000+600000
+ 20747 strings out of 474116
+ 459856 string characters out of 5743682
+ 1942187 words of memory out of 5000000
+ 42786 multiletter control sequences out of 15000+600000
  563751 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,107p,504b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Problem Set 13.pdf" (17 pages, 155385 bytes).
+ 99i,16n,107p,504b,672s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Problem Set 13.pdf" (19 pages, 189800 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
