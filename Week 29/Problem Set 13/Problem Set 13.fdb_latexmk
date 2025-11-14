@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1762739920.53923 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 29/Problem Set 13/Problem Set 13.tex" "Problem Set 13.pdf" "Problem Set 13" 1762739922.75951 0
-  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 29/Problem Set 13/Problem Set 13.tex" 1762739920.33457 18970 a981b98ce49d53b50fdce7dea6b78b42 ""
+["pdflatex"] 1763057378.24807 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 29/Problem Set 13/Problem Set 13.tex" "Problem Set 13.pdf" "Problem Set 13" 1763057380.5691 0
+  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 29/Problem Set 13/Problem Set 13.tex" 1763057378.03162 21380 93b63e487b0d3c0bd4db0997c0661057 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -153,9 +153,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1727305248.69286 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727305230 8221424 9bdbcc07e109911bb30a75dc8990d89e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Problem Set 13.aux" 1762739922.69844 4381 fbd15d9c1f022a07e493a3afef1d2821 "pdflatex"
-  "Problem Set 13.tex" 1762739920.33457 18970 a981b98ce49d53b50fdce7dea6b78b42 ""
-  "Problem Set 13.toc" 1762739922.69903 2630 c3793d3e6e56aa107f2db3f8a8008f5c "pdflatex"
+  "Problem Set 13.aux" 1763057380.5087 4599 230d815c5c8aa7a2062a6cdfc5b488ae "pdflatex"
+  "Problem Set 13.tex" 1763057378.03162 21380 93b63e487b0d3c0bd4db0997c0661057 ""
+  "Problem Set 13.toc" 1763057380.50927 2766 b58e6644054656e71564fa5eb30f48f7 "pdflatex"
   "img-F24.png" 1762650402.52379 16591 12d725b94569346a86839ba00165800b ""
   "img-F25.png" 1762650845.25018 10952 d1d339b15dfdc16b1cd014d9148b8387 ""
   (generated)
