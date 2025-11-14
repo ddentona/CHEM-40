@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763057378.24807 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 29/Problem Set 13/Problem Set 13.tex" "Problem Set 13.pdf" "Problem Set 13" 1763057380.5691 0
-  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 29/Problem Set 13/Problem Set 13.tex" 1763057378.03162 21380 93b63e487b0d3c0bd4db0997c0661057 ""
+["pdflatex"] 1763157720.20371 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 29/Problem Set 13/Problem Set 13.tex" "Problem Set 13.pdf" "Problem Set 13" 1763157722.58316 0
+  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 29/Problem Set 13/Problem Set 13.tex" 1763157719.88871 21923 c7cfc4cedf64a54b2a2d69feee9b0fc9 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -153,9 +153,14 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1727305248.69286 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727305230 8221424 9bdbcc07e109911bb30a75dc8990d89e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Problem Set 13.aux" 1763057380.5087 4599 230d815c5c8aa7a2062a6cdfc5b488ae "pdflatex"
-  "Problem Set 13.tex" 1763057378.03162 21380 93b63e487b0d3c0bd4db0997c0661057 ""
-  "Problem Set 13.toc" 1763057380.50927 2766 b58e6644054656e71564fa5eb30f48f7 "pdflatex"
+  "Answers Images/F22.jpg" 1763157719.87804 434472 0ca423fe6c2915a5ab022a4bb3a7ab0c ""
+  "Answers Images/F23.jpg" 1763157719.88689 393662 3355e6490242a791bbd9b04d3aec4c47 ""
+  "Answers Images/F24.jpg" 1763157719.88708 18347 4fcc2d80694d2e92789ef3d3fb50d3bf ""
+  "Answers Images/F24d.jpg" 1763157719.88755 41272 5fbdb6c7afac3efc331871b6c27c0a37 ""
+  "Answers Images/F25.jpg" 1763157719.88772 11692 0492c5c0952490229c0074a57ef3a42b ""
+  "Problem Set 13.aux" 1763157722.52082 4599 230d815c5c8aa7a2062a6cdfc5b488ae "pdflatex"
+  "Problem Set 13.tex" 1763157719.88871 21923 c7cfc4cedf64a54b2a2d69feee9b0fc9 ""
+  "Problem Set 13.toc" 1763157722.5214 2766 b58e6644054656e71564fa5eb30f48f7 "pdflatex"
   "img-F24.png" 1762650402.52379 16591 12d725b94569346a86839ba00165800b ""
   "img-F25.png" 1762650845.25018 10952 d1d339b15dfdc16b1cd014d9148b8387 ""
   (generated)
