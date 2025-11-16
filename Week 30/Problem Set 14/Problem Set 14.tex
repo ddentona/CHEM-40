@@ -1,0 +1,236 @@
+\documentclass[10pt]{article}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage[makeroom]{cancel}
+\usepackage{chemfig}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{graphicx}
+%Load mhchem using some package options
+\usepackage[version=4]{mhchem}
+\usepackage{multicol}
+\usepackage{siunitx}
+\usepackage{wrapfig}
+
+\title{
+    Problem Set \#14
+    \\  \small
+    CHEM101A: General College Chemistry
+    }
+\author{Donald Aingworth}
+\date{November 21, 2025}
+
+\newcommand{\E}[1]{\times 10^{#1}}
+\newcommand{\hc}{1.9864748\E{-25}\,\unit{\joule\,\meter}}
+\newcommand{\U}[1]{\underline{#1}}
+
+\begin{document}
+    \DeclareSIUnit{\atm}{atm}
+    \DeclareSIUnit{\molarity}{M}
+    \DeclareSIUnit{\M}{M}
+    \DeclareSIUnit{\torr}{torr}
+
+    \maketitle
+
+    \setcounter{section}{11}
+    \pagebreak
+    \section{Topic G Problem 12}
+        1.00 g of \ce{N2O4} is put into a 5.00 L container and heated to 50\unit{\celsius}. 
+        At this temperature, the following reaction occurs and reaches equilibrium:
+        \begin{center}
+            \ce{N2O4(g) <=> 2 NO2(g)}
+        \end{center}
+        
+        The concentration of \ce{NO2} in the equilibrium mixture is found to be equal to 6.68$\E{-4}$ M. 
+        Calculate $\rm K_c$ and $\rm K_p$ for this reaction at 50\unit{\celsius}.
+        
+        \subsection{Solution}
+            First convert grams to moles.
+            \begin{gather}
+                MM(\ce{N2O4}) = 92.02\,\unit{\gram/\mole}\\
+                n(\ce{N2O4}) = \frac{m}{MM} = \frac{1.00\,\unit{\gram}}{92.02\,\unit{\gram/\mole}} = 0.0\U{108}672\,\unit{\mole}\\
+                M(\ce{N2O4}) = \frac{n}{V} = \frac{0.0\U{217}344\,\unit{\mole}}{5.00\,\unit{\liter}} = 0.00\U{217}344\,\unit{\molarity}
+            \end{gather}
+
+            Now, I'll use an ICE table.
+            \begin{center}
+                \begin{tabular}{|c| c c c |}
+                    \hline
+                    \unit{\molarity}    & \ce{N2O4} & \ce{<=>}  & \ce{2 NO2}\\
+                    \hline
+                    I   & 0.00\U{217}344 && 0\\
+                    C   & $-3.34\E{-4}$ && $6.68\E{-4}$\\
+                    E   & $\U{18.3}944\E{-4}$ && $6.68\E{-4}$\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            Now we calculate $\rm K_c$.
+            \begin{gather}
+                \rm
+                K_c =   \frac{[\ce{NO2}]^2}{[\ce{N2O4}]}
+                    =   \frac{(6.68\E{-4})^2}{\U{18.3}944\E{-4}}
+                    =   \U{242}.5868\E{-6}\,\unit{\molarity}
+                    =   \boxed{243\E{-6}\,\unit{\molarity}}
+            \end{gather}
+
+            Next we use that to find $\rm K_p$. 
+            \begin{align}
+                K_p &=  K_c (RT)^{\Delta n}
+                    =   (\U{242}.5868\E{-6}\,\unit{\molarity}) (0.08206 \times 323.15)^1\\
+                    &=  \U{6.43}284\E{-3}\,\unit{\atm}
+                    =   \boxed{6.43\E{-3}\,\unit{\atm}}
+            \end{align}
+    \pagebreak
+    \section{Topic G Problem 13}
+        When 0.100 mol of gaseous \ce{N2} and 0.100 mol of gaseous \ce{H2} are put into a 5.00 L container at 300\unit{\celsius}, the following reaction occurs and reaches equilibrium.
+        \begin{center}
+            \ce{N2(g) + 3 H2(g) <=> 2 NH3(g)}
+        \end{center}
+        
+        The partial pressure of ammonia in the equilibrium mixture is 0.0506 atm. Calculate $\rm K_p$ and $\rm K_c$ for this reaction at 300\unit{\celsius}.
+
+        \subsection{Solution}
+
+    \pagebreak
+    \section{Topic G Problem 14}
+        For the reaction below, $\rm Kc = 0.0168$ at 250\unit{\celsius}:
+        \begin{center}
+            \ce{PCl5(g) <=> PCl3(g) + Cl2(g)}
+        \end{center}
+
+        \begin{enumerate}[label=\alph*)]
+            \item   A flask contains 0.100 mol/L of \ce{PCl5}. 
+                What will be the concentrations of all three gases when the above reaction reaches equilibrium?
+            \item   A different flask contains 0.100 mol/L of \ce{PCl5}, 0.200 mol/L of \ce{PCl3}, and 0.300 mol/L of \ce{Cl2}. 
+                What will be the concentrations of all three gases when the above reaction reaches equilibrium?
+        \end{enumerate}
+
+        \subsection{Solution}
+
+    \pagebreak
+    \section{Topic G Problem 15}
+        For the reaction below, $\rm K_p = 0.513$ at a certain temperature.
+        \begin{center}
+            \ce{H2(g) + I2(g) <=> 2 HI(g)}
+        \end{center}
+        
+        \begin{enumerate}[label=\alph*)]
+            \item   A flask holds some gaseous \ce{HI} at this temperature and a pressure of 3.00 atm. 
+                What will be the partial pressures of all three gases when the above reaction reaches equilibrium?
+            \item   A second flask contains a mixture of the three gases with the following partial pressures: \ce{H2} = 0.433 atm, \ce{I2} = 0.0471 atm, \ce{HI} = 0.0310 atm. 
+                What will be the partial pressures of all three gases when the above reaction reaches equilibrium?
+        \end{enumerate}
+
+        \subsection{Solution}
+
+    \pagebreak
+    \section{Topic G Problem 16}
+        Parts a through d of this problem relate to the reaction below:
+        \begin{center}
+            \ce{O2(g) + 2 F2(g) <=> 2 OF2(g)}
+        \end{center}
+
+        \begin{enumerate}[label=\alph*)]
+            \item   If you add some gaseous \ce{F2} to an equilibrium mixture of these three chemicals, which way will the reaction proceed?
+            \item   If you add some gaseous \ce{O2} to an equilibrium mixture of these three chemicals, what will happen to the partial pressure of \ce{F2} in the mixture (i.e. will it go up, go down, or remain the same)?
+            \item   If you increase the volume of the container, which way will the reaction proceed?
+            \item   If you decrease the volume of the container, what will happen to the mass of \ce{OF2} in the mixture?
+            \item   If you increase the temperature, which way will the reaction proceed? 
+                You will need to look up the bond energy values to answer this question.
+        \end{enumerate}
+
+        \subsection{Solution}
+
+    % \pagebreak
+    \section{Topic G Problem 17}
+        Will the value of the equilibrium constant K change in any of the parts of problem 16? 
+        If so, which parts?
+
+        \subsection{Solution}
+
+    \pagebreak
+    \section{Topic G Problem 18}
+        Consider an equilibrium mixture of ammonium chloride, ammonia, and hydrogen chloride:
+        \begin{center}
+            \ce{NH4Cl(s) <=> NH3(g) + HCl(g)}
+        \end{center}
+        \begin{enumerate}[label=\alph*)]
+            \item   If you add a little solid \ce{NH4Cl} to the mixture, what will happen to the mass of \ce{NH3}?
+            \item   If you add a little gaseous \ce{NH3} to the mixture, what will happen to the mass of \ce{HCl}?
+            \item   If you add a little gaseous \ce{HCl} to the mixture, what will happen to the mass of \ce{NH4Cl}?
+        \end{enumerate}
+
+        \subsection{Solution}
+
+    \pagebreak
+    \section{Topic G Problem 19}
+        The reaction below is allowed to reach equilibrium:
+        \begin{center}
+            \ce{NH3(aq) + H2O(l) <=> NH4+(aq) + OH-(aq)}
+        \end{center}
+        \begin{enumerate}[label=\alph*)]
+            \item   If you add a little 1 M \ce{HCl} to the mixture, which way will the reaction proceed? Or will it be unaffected? Explain your answer.
+            \item   If you add a little 1 M \ce{MgCl2} to the mixture, which way will the reaction proceed? Or will it be unaffected? Explain your answer.
+            \item   If you add a little 1 M \ce{NH4NO3} to the mixture, which way will the reaction proceed? Or will it be unaffected? Explain your answer.
+        \end{enumerate}
+
+        \subsection{Solution}
+
+    \pagebreak
+    \section{Topic G Problem 20}
+        For the reaction \ce{4 HBr(aq) + O2(g) <=> 2 Br2(aq) + 2 H2O(l)}, $\rm K_c = 6.7\E{10}$. 
+        Use this information to calculate the equilibrium constant for each of the following reactions.
+        \begin{enumerate}[label=\alph*)]
+            \item   \ce{2 HBr(aq) + \frac{1}{2} O2(g) <=> Br2(aq) + H2O(l)}
+            \item   \ce{4 Br2(aq) + 4 H2O(l) <=> 8 HBr(aq) + 2 O2(g)}
+        \end{enumerate}
+
+        \subsection{Solution}
+
+    \pagebreak
+    \section{Topic G Problem 21}
+        Consider the following reactions, where the equilibrium constants are represented by the variables x and y:
+        \begin{center}
+            \ce{2 FeCl3(aq) + Zn(s) <=> 2 FeCl2(aq) + ZnCl2(aq)} K = x\\
+            \ce{FeCl3(aq) + CrCl2(aq) <=> FeCl2(aq) + CrCl3(aq)} K = y
+        \end{center}
+        Write an expression for the equilibrium constant for the reaction below, in terms of x and y.
+        \begin{center}
+            \ce{2 CrCl3(aq) + Zn(s) <=> 2 CrCl2(aq) + ZnCl2(aq)}
+        \end{center}
+
+        \subsection{Solution}
+
+    \pagebreak
+    \section{Topic G Problem 22}
+        Calculate the equilibrium constant for the following reaction:
+        \begin{center}
+            \ce{3 HClO3(aq) <=> 2 HClO4(aq) + HClO(aq)}
+        \end{center}
+        Use the following equilibrium constants.
+        \begin{center}
+            \ce{Cl2(aq) + H2O(l) <=> HCl(aq) + HClO(aq)} K = $6.2\E{-2}$\\
+            \ce{3 HClO(aq) <=> HClO3(aq) + 2 HCl(aq)} K = $2.1\E{-6}$\\
+            \ce{4 Cl2(aq) + 4 H2O(l) <=> 7 HCl(aq) + HClO4(aq)} K = $7.9\E{-8}$
+        \end{center}
+
+
+        \subsection{Solution}
+
+    \pagebreak
+    \tableofcontents
+\end{document}
+
+
+% \begin{center}
+%     \includegraphics[width=0.7\textwidth]{Answers Images/F23.jpg}
+% \end{center}
+
+% \begin{wrapfigure}{r}{0.25\textwidth}
+%     \vspace{-30pt}
+%     \includegraphics[width=0.25\textwidth]{img-F24.png}\\
+%     \includegraphics[width=0.25\textwidth]{Answers Images/F24.jpg}
+%     % \label{fig:wrapfig}
+% \end{wrapfigure}
