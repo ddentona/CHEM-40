@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763313194.81162 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 30/Problem Set 14/Problem Set 14.tex" "Problem Set 14.pdf" "Problem Set 14" 1763313198.4802 0
-  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 30/Problem Set 14/Problem Set 14.tex" 1763313190.92207 19213 07235cce9dd73c4d7a788afc08bf4a94 ""
+["pdflatex"] 1763313977.41995 "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 30/Problem Set 14/Problem Set 14.tex" "Problem Set 14.pdf" "Problem Set 14" 1763313981.10007 0
+  "/Users/dentonaingworth/Documents/CCSF/CHEM-40/Week 30/Problem Set 14/Problem Set 14.tex" 1763313977.34506 19461 5f372ec6cdeb100181c58b6f695483ec ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -154,9 +154,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1727305248.69286 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727305230 8221424 9bdbcc07e109911bb30a75dc8990d89e ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Problem Set 14.aux" 1763313198.42416 2597 5953f15cfba6a9a2a34489e1d9a7f5b7 "pdflatex"
-  "Problem Set 14.tex" 1763313190.92207 19213 07235cce9dd73c4d7a788afc08bf4a94 ""
-  "Problem Set 14.toc" 1763313198.42479 1543 8443f2b6fd9d0b49fecb90942030a9e2 "pdflatex"
+  "Problem Set 14.aux" 1763313981.04342 2597 5953f15cfba6a9a2a34489e1d9a7f5b7 "pdflatex"
+  "Problem Set 14.tex" 1763313977.34506 19461 5f372ec6cdeb100181c58b6f695483ec ""
+  "Problem Set 14.toc" 1763313981.04403 1543 8443f2b6fd9d0b49fecb90942030a9e2 "pdflatex"
   (generated)
   "Problem Set 14.aux"
   "Problem Set 14.log"
