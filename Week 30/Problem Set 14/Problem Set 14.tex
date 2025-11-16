@@ -27,7 +27,7 @@
 
 \begin{document}
     \DeclareSIUnit{\atm}{atm}
-    \DeclareSIUnit{\molarity}{M}
+    \DeclareSIUnit{\molar}{M}
     \DeclareSIUnit{\M}{M}
     \DeclareSIUnit{\torr}{torr}
 
@@ -50,14 +50,14 @@
             \begin{gather}
                 MM(\ce{N2O4}) = 92.02\,\unit{\gram/\mole}\\
                 n(\ce{N2O4}) = \frac{m}{MM} = \frac{1.00\,\unit{\gram}}{92.02\,\unit{\gram/\mole}} = 0.0\U{108}672\,\unit{\mole}\\
-                M(\ce{N2O4}) = \frac{n}{V} = \frac{0.0\U{217}344\,\unit{\mole}}{5.00\,\unit{\liter}} = 0.00\U{217}344\,\unit{\molarity}
+                M(\ce{N2O4}) = \frac{n}{V} = \frac{0.0\U{217}344\,\unit{\mole}}{5.00\,\unit{\liter}} = 0.00\U{217}344\,\unit{\molar}
             \end{gather}
 
             Now, I'll use an ICE table.
             \begin{center}
                 \begin{tabular}{|c| c c c |}
                     \hline
-                    \unit{\molarity}    & \ce{N2O4} & \ce{<=>}  & \ce{2 NO2}\\
+                    \unit{\molar}    & \ce{N2O4} & \ce{<=>}  & \ce{2 NO2}\\
                     \hline
                     I   & 0.00\U{217}344 && 0\\
                     C   & $-3.34\E{-4}$ && $6.68\E{-4}$\\
@@ -71,14 +71,14 @@
                 \rm
                 K_c =   \frac{[\ce{NO2}]^2}{[\ce{N2O4}]}
                     =   \frac{(6.68\E{-4})^2}{\U{18.3}944\E{-4}}
-                    =   \U{242}.5868\E{-6}\,\unit{\molarity}
-                    =   \boxed{243\E{-6}\,\unit{\molarity}}
+                    =   \U{242}.5868\E{-6}\,\unit{\molar}
+                    =   \boxed{243\E{-6}\,\unit{\molar}}
             \end{gather}
 
             Next we use that to find $\rm K_p$. 
             \begin{align}
                 K_p &=  K_c (RT)^{\Delta n}
-                    =   (\U{242}.5868\E{-6}\,\unit{\molarity}) (0.08206 \times 323.15)^1\\
+                    =   (\U{242}.5868\E{-6}\,\unit{\molar}) (0.08206 \times 323.15)^1\\
                     &=  \U{6.43}284\E{-3}\,\unit{\atm}
                     =   \boxed{6.43\E{-3}\,\unit{\atm}}
             \end{align}
@@ -92,6 +92,60 @@
         The partial pressure of ammonia in the equilibrium mixture is 0.0506 atm. Calculate $\rm K_p$ and $\rm K_c$ for this reaction at 300\unit{\celsius}.
 
         \subsection{Solution}
+            I'll use an ICE table.
+            \begin{center}
+                \begin{tabular}{|c| c c c c c |}
+                    \hline
+                    \unit{\molar}    & \ce{N2 (g)}   & + & \ce{3 H2 (g)} & \ce{<=>}  & \ce{2 NH3 (g)}\\
+                    \hline
+                    I   & 0.0200    && 0.0200   && 0\\
+                    C   & $-x$      && $-3x$    && $2x$\\
+                    E   & $0.0200 - x$ && $0.0200 - 3x$ && $2x$\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            Now we solve for $x$, using the partial pressure of \ce{NH3}.
+            \begin{gather}
+                PV = nRT\\
+                \begin{align}
+                    [\ce{NH3}]  &=  \frac{n}{V}
+                        =   \frac{P}{RT}
+                        =   \frac{0.0506\,\unit{\atm}}{\left( 0.08206\,\unit{\frac{\atm\cdot\liter}{\mole\cdot\kelvin}} \right) (573.15\,\unit{\kelvin})}\\
+                        &=  0.0\U{106}88\,\unit{\molar}
+                \end{align}\\
+                2x  =   [\ce{NH3}]\\
+                x   =   \frac{[\ce{NH3}]}{2}
+                    =   \frac{0.0\U{106}88\,\unit{\molar}}{2}
+                    =   0.00\U{534}4\,\unit{\molar}
+            \end{gather}
+
+            This gives us the value of $x$, which we can use.
+            \begin{center}
+                \begin{tabular}{|c| c c c c c |}
+                    \hline
+                    \unit{\molar}    & \ce{N2 (g)}   & + & \ce{3 H2 (g)} & \ce{<=>}  & \ce{2 NH3 (g)}\\
+                    \hline
+                    E   & $0.0\U{194}7$ && $0.0\U{183}97$ && $0.0\U{106}88$\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            This can be used to find $\rm K_c$.
+            \begin{align}
+                K_c &=  \frac{[\ce{NH3}]^2}{[\ce{N2}][\ce{H2}]^2}
+                    =   \frac{0.0\U{106}88^2}{0.0\U{194}7 \times 0.0\U{183}97^3}
+                    =   \U{9.42}565
+                    =   \boxed{9.43}
+            \end{align}
+
+            Next convert it to pressure.
+            \begin{align}
+                K_p &=  K_c (RT)^{\Delta n}
+                    =   \U{9.42}565 (\left( 0.08206\,\unit{\frac{\atm\cdot\liter}{\mole\cdot\kelvin}} \right) (573.15\,\unit{\kelvin}))^{-2}\\
+                    &=  0.00\U{426}1
+                    =   \boxed{0.00426}
+            \end{align}
 
     \pagebreak
     \section{Topic G Problem 14}
