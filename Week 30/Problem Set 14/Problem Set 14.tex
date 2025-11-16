@@ -149,7 +149,7 @@
 
     \pagebreak
     \section{Topic G Problem 14}
-        For the reaction below, $\rm Kc = 0.0168$ at 250\unit{\celsius}:
+        For the reaction below, $\rm K_c = 0.0168$ at 250\unit{\celsius}:
         \begin{center}
             \ce{PCl5(g) <=> PCl3(g) + Cl2(g)}
         \end{center}
@@ -161,7 +161,84 @@
                 What will be the concentrations of all three gases when the above reaction reaches equilibrium?
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            Use an ICE table.
+            \begin{center}
+                \begin{tabular}{|c| c c c c c |}
+                    \hline
+                    \unit{\molar}    & \ce{PCl5 (g)}   & \ce{<=>} & \ce{PCl3 (g)} & +  & \ce{Cl2 (g)}\\
+                    \hline
+                    I   & 0.100 && 0    && 0\\
+                    C   & $-x$  && $+x$ && $+x$\\
+                    E   & $0.100 - x$ && $x$ && $x$\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            Use $\rm K_c$ to find $x$.
+            \begin{gather}
+                K_c =   0.0168
+                    =   \frac{[\ce{PCl3}][\ce{Cl2}]}{[\ce{PCl5}]}
+                    =   \frac{x^2}{0.100 - x}\\
+                x^2 =   0.00168 - 0.0168x\\
+                0   =   x^2 + 0.0168x - 0.00168\\
+                x   =   0.0\U{334}397 \text{ or } -0.0\U{502}397
+            \end{gather}
+
+            We use the postive one to complete the ICE table.
+            That contains our answers.
+            \begin{center}
+                \begin{tabular}{|c| c c c c c |}
+                    \hline
+                    \unit{\molar}    & \ce{PCl5 (g)}   & \ce{<=>} & \ce{PCl3 (g)} & +  & \ce{Cl2 (g)}\\
+                    \hline
+                    E   & $0.0666$ && $0.0334$ && $0.0334$\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+        \subsection{Solution (b)}
+            First find Q.
+            That tells us where it will skew.
+            \begin{equation}
+                Q   =   \frac{[\ce{PCl3}][\ce{Cl2}]}{[\ce{PCl5}]}
+                    =   \frac{0.200 * 0.300}{0.100}
+                    =   0.6
+            \end{equation}
+
+            This is way bigger than $\rm K_c$.
+            This means it skews way towards \ce{PCl5} (left).
+            From here, use an ICE table. 
+            \begin{center}
+                \begin{tabular}{|c| c c c c c |}
+                    \hline
+                    \unit{\molar}    & \ce{PCl5 (g)}   & \ce{<=>} & \ce{PCl3 (g)} & +  & \ce{Cl2 (g)}\\
+                    \hline
+                    I   & 0.100 && 0.200    && 0.300\\
+                    C   & $+x$  && $-x$     && $-x$\\
+                    E   & $0.100 + x$ && $0.200 - x$ && $0.300 - x$\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            Find $x$ using $\rm K_c$.
+            \begin{gather}
+                K_c = 0.0168 = \frac{(0.200 - x)(0.300 - x)}{0.100 + x}\\
+                0.00168 + 0.0168x = x^2 - 0.500x + 0.0600\\
+                0   =   x^2 - 0.5168x + 0.05832\\
+                x   =   0.\U{350}327 \text{ or } 0.\U{166}473
+            \end{gather}
+
+            The former is too big, so we use the latter.
+            \begin{center}
+                \begin{tabular}{|c| c c c c c |}
+                    \hline
+                    \unit{\molar}    & \ce{PCl5 (g)}   & \ce{<=>} & \ce{PCl3 (g)} & +  & \ce{Cl2 (g)}\\
+                    \hline
+                    E   & $0.266$ && $0.0335$ && $0.134$\\
+                    \hline
+                \end{tabular}
+            \end{center}
 
     \pagebreak
     \section{Topic G Problem 15}
