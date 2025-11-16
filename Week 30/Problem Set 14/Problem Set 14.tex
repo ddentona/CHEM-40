@@ -254,7 +254,77 @@
                 What will be the partial pressures of all three gases when the above reaction reaches equilibrium?
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            ICE table.
+            \begin{center}
+                \begin{tabular}{|c| c c c c c |}
+                    \hline
+                    \unit{\atm}    & \ce{H2 (g)} & + & \ce{I2 (g)} & \ce{<=>}  & \ce{2HI (g)}\\
+                    \hline
+                    I   & 0 && 0    && 3.00\\
+                    C   & $+x$  && $+x$     && $-2x$\\
+                    E   & $x$ && $x$ && $0.300 - 2x$\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            Find $x$.
+            \begin{gather}
+                K_p = 0.513 = \frac{(0.300 - 2x)^2}{x^2}\\
+                0.513x^2 = 0.0900 - 1.20x + 4x^2\\
+                0 = 0.0900 - 1.20x + 3.487x^2\\
+                x = 0.\U{233}689 \text{ or } 0.\U{110}447
+            \end{gather}
+
+            Use the latter.
+            \begin{center}
+                \begin{tabular}{|c| c c c c c |}
+                    \hline
+                    \unit{\atm} & \ce{H2 (g)} & + & \ce{I2 (g)} & \ce{<=>}  & \ce{2HI (g)}\\
+                    \hline
+                    E   & $0.110$ && $0.110$ && $0.0791$\\
+                    \hline
+                \end{tabular}
+            \end{center}
+        
+        \subsection{Solution (b)}
+            Find Q.
+            \begin{equation}
+                Q = \frac{(0.0310)^2}{0.433 * 0.0471} = 0.0\U{471}21
+            \end{equation}
+
+            It skews hard to the right.
+            ICE table.
+            \begin{center}
+                \begin{tabular}{|c| c c c c c |}
+                    \hline
+                    \unit{\atm}    & \ce{H2 (g)} & + & \ce{I2 (g)} & \ce{<=>}  & \ce{2HI (g)}\\
+                    \hline
+                    I   & 0.433 && 0.0471 && 0.0310\\
+                    C   & $-x$  && $-x$     && $+2x$\\
+                    E   & $0.433 - x$ && $0.0471 - x$ && $0.0310 + 2x$\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            Find $x$.
+            \begin{gather}
+                K_p = 0.513 = \frac{(0.0310 + 2x)^2}{(0.0471 - x)(0.433 - x)}\\
+                0.513x^2 - 0.2462913x + 0.0104622759 = 0.000961 + 1.24x + 4x^2\\
+                0 = 3.487x^2 + 0.3702913x - 0.0095012759\\
+                x = -0.\U{127}5537 \text{ or } 0.0\U{213}618
+            \end{gather}
+
+            Use the latter.
+            \begin{center}
+                \begin{tabular}{|c| c c c c c |}
+                    \hline
+                    \unit{\atm} & \ce{H2 (g)} & + & \ce{I2 (g)} & \ce{<=>}  & \ce{2HI (g)}\\
+                    \hline
+                    E   & $0.412$ && $0.0257$ && $0.0737$\\
+                    \hline
+                \end{tabular}
+            \end{center}
 
     \pagebreak
     \section{Topic G Problem 16}
