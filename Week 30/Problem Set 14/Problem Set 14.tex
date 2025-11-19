@@ -391,6 +391,11 @@
         \end{enumerate}
 
         \subsection{Solution}
+            \begin{enumerate}[label=\alph*), nosep]
+                \item   The hydrogen in the \ce{HCl} will bond with the \ce{OH-}, which will reduce the amount of products. This will in turn cause the reaction to go \U{forward}.
+                \item   The \ce{Mg^2+} of the \ce{MgCl2} will bond with the \ce{OH-} and form a precipitate, reducing the amount of \ce{OH-} and causing the reaction to go \U{forward}.
+                \item   The \ce{NO3-} will not bond wth anything. The \ce{NH4+} will cause an imbalance, which will result in a \underline{reverse} reaction as a counterbalance.
+            \end{enumerate}
 
     \pagebreak
     \section{Topic G Problem 20}
@@ -401,14 +406,25 @@
             \item   \ce{4 Br2(aq) + 4 H2O(l) <=> 8 HBr(aq) + 2 O2(g)}
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            Take the square root of $\rm K_c$.
+            \begin{equation}
+                \rm \sqrt{K_c} = \sqrt{6.7\E{10}} = \boxed{2.6\E{5}}
+            \end{equation}
+
+        \subsection{Solution (b)}
+            Square the reciprocal.
+            \begin{equation}
+                \rm 
+                \left( \frac{1}{K_c} \right)^2 = \frac{1}{(6.7\E{10})^2} = \boxed{1.2\E{-22}}
+            \end{equation}
 
     \pagebreak
     \section{Topic G Problem 21}
         Consider the following reactions, where the equilibrium constants are represented by the variables x and y:
         \begin{center}
-            \ce{2 FeCl3(aq) + Zn(s) <=> 2 FeCl2(aq) + ZnCl2(aq)} K = x\\
-            \ce{FeCl3(aq) + CrCl2(aq) <=> FeCl2(aq) + CrCl3(aq)} K = y
+            \ce{2 FeCl3(aq) + Zn(s) <=> 2 FeCl2(aq) + ZnCl2(aq)} K = $x$\\
+            \ce{FeCl3(aq) + CrCl2(aq) <=> FeCl2(aq) + CrCl3(aq)} K = $y$
         \end{center}
         Write an expression for the equilibrium constant for the reaction below, in terms of x and y.
         \begin{center}
@@ -416,6 +432,29 @@
         \end{center}
 
         \subsection{Solution}
+            Let's make this simple.
+            Start by reversing the second equation (reciprocal for K).
+            \begin{align}
+                &\ce{FeCl2(aq) + CrCl3(aq) <=> FeCl3(aq) + CrCl2(aq)} &K = \frac{1}{y}
+            \end{align}
+
+            Double that (square K).
+            \begin{align}
+                &\ce{2FeCl2(aq) + 2CrCl3(aq) <=> 2FeCl3(aq) + 2CrCl2(aq)} &K = \frac{1}{y^2}
+            \end{align}
+
+            Next add the first and new second together (multiply K-values).
+            \begin{align}
+                &\begin{matrix}
+                    \cancel{\ce{2 FeCl3(aq)}} + \ce{Zn(s)}\\
+                    + \cancel{\ce{2FeCl2(aq)}} + \ce{2CrCl3(aq)}
+                \end{matrix}\ce{<=>}
+                \begin{matrix}
+                    \cancel{\ce{2 FeCl2(aq)}} + \ce{ZnCl2(aq)}\\
+                    + \cancel{\ce{2FeCl3(aq)}} + \ce{2CrCl2(aq)}
+                \end{matrix} &K = \frac{x}{y^2}\\
+                &\ce{2 CrCl3(aq) + Zn(s) <=> 2 CrCl2(aq) + ZnCl2(aq)} &K = \boxed{\frac{x}{y^2}}
+            \end{align}
 
     \pagebreak
     \section{Topic G Problem 22}
@@ -432,7 +471,37 @@
 
 
         \subsection{Solution}
+            Start by reversing the equations necessary so chemicals in the equations are in the same side as they are in the final equation.
+            Take the reciprocal of the K-values.
+            Also invert the first one, since that would be the only way to counter the bottom equation.
+            \begin{gather}
+                \ce{HCl(aq) + HClO(aq) <=> Cl2(aq) + H2O(l)}; K = 1.6\E{1}\\
+                \ce{HClO3(aq) + 2 HCl(aq) <=> 3 HClO(aq)}; K = 4.8\E{5}\\
+                \ce{4 Cl2(aq) + 4 H2O(l) <=> 7 HCl(aq) + HClO4(aq)}; K = 7.9\E{-8}
+            \end{gather}
 
+            Multiply these by coefficients that are found in the final equation.
+            Raise the K-values to the coefficient's power.
+            \begin{gather}
+                \ce{8 HCl(aq) + 8 HClO(aq) <=> 8 Cl2(aq) + 8 H2O(l)}; K = 4.6\E{9}\\
+                \ce{3 HClO3(aq) + 6 HCl(aq) <=> 9 HClO(aq)}; K = 1.1\E{17}\\
+                \ce{8 Cl2(aq) + 8 H2O(l) <=> 14 HCl(aq) + 2 HClO4(aq)}; K = 6.2\E{-15}
+            \end{gather}
+
+            Add the first and the last. 
+            This is mostly a formality, since the next step can be combined with this one.
+            Multiply K-values together.
+            \begin{gather}
+                \ce{8 HClO(aq) <=> 6 HCl(aq) + 2 HClO4(aq)}; K = 2.9\E{-5}\\
+                \ce{3 HClO3(aq) + 6 HCl(aq) <=> 9 HClO(aq)}; K = 1.1\E{17}
+            \end{gather}
+
+            Do the same thing with the (new) first and the second.
+            \begin{gather}
+                \ce{3 HClO3(aq) <=> 2HClO4(aq) + HClO(aq)}; K = \boxed{3.1\E{17}}
+            \end{gather}
+
+            That will be all.
     \pagebreak
     \tableofcontents
 \end{document}

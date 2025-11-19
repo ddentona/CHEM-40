@@ -17,7 +17,8 @@
 \contentsline {section}{\numberline {19}Topic G Problem 19}{10}{}%
 \contentsline {subsection}{\numberline {19.1}Solution}{10}{}%
 \contentsline {section}{\numberline {20}Topic G Problem 20}{11}{}%
-\contentsline {subsection}{\numberline {20.1}Solution}{11}{}%
+\contentsline {subsection}{\numberline {20.1}Solution (a)}{11}{}%
+\contentsline {subsection}{\numberline {20.2}Solution (b)}{11}{}%
 \contentsline {section}{\numberline {21}Topic G Problem 21}{12}{}%
 \contentsline {subsection}{\numberline {21.1}Solution}{12}{}%
 \contentsline {section}{\numberline {22}Topic G Problem 22}{13}{}%
