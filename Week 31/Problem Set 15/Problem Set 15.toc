@@ -1,22 +1,33 @@
-\contentsline {section}{\numberline {12}Topic G Problem 23}{2}{}%
-\contentsline {subsection}{\numberline {12.1}Solution}{2}{}%
-\contentsline {section}{\numberline {13}Topic G Problem 24}{3}{}%
-\contentsline {subsection}{\numberline {13.1}Solution}{3}{}%
-\contentsline {section}{\numberline {14}Topic G Problem 25}{4}{}%
-\contentsline {subsection}{\numberline {14.1}Solution}{4}{}%
-\contentsline {section}{\numberline {15}Topic G Problem 26}{5}{}%
-\contentsline {subsection}{\numberline {15.1}Solution}{5}{}%
-\contentsline {section}{\numberline {16}Topic G Problem 27}{6}{}%
-\contentsline {subsection}{\numberline {16.1}Solution}{6}{}%
-\contentsline {section}{\numberline {17}Topic G Problem 28}{7}{}%
-\contentsline {subsection}{\numberline {17.1}Solution}{7}{}%
-\contentsline {section}{\numberline {18}Topic G Problem 29}{8}{}%
-\contentsline {subsection}{\numberline {18.1}Solution}{8}{}%
-\contentsline {section}{\numberline {19}Topic G Problem 30}{9}{}%
-\contentsline {subsection}{\numberline {19.1}Solution}{9}{}%
-\contentsline {section}{\numberline {20}Topic G Problem 31}{10}{}%
-\contentsline {subsection}{\numberline {20.1}Solution}{10}{}%
-\contentsline {section}{\numberline {21}Topic G Problem 32}{11}{}%
-\contentsline {subsection}{\numberline {21.1}Solution}{11}{}%
-\contentsline {section}{\numberline {22}Topic G Problem 33}{12}{}%
-\contentsline {subsection}{\numberline {22.1}Solution}{12}{}%
+\contentsline {section}{\numberline {23}Topic G Problem 23}{2}{}%
+\contentsline {subsection}{\numberline {23.1}Solution (a)}{2}{}%
+\contentsline {subsection}{\numberline {23.2}Solution (b)}{2}{}%
+\contentsline {subsection}{\numberline {23.3}Solution (c)}{2}{}%
+\contentsline {section}{\numberline {24}Topic G Problem 24}{3}{}%
+\contentsline {subsection}{\numberline {24.1}Solution (a)}{3}{}%
+\contentsline {subsection}{\numberline {24.2}Solution (b)}{3}{}%
+\contentsline {subsection}{\numberline {24.3}Solution (c)}{3}{}%
+\contentsline {section}{\numberline {25}Topic G Problem 25}{4}{}%
+\contentsline {subsection}{\numberline {25.1}Solution}{4}{}%
+\contentsline {section}{\numberline {26}Topic G Problem 26}{5}{}%
+\contentsline {subsection}{\numberline {26.1}Solution (a)}{5}{}%
+\contentsline {subsection}{\numberline {26.2}Solution (b)}{5}{}%
+\contentsline {subsection}{\numberline {26.3}Solution (c)}{5}{}%
+\contentsline {subsection}{\numberline {26.4}Solution (d)}{5}{}%
+\contentsline {section}{\numberline {27}Topic G Problem 27}{6}{}%
+\contentsline {subsection}{\numberline {27.1}Solution}{6}{}%
+\contentsline {section}{\numberline {28}Topic G Problem 28}{7}{}%
+\contentsline {subsection}{\numberline {28.1}Solution}{7}{}%
+\contentsline {section}{\numberline {29}Topic G Problem 29}{8}{}%
+\contentsline {subsection}{\numberline {29.1}Solution (a)}{8}{}%
+\contentsline {subsection}{\numberline {29.2}Solution (b)}{8}{}%
+\contentsline {subsection}{\numberline {29.3}Solution (c)}{8}{}%
+\contentsline {section}{\numberline {30}Topic G Problem 30}{9}{}%
+\contentsline {subsection}{\numberline {30.1}Solution}{9}{}%
+\contentsline {section}{\numberline {31}Topic G Problem 31}{9}{}%
+\contentsline {subsection}{\numberline {31.1}Solution}{9}{}%
+\contentsline {section}{\numberline {32}Topic G Problem 32}{10}{}%
+\contentsline {subsection}{\numberline {32.1}Solution (a)}{10}{}%
+\contentsline {subsection}{\numberline {32.2}Solution (b)}{10}{}%
+\contentsline {section}{\numberline {33}Topic G Problem 33}{11}{}%
+\contentsline {subsection}{\numberline {33.1}Solution (a)}{11}{}%
+\contentsline {subsection}{\numberline {33.2}Solution (b)}{11}{}%

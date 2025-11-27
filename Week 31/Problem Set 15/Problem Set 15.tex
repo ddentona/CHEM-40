@@ -8,7 +8,7 @@
 \usepackage{float}
 \usepackage{graphicx}
 %Load mhchem using some package options
-\usepackage[version=4]{mhchem}
+\usepackage[version=4,textfontname=sffamily,mathfontname=mathsf]{mhchem}
 \usepackage{multicol}
 \usepackage{siunitx}
 \usepackage{wrapfig}
@@ -23,6 +23,7 @@
 
 \newcommand{\E}[1]{\times 10^{#1}}
 \newcommand{\hc}{1.9864748\E{-25}\,\unit{\joule\,\meter}}
+\newcommand{\pH}{\text{pH}}
 \newcommand{\U}[1]{\underline{#1}}
 
 \begin{document}
@@ -33,97 +34,309 @@
 
     \maketitle
 
-    \setcounter{section}{11}
+    \setcounter{section}{22}
     \pagebreak
     \section{Topic G Problem 23}
-        The concentration of H+ ions in a solution is 0.315 M.
+        The concentration of \ce{H+} ions in a solution is 0.315 M.
         \begin{enumerate}[label=\alph*)]
             \item   Calculate the concentration of \ce{OH-} ions in this solution.
             \item   Where did these \ce{OH-} ions come from?
             \item   What is the pH of this solution?
         \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            The concentration of hydrogen ions times the number of hydroxide ions is equal to a constant $K_w = 10^{-14}$.
+            We can use that to find the concentration of hydroxide ions.
+            \begin{gather}
+                K_w = [\ce{H+}][\ce{OH-}]\\
+                [\ce{OH-}] = \frac{K_w}{[\ce{H+}]}
+                    =   \frac{10^{-14}}{0.315}
+                    =   3.17\E{-14}\,\unit{\molar}
+                    =   \boxed{3.2\E{-14}\,\unit{\molar}}
+            \end{gather}
+
+        \subsection{Solution (b)}
+            The \ce{OH-} ions come from the surrounding water.
+
+        \subsection{Solution (c)}
+            Use the logarithm.
+            \begin{equation}
+                \pH =   -\log_{10}([\ce{H+}])
+                    =   -\log_{10}(0.315)
+                    =   \boxed{0.50}
+            \end{equation}
 
     \pagebreak
     \section{Topic G Problem 24}
         The pH of an HCl solution is 2.88.
-a) What is the concentration of H+ ions in this solution?
-b) What is the concentration of OH– ions in this solution?
-c) What is the concentration of Cl– ions in this solution?
+        \begin{enumerate}[label=\alph*)]
+            \item   What is the concentration of \ce{H+} ions in this solution?
+            \item   What is the concentration of \ce{OH-} ions in this solution?
+            \item   What is the concentration of \ce{Cl-} ions in this solution?
+        \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            Use the exponential.
+            \begin{equation}
+                [\ce{H+}] = 10^{-\pH}
+                    =   10^{-2.88}
+                    =   \boxed{0.0013\,\unit{\molar}}
+            \end{equation}
+
+        \subsection{Solution (b)}
+            The \ce{OH-} and \ce{H+} concentrations are related.
+            \begin{gather}
+                K_w = [\ce{H+}][\ce{OH-}]\\
+                [\ce{OH-}] = \frac{K_w}{[\ce{H+}]}
+                    =   \frac{10^{-14}}{0.0013}
+                    =   7.586\E{-12}\,\unit{\molar}
+                    =   \boxed{7.6\E{-12}\,\unit{\molar}}
+            \end{gather}
+
+        \subsection{Solution (c)}
+            There is much less \ce{OH-} than there is \ce{H+}.
+            Even if some of the created \ce{OH-} balanced out the \ce{H+}, it would have been little.
+            This means the \ce{Cl-} would be equivalent to the amount of \ce{H+}.
+            \boxed{0.0013\,\unit{\molar}}
         
     \pagebreak
     \section{Topic G Problem 25}
-        Calculate the pH of a $7.4\E{-4}$ M solution of Ba(OH)2.
+        Calculate the pH of a $7.4\E{-4}$ M solution of \ce{Ba(OH)2}.
 
         \subsection{Solution}
+            Start by calculating the concentration of the \ce{OH-}.
+            It would be twice the concentration of the \ce{Ba(OH)2} because it is soluble in water.
+            \begin{equation}
+                [\ce{OH-}]  =   2 * 7.4\E{-4}\,\unit{\molar}
+                    =   1.48\E{-3}\,\unit{\molar}
+            \end{equation}
+
+            This leads into a calculation of the concentration of the \ce{H+}.
+            We can use that to find the pH.
+            \begin{gather}
+                K_w = [\ce{H+}][\ce{OH-}]\\
+                [\ce{H+}] = \frac{K_w}{[\ce{OH-}]}
+                    =   \frac{10^{-14}}{1.48\E{-3}\,\unit{\molar}}
+                    =   6.757\E{-12}\,\unit{\molar}\\
+                \pH =   -\log_{10}[\ce{H+}]
+                    =   -\log_{10}(6.757\E{-12})
+                    =   \boxed{11.17}
+            \end{gather}
         
     \pagebreak
     \section{Topic G Problem 26}
-        Write the Ka expression and the corresponding chemical equation for each of the following weak acids.
-a) HClO b) H2C4H4O4 c) NH4+ d) H2PO4–
+        Write the $K_a$ expression and the corresponding chemical equation for each of the following weak acids.
+        \begin{multicols}{2}
+            \begin{enumerate}[label=\alph*)]
+                \item   \ce{HClO}
+                \item   \ce{H2C4H4O4}
+                \item   \ce{NH4+}
+                \item   \ce{H2PO4-}
+            \end{enumerate}
+        \end{multicols}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            \begin{gather}
+                K_a = \frac{[\ce{H+}][\ce{ClO-}]}{[\ce{HClO}]}\\
+                \ce{HClO(aq) <=> H+(aq) + ClO-(aq)}
+            \end{gather}
+
+        \subsection{Solution (b)}
+            \begin{gather}
+                K_a = \frac{[\ce{H+}][\ce{HC4H4O4-}]}{[\ce{H2C4H4O4}]}\\
+                \ce{H2C4H4O4 (aq) <=> H+ (aq) + HC4H4O4- (aq)}
+            \end{gather}
+
+        \subsection{Solution (c)}
+            \begin{gather}
+                K_a = \frac{[\ce{H+}][\ce{NH3}]}{[\ce{NH4+}]}\\
+                \ce{NH4+ (aq) <=> H+ (aq) + NH3 (aq)}
+            \end{gather}
+
+        \subsection{Solution (d)}
+            \begin{gather}
+                K_a = \frac{[\ce{H+}][\ce{HPO4^2-}]}{[\ce{H2PO4-}]}\\
+                \ce{H2PO4- (aq) <=> H+ (aq) + HPO4^2- (aq)}
+            \end{gather}
         
     \pagebreak
     \section{Topic G Problem 27}
-        The pH of a 0.464 M solution of phosphorous acid (H3PO3) is 1.11. 
-        Using this information, calculate the Ka of phosphorous acid. 
+        The pH of a 0.464 M solution of phosphorous acid (\ce{H3PO3}) is 1.11. 
+        Using this information, calculate the $K_a$ of phosphorous acid. 
         (You may assume that only one hydrogen ion dissociates from phosphorous acid.)
 
         \subsection{Solution}
+            First find the molarity of the \ce{H+} by using the pH.
+            \begin{equation}
+                [\ce{H+}]   =   10^{-\pH}
+                    =   10^{-1.11}
+                    =   0.0776247
+            \end{equation}
+
+            That would in turn be the molarity of the \ce{H2PO3-}.
+            Without having to use an ICE table, we can figure out that the equilibrium molarity of the \ce{H3PO3} will be the nitial molarity minus the molarity of the \ce{H+}.
+            \begin{equation}
+                [\ce{H3PO3}]_f = [\ce{H3PO3}]_i - [\ce{H+}]
+                    =   0.464 - 0.078
+                    =   0.386
+            \end{equation}
+
+            Use these and the molarity of the \ce{H3PO3} to fnd the $K_a$.
+            \begin{equation}
+                K_a =   \frac{[\ce{H+}][\ce{H2PO3-}]}{[\ce{H3PO3}]}
+                    =   \frac{0.0776247^2}{0.386}
+                    =   \boxed{0.016}
+            \end{equation}
         
     \pagebreak
     \section{Topic G Problem 28}
-        Calculate the pH of a 0.27 M solution of HCO2H (formic acid, Ka = 1.8 x 10–4)
+        Calculate the pH of a 0.27 M solution of \ce{HCO2H} (formic acid, $K_a = 1.8\E{-4}$).
 
         \subsection{Solution}
+            Use an ICE table to find the molarity of the \ce{H+}.
+            \begin{center}
+                \begin{tabular}{| l | c c c c c |}
+                    \hline
+                    M   &   \ce{HCO2H} &\ce{<=>}& \ce{H+} &+& \ce{CO2H-}\\
+                    \hline
+                    I   &   0.27    &&  0   &&  0\\
+                    C   &   $-x$    &&  $+x$    &&  $+x$\\
+                    E   &   $0.27-x$    &&  $x$    &&  $x$\\
+                    \hline
+                \end{tabular}
+            \end{center}
+
+            Use this with the $K_a$.
+            Solve for $x$.
+            \begin{gather}
+                K_a =   \frac{[\ce{H+}][\ce{CO2H-}]}{[\ce{HCO2H}]}
+                    =   \frac{x^2}{0.27 - x}
+                    =   1.8\E{-4}\\
+                x^2 =   4.86\E{-5} - 1.8\E{-4} x\\
+                0   =   x^2 + 1.8\E{-4}x - 4.86\E{-5}\\
+                x   =   0.00688195 \text{ or } \cancel{-0.00706195}
+            \end{gather}
+
+            This value of $x$ is the concentration of the \ce{H+}.
+            Use this to find the pH.
+            \begin{equation}
+                \pH =   -\log_{10} [\ce{H+}] 
+                    =   -\log_{10} x
+                    =   -\log_{10} 0.00688195
+                    =   \boxed{2.16}
+            \end{equation}
         
     \pagebreak
     \section{Topic G Problem 29}
         Determine which solution from each of the following pairs has the higher pH. 
-        You may need top refer to the Ka values in Table 12.4.2 of your textbook.
-a) 0.1 M HCl or 0.1 M HNO2 b) 0.1 M HF or 0.1 M HClO
-c) 0.1 M HCN or 0.1 M NaCN
+        You may need top refer to the $K_a$ values in Table 12.4.2 of your textbook.
+        \begin{enumerate}[label=\alph*)]
+            \item   0.1 M \ce{HCl} or 0.1 M \ce{HNO2}
+            \item   0.1 M \ce{HF} or 0.1 M \ce{HClO}
+            \item   0.1 M \ce{HCN} or 0.1 M \ce{NaCN}
+        \end{enumerate}
 
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            The \ce{HCl} is a strong acid, so practically all the \ce{HCl} will dissociate.
+            We will resultantly have a low pH.
+            That means that the higher pH goes to the \boxed{\ce{HNO2}}.
+
+        \subsection{Solution (b)}
+            \ce{HF} has $K_a = 3.5\E{-4}$.
+            \ce{HClO} has $K_a = 3.5\E{-8}$.
+            \ce{HClO} has the lower $K_a$, which means it will have a higher pH.
+            The answer is \boxed{\ce{HClO}}.
+
+        \subsection{Solution (c)}
+            \ce{HCN} has $K_a = 6.2\E{-10}$.
+            The \ce{HCN} will increase the concentration of the \ce{H+}.
+            \ce{NaCN} has no $K_a$ because it has no Hydrogen.
+            However, the entirety of the \ce{NaCN} will dissociate because of the \ce{Na+} present.
+            The \ce{CN-} will then bond with the \ce{H+} and lower the molarity of the \ce{H+}.
+            The \ce{HCN} will result in a higher concentration of \ce{H+}, while the \ce{NaCN} will lower the concentration of the \ce{H+}.
+            Since pH is inversely (logarithmically) proportional to concentration, this means the \boxed{\ce{NaCN}} will have the higher pH.
         
     \pagebreak
     \section{Topic G Problem 30}
         Each of the following species can function as an acid. Write the formula of its conjugate base.
-a) HC3H5O3 b) N2H5+ c) H2O d) HCO3– e) H2SO4
-
+        \begin{multicols}{3}
+            \begin{enumerate}[label=\alph*)]
+                \item   \ce{HC3H5O3}
+                \item   \ce{N2H5+}
+                \item   \ce{H2O}
+                \item   \ce{HCO3-}
+                \item   \ce{H2SO4}
+            \end{enumerate}
+        \end{multicols}
+        
 
         \subsection{Solution}
+            \begin{multicols}{3}
+                \begin{enumerate}[label=\alph*/]
+                    \item   \ce{C3H5O3-}
+                    \item   \ce{N2H4}
+                    \item   \ce{OH-}
+                    \item   \ce{CO3^2-}
+                    \item   \ce{HSO4-}
+                \end{enumerate}
+            \end{multicols}
         
-    \pagebreak
+    % \pagebreak
     \section{Topic G Problem 31}
         Each of the following species can function as a base. Write the formula of its conjugate acid.
-a) NH3 b) HSO3– c) H2O d) PO43–
-
+        \begin{multicols}{3}
+            \begin{enumerate}[label=\alph*)]
+                \item   \ce{NH3}
+                \item   \ce{HSO3-}
+                \item   \ce{H2O}
+                \item   \ce{PO4^3-}
+            \end{enumerate}
+        \end{multicols}
 
         \subsection{Solution}
+            \begin{multicols}{3}
+                \begin{enumerate}[label=\alph*)]
+                    \item   \ce{NH4+}
+                    \item   \ce{H2SO3}
+                    \item   \ce{H3O+}
+                    \item   \ce{HPO4^2-}
+                \end{enumerate}
+            \end{multicols}
         
     \pagebreak
     \section{Topic G Problem 32}
         Identify the acid and the base in each of the following reactions.
-a) HNO2(aq) + H2O(l) → H3O+(aq) + NO2–(aq)
-b) H2PO4–(aq) + HSO4–(aq) → H3PO4(aq) + SO42–(aq)
+        \begin{enumerate}
+            \item   \ce{HNO2(aq) + H2O(l) -> H3O+(aq) + NO2-(aq)}
+            \item   \ce{H2PO4-(aq) + HSO4-(aq) -> H3PO4(aq) + SO4^2-(aq)}
+        \end{enumerate}
 
-
-        \subsection{Solution}
+        \subsection{Solution (a)}
+            Acid: \ce{HNO2}\\
+            Base: \ce{H2O}
+        
+        \subsection{Solution (b)}
+            Acid: \ce{HSO4-}\\
+            Base: \ce{H2PO4-}
         
     \pagebreak
     \section{Topic G Problem 33}
         For each of the following reactions, tell whether the equilibrium will favor the reactants or the products. 
-        Use the Ka values in Table 12.4.2 of your textbook.
-a) \ce{HC3H5O3(aq) + CN-(aq) <=> C3H5O3-(aq) + HCN(aq)}
-b) \ce{HOCl(aq) + OH-(aq) <=> OCl-(aq) + H2O(l)}
+        Use the $K_a$ values in Table 12.4.2 of your textbook.
+        \begin{enumerate}[label=\alph*)]
+            \item   \ce{HC3H5O3(aq) + CN-(aq) <=> C3H5O3-(aq) + HCN(aq)}
+            \item   \ce{HOCl(aq) + OH-(aq) <=> OCl-(aq) + H2O(l)}
+        \end{enumerate}
 
+        \subsection{Solution (a)}
+            $K_a$ for \ce{HC3H5O3} is $1.4\E{-4}$.
+            $K_a$ for \ce{HCN} is $6.2\E{-10}$.
+            The $K_a$ for \ce{HC3H5O3} is greater, so the equilibrium will favor the \underline{products}.
 
-        \subsection{Solution}
+        \subsection{Solution (b)}
+            $K_a$ for \ce{HOCl} is $3.5\E{-8}$.
+            $K_a$ for \ce{H2O} is $1.0\E{-14}$.
+            The $K_a$ for \ce{HOCl} is greater, so the equilibrium will favor the \underline{products}.
         
     \pagebreak
     \tableofcontents
